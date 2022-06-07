@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<configuration scan="true" scanPeriod="3 seconds">
+	<appender name="console" class="ch.qos.logback.core.ConsoleAppender">
+		<layout>
+			<pattern>
+				%d{HH:mm:ss.SSS} [%thread] %-5level %logger{0} - %msg%n
+			</pattern>
+		</layout>
+	</appender>
+	
+	<appender name="file" class="ch.qos.logback.core.rolling.RollingFileAppender">
+		<!--<file>C:\HpnBbnkDemon\log\HpnBbnkDemon.log</file>-->
+		<file>./log/HpnBbnkDemon.log</file>
+		<rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+			<fileNamePattern>./log/HpnBbnkDemon.%d{yyyyMMdd}.log</fileNamePattern>
+			<maxHistory>7</maxHistory>
+		</rollingPolicy>
+		<layout>
+			<pattern>
+				%d{HH:mm:ss.SSS} [%thread] %-5level %logger{0} - %msg%n
+			</pattern>
+		</layout>
+	</appender>
+	<!--
+	<logger name="com.hyphen.fbnk" level="INFO" />
+	-->
+	<root level="DEBUG">
+		<!--<appender-ref ref="console" />-->
+		<appender-ref ref="file" />
+	</root>
+
+</configuration>

@@ -1,0 +1,648 @@
+00:08:42.141 [main] DEBUG Config - resource=hpnbbnk.properties
+00:08:42.142 [main] DEBUG Config - hyphenId=A001
+00:08:42.142 [main] DEBUG Config - sendDir=/home/hyphen/HpnBbnkDemon/send, usedDir=/home/hyphen/HpnBbnkDemon/send/usedfile, recvDir=/home/hyphen/HpnBbnkDemon/recv, recvDataTp=ZZZ, fromDate=20220408, toDate=20220415, reqTp=E, monitTerm=10, delnYn=true, zipYn=true, netBps=2M, fileNameTp=DFLT, runMode=T, customIpYn=N
+00:08:42.143 [main] DEBUG HpnBbnkDemon - [chkRcvData] work 4 hyphenId:A001
+00:08:42.143 [main] DEBUG HpnBbnk - [recvDataMulti](START) sendCd=A001, recvCd=9999, infoCd=ZZZ, fromDt=20220408, toDt=20220415, findRng=E, sFNmTp=DFLT, recvDir=/home/hyphen/HpnBbnkDemon/recv, runMode=T
+00:08:42.143 [main] DEBUG UpdnLib - [rcvDataMulti] ipAddr=129.200.9.18, port=50001, sendCd=A001, recvCd=9999, infoCd=ZZZ, fromDt=220408, toDt=220415, fRng=MSG_TP_REQ_YET, fNmTp=DEFAULT, recvDir=/home/hyphen/HpnBbnkDemon/recv, zipYn=true, encTp=NONE
+00:08:42.884 [main] DEBUG UpdnLib - [chkRplyMsg] NO_DATA
+00:08:42.890 [main] DEBUG HpnBbnk - [recvDataMulti](NO_DATA) sendCd=A001, recvCd=9999, infoCd=ZZZ, fromDt=220408, toDt=220415, findRng=E, runMode=T
+00:08:42.890 [main] DEBUG HpnBbnkDemon - [chkRcvData](A001) NO_DATA
+00:08:42.890 [main] DEBUG HpnBbnkDemon - WAIT...
+
+
+00:18:42.896 [main] DEBUG Config - resource=hpnbbnk.properties
+00:18:42.896 [main] DEBUG Config - hyphenId=A001
+00:18:42.896 [main] DEBUG Config - sendDir=/home/hyphen/HpnBbnkDemon/send, usedDir=/home/hyphen/HpnBbnkDemon/send/usedfile, recvDir=/home/hyphen/HpnBbnkDemon/recv, recvDataTp=ZZZ, fromDate=20220408, toDate=20220415, reqTp=E, monitTerm=10, delnYn=true, zipYn=true, netBps=2M, fileNameTp=DFLT, runMode=T, customIpYn=N
+00:18:42.896 [main] DEBUG HpnBbnkDemon - [chkRcvData] work 4 hyphenId:A001
+00:18:42.896 [main] DEBUG HpnBbnk - [recvDataMulti](START) sendCd=A001, recvCd=9999, infoCd=ZZZ, fromDt=20220408, toDt=20220415, findRng=E, sFNmTp=DFLT, recvDir=/home/hyphen/HpnBbnkDemon/recv, runMode=T
+00:18:42.897 [main] DEBUG UpdnLib - [rcvDataMulti] ipAddr=129.200.9.18, port=50001, sendCd=A001, recvCd=9999, infoCd=ZZZ, fromDt=220408, toDt=220415, fRng=MSG_TP_REQ_YET, fNmTp=DEFAULT, recvDir=/home/hyphen/HpnBbnkDemon/recv, zipYn=true, encTp=NONE
+00:18:43.760 [main] DEBUG UpdnLib - [chkRplyMsg] NO_DATA
+00:18:43.818 [main] DEBUG HpnBbnk - [recvDataMulti](NO_DATA) sendCd=A001, recvCd=9999, infoCd=ZZZ, fromDt=220408, toDt=220415, findRng=E, runMode=T
+00:18:43.818 [main] DEBUG HpnBbnkDemon - [chkRcvData](A001) NO_DATA
+00:18:43.818 [main] DEBUG HpnBbnkDemon - WAIT...
+
+
+00:28:43.819 [main] DEBUG Config - resource=hpnbbnk.properties
+00:28:43.819 [main] DEBUG Config - hyphenId=A001
+00:28:43.819 [main] DEBUG Config - sendDir=/home/hyphen/HpnBbnkDemon/send, usedDir=/home/hyphen/HpnBbnkDemon/send/usedfile, recvDir=/home/hyphen/HpnBbnkDemon/recv, recvDataTp=ZZZ, fromDate=20220408, toDate=20220415, reqTp=E, monitTerm=10, delnYn=true, zipYn=true, netBps=2M, fileNameTp=DFLT, runMode=T, customIpYn=N
+00:28:43.819 [main] DEBUG HpnBbnkDemon - [chkRcvData] work 4 hyphenId:A001
+00:28:43.819 [main] DEBUG HpnBbnk - [recvDataMulti](START) sendCd=A001, recvCd=9999, infoCd=ZZZ, fromDt=20220408, toDt=20220415, findRng=E, sFNmTp=DFLT, recvDir=/home/hyphen/HpnBbnkDemon/recv, runMode=T
+00:28:43.819 [main] DEBUG UpdnLib - [rcvDataMulti] ipAddr=129.200.9.18, port=50001, sendCd=A001, recvCd=9999, infoCd=ZZZ, fromDt=220408, toDt=220415, fRng=MSG_TP_REQ_YET, fNmTp=DEFAULT, recvDir=/home/hyphen/HpnBbnkDemon/recv, zipYn=true, encTp=NONE
+00:28:44.619 [main] DEBUG UpdnLib - [chkRplyMsg] NO_DATA
+00:28:44.741 [main] DEBUG HpnBbnk - [recvDataMulti](NO_DATA) sendCd=A001, recvCd=9999, infoCd=ZZZ, fromDt=220408, toDt=220415, findRng=E, runMode=T
+00:28:44.741 [main] DEBUG HpnBbnkDemon - [chkRcvData](A001) NO_DATA
+00:28:44.741 [main] DEBUG HpnBbnkDemon - WAIT...
+
+
+00:38:44.746 [main] DEBUG Config - resource=hpnbbnk.properties
+00:38:44.746 [main] DEBUG Config - hyphenId=A001
+00:38:44.746 [main] DEBUG Config - sendDir=/home/hyphen/HpnBbnkDemon/send, usedDir=/home/hyphen/HpnBbnkDemon/send/usedfile, recvDir=/home/hyphen/HpnBbnkDemon/recv, recvDataTp=ZZZ, fromDate=20220408, toDate=20220415, reqTp=E, monitTerm=10, delnYn=true, zipYn=true, netBps=2M, fileNameTp=DFLT, runMode=T, customIpYn=N
+00:38:44.746 [main] DEBUG HpnBbnkDemon - [chkRcvData] work 4 hyphenId:A001
+00:38:44.746 [main] DEBUG HpnBbnk - [recvDataMulti](START) sendCd=A001, recvCd=9999, infoCd=ZZZ, fromDt=20220408, toDt=20220415, findRng=E, sFNmTp=DFLT, recvDir=/home/hyphen/HpnBbnkDemon/recv, runMode=T
+00:38:44.746 [main] DEBUG UpdnLib - [rcvDataMulti] ipAddr=129.200.9.18, port=50001, sendCd=A001, recvCd=9999, infoCd=ZZZ, fromDt=220408, toDt=220415, fRng=MSG_TP_REQ_YET, fNmTp=DEFAULT, recvDir=/home/hyphen/HpnBbnkDemon/recv, zipYn=true, encTp=NONE
+00:38:45.482 [main] DEBUG UpdnLib - [chkRplyMsg] NO_DATA
+00:38:45.668 [main] DEBUG HpnBbnk - [recvDataMulti](NO_DATA) sendCd=A001, recvCd=9999, infoCd=ZZZ, fromDt=220408, toDt=220415, findRng=E, runMode=T
+00:38:45.668 [main] DEBUG HpnBbnkDemon - [chkRcvData](A001) NO_DATA
+00:38:45.668 [main] DEBUG HpnBbnkDemon - WAIT...
+
+
+00:48:45.671 [main] DEBUG Config - resource=hpnbbnk.properties
+00:48:45.671 [main] DEBUG Config - hyphenId=A001
+00:48:45.671 [main] DEBUG Config - sendDir=/home/hyphen/HpnBbnkDemon/send, usedDir=/home/hyphen/HpnBbnkDemon/send/usedfile, recvDir=/home/hyphen/HpnBbnkDemon/recv, recvDataTp=ZZZ, fromDate=20220408, toDate=20220415, reqTp=E, monitTerm=10, delnYn=true, zipYn=true, netBps=2M, fileNameTp=DFLT, runMode=T, customIpYn=N
+00:48:45.671 [main] DEBUG HpnBbnkDemon - [chkRcvData] work 4 hyphenId:A001
+00:48:45.671 [main] DEBUG HpnBbnk - [recvDataMulti](START) sendCd=A001, recvCd=9999, infoCd=ZZZ, fromDt=20220408, toDt=20220415, findRng=E, sFNmTp=DFLT, recvDir=/home/hyphen/HpnBbnkDemon/recv, runMode=T
+00:48:45.671 [main] DEBUG UpdnLib - [rcvDataMulti] ipAddr=129.200.9.18, port=50001, sendCd=A001, recvCd=9999, infoCd=ZZZ, fromDt=220408, toDt=220415, fRng=MSG_TP_REQ_YET, fNmTp=DEFAULT, recvDir=/home/hyphen/HpnBbnkDemon/recv, zipYn=true, encTp=NONE
+00:48:46.348 [main] DEBUG UpdnLib - [chkRplyMsg] NO_DATA
+00:48:46.392 [main] DEBUG HpnBbnk - [recvDataMulti](NO_DATA) sendCd=A001, recvCd=9999, infoCd=ZZZ, fromDt=220408, toDt=220415, findRng=E, runMode=T
+00:48:46.392 [main] DEBUG HpnBbnkDemon - [chkRcvData](A001) NO_DATA
+00:48:46.392 [main] DEBUG HpnBbnkDemon - WAIT...
+
+
+00:58:46.393 [main] DEBUG Config - resource=hpnbbnk.properties
+00:58:46.394 [main] DEBUG Config - hyphenId=A001
+00:58:46.394 [main] DEBUG Config - sendDir=/home/hyphen/HpnBbnkDemon/send, usedDir=/home/hyphen/HpnBbnkDemon/send/usedfile, recvDir=/home/hyphen/HpnBbnkDemon/recv, recvDataTp=ZZZ, fromDate=20220408, toDate=20220415, reqTp=E, monitTerm=10, delnYn=true, zipYn=true, netBps=2M, fileNameTp=DFLT, runMode=T, customIpYn=N
+00:58:46.394 [main] DEBUG HpnBbnkDemon - [chkRcvData] work 4 hyphenId:A001
+00:58:46.394 [main] DEBUG HpnBbnk - [recvDataMulti](START) sendCd=A001, recvCd=9999, infoCd=ZZZ, fromDt=20220408, toDt=20220415, findRng=E, sFNmTp=DFLT, recvDir=/home/hyphen/HpnBbnkDemon/recv, runMode=T
+00:58:46.394 [main] DEBUG UpdnLib - [rcvDataMulti] ipAddr=129.200.9.18, port=50001, sendCd=A001, recvCd=9999, infoCd=ZZZ, fromDt=220408, toDt=220415, fRng=MSG_TP_REQ_YET, fNmTp=DEFAULT, recvDir=/home/hyphen/HpnBbnkDemon/recv, zipYn=true, encTp=NONE
+00:58:47.214 [main] DEBUG UpdnLib - [chkRplyMsg] NO_DATA
+00:58:47.313 [main] DEBUG HpnBbnk - [recvDataMulti](NO_DATA) sendCd=A001, recvCd=9999, infoCd=ZZZ, fromDt=220408, toDt=220415, findRng=E, runMode=T
+00:58:47.314 [main] DEBUG HpnBbnkDemon - [chkRcvData](A001) NO_DATA
+00:58:47.314 [main] DEBUG HpnBbnkDemon - WAIT...
+
+
+01:08:47.315 [main] DEBUG Config - resource=hpnbbnk.properties
+01:08:47.315 [main] DEBUG Config - hyphenId=A001
+01:08:47.315 [main] DEBUG Config - sendDir=/home/hyphen/HpnBbnkDemon/send, usedDir=/home/hyphen/HpnBbnkDemon/send/usedfile, recvDir=/home/hyphen/HpnBbnkDemon/recv, recvDataTp=ZZZ, fromDate=20220408, toDate=20220415, reqTp=E, monitTerm=10, delnYn=true, zipYn=true, netBps=2M, fileNameTp=DFLT, runMode=T, customIpYn=N
+01:08:47.315 [main] DEBUG HpnBbnkDemon - [chkRcvData] work 4 hyphenId:A001
+01:08:47.315 [main] DEBUG HpnBbnk - [recvDataMulti](START) sendCd=A001, recvCd=9999, infoCd=ZZZ, fromDt=20220408, toDt=20220415, findRng=E, sFNmTp=DFLT, recvDir=/home/hyphen/HpnBbnkDemon/recv, runMode=T
+01:08:47.315 [main] DEBUG UpdnLib - [rcvDataMulti] ipAddr=129.200.9.18, port=50001, sendCd=A001, recvCd=9999, infoCd=ZZZ, fromDt=220408, toDt=220415, fRng=MSG_TP_REQ_YET, fNmTp=DEFAULT, recvDir=/home/hyphen/HpnBbnkDemon/recv, zipYn=true, encTp=NONE
+01:08:48.081 [main] DEBUG UpdnLib - [chkRplyMsg] NO_DATA
+01:08:48.237 [main] DEBUG HpnBbnk - [recvDataMulti](NO_DATA) sendCd=A001, recvCd=9999, infoCd=ZZZ, fromDt=220408, toDt=220415, findRng=E, runMode=T
+01:08:48.237 [main] DEBUG HpnBbnkDemon - [chkRcvData](A001) NO_DATA
+01:08:48.237 [main] DEBUG HpnBbnkDemon - WAIT...
+
+
+01:18:48.247 [main] DEBUG Config - resource=hpnbbnk.properties
+01:18:48.247 [main] DEBUG Config - hyphenId=A001
+01:18:48.247 [main] DEBUG Config - sendDir=/home/hyphen/HpnBbnkDemon/send, usedDir=/home/hyphen/HpnBbnkDemon/send/usedfile, recvDir=/home/hyphen/HpnBbnkDemon/recv, recvDataTp=ZZZ, fromDate=20220408, toDate=20220415, reqTp=E, monitTerm=10, delnYn=true, zipYn=true, netBps=2M, fileNameTp=DFLT, runMode=T, customIpYn=N
+01:18:48.247 [main] DEBUG HpnBbnkDemon - [chkRcvData] work 4 hyphenId:A001
+01:18:48.247 [main] DEBUG HpnBbnk - [recvDataMulti](START) sendCd=A001, recvCd=9999, infoCd=ZZZ, fromDt=20220408, toDt=20220415, findRng=E, sFNmTp=DFLT, recvDir=/home/hyphen/HpnBbnkDemon/recv, runMode=T
+01:18:48.248 [main] DEBUG UpdnLib - [rcvDataMulti] ipAddr=129.200.9.18, port=50001, sendCd=A001, recvCd=9999, infoCd=ZZZ, fromDt=220408, toDt=220415, fRng=MSG_TP_REQ_YET, fNmTp=DEFAULT, recvDir=/home/hyphen/HpnBbnkDemon/recv, zipYn=true, encTp=NONE
+01:18:48.950 [main] DEBUG UpdnLib - [chkRplyMsg] NO_DATA
+01:18:48.959 [main] DEBUG HpnBbnk - [recvDataMulti](NO_DATA) sendCd=A001, recvCd=9999, infoCd=ZZZ, fromDt=220408, toDt=220415, findRng=E, runMode=T
+01:18:48.959 [main] DEBUG HpnBbnkDemon - [chkRcvData](A001) NO_DATA
+01:18:48.959 [main] DEBUG HpnBbnkDemon - WAIT...
+
+
+01:28:48.962 [main] DEBUG Config - resource=hpnbbnk.properties
+01:28:48.962 [main] DEBUG Config - hyphenId=A001
+01:28:48.962 [main] DEBUG Config - sendDir=/home/hyphen/HpnBbnkDemon/send, usedDir=/home/hyphen/HpnBbnkDemon/send/usedfile, recvDir=/home/hyphen/HpnBbnkDemon/recv, recvDataTp=ZZZ, fromDate=20220408, toDate=20220415, reqTp=E, monitTerm=10, delnYn=true, zipYn=true, netBps=2M, fileNameTp=DFLT, runMode=T, customIpYn=N
+01:28:48.962 [main] DEBUG HpnBbnkDemon - [chkRcvData] work 4 hyphenId:A001
+01:28:48.962 [main] DEBUG HpnBbnk - [recvDataMulti](START) sendCd=A001, recvCd=9999, infoCd=ZZZ, fromDt=20220408, toDt=20220415, findRng=E, sFNmTp=DFLT, recvDir=/home/hyphen/HpnBbnkDemon/recv, runMode=T
+01:28:48.962 [main] DEBUG UpdnLib - [rcvDataMulti] ipAddr=129.200.9.18, port=50001, sendCd=A001, recvCd=9999, infoCd=ZZZ, fromDt=220408, toDt=220415, fRng=MSG_TP_REQ_YET, fNmTp=DEFAULT, recvDir=/home/hyphen/HpnBbnkDemon/recv, zipYn=true, encTp=NONE
+01:28:49.819 [main] DEBUG UpdnLib - [chkRplyMsg] NO_DATA
+01:28:49.884 [main] DEBUG HpnBbnk - [recvDataMulti](NO_DATA) sendCd=A001, recvCd=9999, infoCd=ZZZ, fromDt=220408, toDt=220415, findRng=E, runMode=T
+01:28:49.884 [main] DEBUG HpnBbnkDemon - [chkRcvData](A001) NO_DATA
+01:28:49.884 [main] DEBUG HpnBbnkDemon - WAIT...
+
+
+01:38:49.886 [main] DEBUG Config - resource=hpnbbnk.properties
+01:38:49.886 [main] DEBUG Config - hyphenId=A001
+01:38:49.886 [main] DEBUG Config - sendDir=/home/hyphen/HpnBbnkDemon/send, usedDir=/home/hyphen/HpnBbnkDemon/send/usedfile, recvDir=/home/hyphen/HpnBbnkDemon/recv, recvDataTp=ZZZ, fromDate=20220408, toDate=20220415, reqTp=E, monitTerm=10, delnYn=true, zipYn=true, netBps=2M, fileNameTp=DFLT, runMode=T, customIpYn=N
+01:38:49.886 [main] DEBUG HpnBbnkDemon - [chkRcvData] work 4 hyphenId:A001
+01:38:49.886 [main] DEBUG HpnBbnk - [recvDataMulti](START) sendCd=A001, recvCd=9999, infoCd=ZZZ, fromDt=20220408, toDt=20220415, findRng=E, sFNmTp=DFLT, recvDir=/home/hyphen/HpnBbnkDemon/recv, runMode=T
+01:38:49.887 [main] DEBUG UpdnLib - [rcvDataMulti] ipAddr=129.200.9.18, port=50001, sendCd=A001, recvCd=9999, infoCd=ZZZ, fromDt=220408, toDt=220415, fRng=MSG_TP_REQ_YET, fNmTp=DEFAULT, recvDir=/home/hyphen/HpnBbnkDemon/recv, zipYn=true, encTp=NONE
+01:38:50.657 [main] DEBUG UpdnLib - [chkRplyMsg] NO_DATA
+01:38:50.805 [main] DEBUG HpnBbnk - [recvDataMulti](NO_DATA) sendCd=A001, recvCd=9999, infoCd=ZZZ, fromDt=220408, toDt=220415, findRng=E, runMode=T
+01:38:50.805 [main] DEBUG HpnBbnkDemon - [chkRcvData](A001) NO_DATA
+01:38:50.805 [main] DEBUG HpnBbnkDemon - WAIT...
+
+
+01:48:50.392 [main] DEBUG Config - resource=hpnbbnk.properties
+01:48:50.392 [main] DEBUG Config - hyphenId=A001
+01:48:50.392 [main] DEBUG Config - sendDir=/home/hyphen/HpnBbnkDemon/send, usedDir=/home/hyphen/HpnBbnkDemon/send/usedfile, recvDir=/home/hyphen/HpnBbnkDemon/recv, recvDataTp=ZZZ, fromDate=20220408, toDate=20220415, reqTp=E, monitTerm=10, delnYn=true, zipYn=true, netBps=2M, fileNameTp=DFLT, runMode=T, customIpYn=N
+01:48:50.392 [main] DEBUG HpnBbnkDemon - [chkRcvData] work 4 hyphenId:A001
+01:48:50.392 [main] DEBUG HpnBbnk - [recvDataMulti](START) sendCd=A001, recvCd=9999, infoCd=ZZZ, fromDt=20220408, toDt=20220415, findRng=E, sFNmTp=DFLT, recvDir=/home/hyphen/HpnBbnkDemon/recv, runMode=T
+01:48:50.393 [main] DEBUG UpdnLib - [rcvDataMulti] ipAddr=129.200.9.18, port=50001, sendCd=A001, recvCd=9999, infoCd=ZZZ, fromDt=220408, toDt=220415, fRng=MSG_TP_REQ_YET, fNmTp=DEFAULT, recvDir=/home/hyphen/HpnBbnkDemon/recv, zipYn=true, encTp=NONE
+01:48:51.092 [main] DEBUG UpdnLib - [chkRplyMsg] NO_DATA
+01:48:51.113 [main] DEBUG HpnBbnk - [recvDataMulti](NO_DATA) sendCd=A001, recvCd=9999, infoCd=ZZZ, fromDt=220408, toDt=220415, findRng=E, runMode=T
+01:48:51.113 [main] DEBUG HpnBbnkDemon - [chkRcvData](A001) NO_DATA
+01:48:51.113 [main] DEBUG HpnBbnkDemon - WAIT...
+
+
+01:58:51.120 [main] DEBUG Config - resource=hpnbbnk.properties
+01:58:51.121 [main] DEBUG Config - hyphenId=A001
+01:58:51.122 [main] DEBUG Config - sendDir=/home/hyphen/HpnBbnkDemon/send, usedDir=/home/hyphen/HpnBbnkDemon/send/usedfile, recvDir=/home/hyphen/HpnBbnkDemon/recv, recvDataTp=ZZZ, fromDate=20220408, toDate=20220415, reqTp=E, monitTerm=10, delnYn=true, zipYn=true, netBps=2M, fileNameTp=DFLT, runMode=T, customIpYn=N
+01:58:51.122 [main] DEBUG HpnBbnkDemon - [chkRcvData] work 4 hyphenId:A001
+01:58:51.123 [main] DEBUG HpnBbnk - [recvDataMulti](START) sendCd=A001, recvCd=9999, infoCd=ZZZ, fromDt=20220408, toDt=20220415, findRng=E, sFNmTp=DFLT, recvDir=/home/hyphen/HpnBbnkDemon/recv, runMode=T
+01:58:51.123 [main] DEBUG UpdnLib - [rcvDataMulti] ipAddr=129.200.9.18, port=50001, sendCd=A001, recvCd=9999, infoCd=ZZZ, fromDt=220408, toDt=220415, fRng=MSG_TP_REQ_YET, fNmTp=DEFAULT, recvDir=/home/hyphen/HpnBbnkDemon/recv, zipYn=true, encTp=NONE
+01:58:51.952 [main] DEBUG UpdnLib - [chkRplyMsg] NO_DATA
+01:58:52.022 [main] DEBUG HpnBbnk - [recvDataMulti](NO_DATA) sendCd=A001, recvCd=9999, infoCd=ZZZ, fromDt=220408, toDt=220415, findRng=E, runMode=T
+01:58:52.023 [main] DEBUG HpnBbnkDemon - [chkRcvData](A001) NO_DATA
+01:58:52.023 [main] DEBUG HpnBbnkDemon - WAIT...
+
+
+02:08:52.028 [main] DEBUG Config - resource=hpnbbnk.properties
+02:08:52.029 [main] DEBUG Config - hyphenId=A001
+02:08:52.029 [main] DEBUG Config - sendDir=/home/hyphen/HpnBbnkDemon/send, usedDir=/home/hyphen/HpnBbnkDemon/send/usedfile, recvDir=/home/hyphen/HpnBbnkDemon/recv, recvDataTp=ZZZ, fromDate=20220408, toDate=20220415, reqTp=E, monitTerm=10, delnYn=true, zipYn=true, netBps=2M, fileNameTp=DFLT, runMode=T, customIpYn=N
+02:08:52.029 [main] DEBUG HpnBbnkDemon - [chkRcvData] work 4 hyphenId:A001
+02:08:52.029 [main] DEBUG HpnBbnk - [recvDataMulti](START) sendCd=A001, recvCd=9999, infoCd=ZZZ, fromDt=20220408, toDt=20220415, findRng=E, sFNmTp=DFLT, recvDir=/home/hyphen/HpnBbnkDemon/recv, runMode=T
+02:08:52.029 [main] DEBUG UpdnLib - [rcvDataMulti] ipAddr=129.200.9.18, port=50001, sendCd=A001, recvCd=9999, infoCd=ZZZ, fromDt=220408, toDt=220415, fRng=MSG_TP_REQ_YET, fNmTp=DEFAULT, recvDir=/home/hyphen/HpnBbnkDemon/recv, zipYn=true, encTp=NONE
+02:08:52.809 [main] DEBUG UpdnLib - [chkRplyMsg] NO_DATA
+02:08:52.946 [main] DEBUG HpnBbnk - [recvDataMulti](NO_DATA) sendCd=A001, recvCd=9999, infoCd=ZZZ, fromDt=220408, toDt=220415, findRng=E, runMode=T
+02:08:52.946 [main] DEBUG HpnBbnkDemon - [chkRcvData](A001) NO_DATA
+02:08:52.946 [main] DEBUG HpnBbnkDemon - WAIT...
+
+
+02:18:52.952 [main] DEBUG Config - resource=hpnbbnk.properties
+02:18:52.952 [main] DEBUG Config - hyphenId=A001
+02:18:52.952 [main] DEBUG Config - sendDir=/home/hyphen/HpnBbnkDemon/send, usedDir=/home/hyphen/HpnBbnkDemon/send/usedfile, recvDir=/home/hyphen/HpnBbnkDemon/recv, recvDataTp=ZZZ, fromDate=20220408, toDate=20220415, reqTp=E, monitTerm=10, delnYn=true, zipYn=true, netBps=2M, fileNameTp=DFLT, runMode=T, customIpYn=N
+02:18:52.952 [main] DEBUG HpnBbnkDemon - [chkRcvData] work 4 hyphenId:A001
+02:18:52.952 [main] DEBUG HpnBbnk - [recvDataMulti](START) sendCd=A001, recvCd=9999, infoCd=ZZZ, fromDt=20220408, toDt=20220415, findRng=E, sFNmTp=DFLT, recvDir=/home/hyphen/HpnBbnkDemon/recv, runMode=T
+02:18:52.952 [main] DEBUG UpdnLib - [rcvDataMulti] ipAddr=129.200.9.18, port=50001, sendCd=A001, recvCd=9999, infoCd=ZZZ, fromDt=220408, toDt=220415, fRng=MSG_TP_REQ_YET, fNmTp=DEFAULT, recvDir=/home/hyphen/HpnBbnkDemon/recv, zipYn=true, encTp=NONE
+02:18:53.696 [main] DEBUG UpdnLib - [chkRplyMsg] NO_DATA
+02:18:53.860 [main] DEBUG HpnBbnk - [recvDataMulti](NO_DATA) sendCd=A001, recvCd=9999, infoCd=ZZZ, fromDt=220408, toDt=220415, findRng=E, runMode=T
+02:18:53.860 [main] DEBUG HpnBbnkDemon - [chkRcvData](A001) NO_DATA
+02:18:53.860 [main] DEBUG HpnBbnkDemon - WAIT...
+
+
+02:28:53.861 [main] DEBUG Config - resource=hpnbbnk.properties
+02:28:53.861 [main] DEBUG Config - hyphenId=A001
+02:28:53.861 [main] DEBUG Config - sendDir=/home/hyphen/HpnBbnkDemon/send, usedDir=/home/hyphen/HpnBbnkDemon/send/usedfile, recvDir=/home/hyphen/HpnBbnkDemon/recv, recvDataTp=ZZZ, fromDate=20220408, toDate=20220415, reqTp=E, monitTerm=10, delnYn=true, zipYn=true, netBps=2M, fileNameTp=DFLT, runMode=T, customIpYn=N
+02:28:53.861 [main] DEBUG HpnBbnkDemon - [chkRcvData] work 4 hyphenId:A001
+02:28:53.861 [main] DEBUG HpnBbnk - [recvDataMulti](START) sendCd=A001, recvCd=9999, infoCd=ZZZ, fromDt=20220408, toDt=20220415, findRng=E, sFNmTp=DFLT, recvDir=/home/hyphen/HpnBbnkDemon/recv, runMode=T
+02:28:53.861 [main] DEBUG UpdnLib - [rcvDataMulti] ipAddr=129.200.9.18, port=50001, sendCd=A001, recvCd=9999, infoCd=ZZZ, fromDt=220408, toDt=220415, fRng=MSG_TP_REQ_YET, fNmTp=DEFAULT, recvDir=/home/hyphen/HpnBbnkDemon/recv, zipYn=true, encTp=NONE
+02:28:54.551 [main] DEBUG UpdnLib - [chkRplyMsg] NO_DATA
+02:28:54.581 [main] DEBUG HpnBbnk - [recvDataMulti](NO_DATA) sendCd=A001, recvCd=9999, infoCd=ZZZ, fromDt=220408, toDt=220415, findRng=E, runMode=T
+02:28:54.581 [main] DEBUG HpnBbnkDemon - [chkRcvData](A001) NO_DATA
+02:28:54.581 [main] DEBUG HpnBbnkDemon - WAIT...
+
+
+02:38:54.583 [main] DEBUG Config - resource=hpnbbnk.properties
+02:38:54.584 [main] DEBUG Config - hyphenId=A001
+02:38:54.584 [main] DEBUG Config - sendDir=/home/hyphen/HpnBbnkDemon/send, usedDir=/home/hyphen/HpnBbnkDemon/send/usedfile, recvDir=/home/hyphen/HpnBbnkDemon/recv, recvDataTp=ZZZ, fromDate=20220408, toDate=20220415, reqTp=E, monitTerm=10, delnYn=true, zipYn=true, netBps=2M, fileNameTp=DFLT, runMode=T, customIpYn=N
+02:38:54.584 [main] DEBUG HpnBbnkDemon - [chkRcvData] work 4 hyphenId:A001
+02:38:54.584 [main] DEBUG HpnBbnk - [recvDataMulti](START) sendCd=A001, recvCd=9999, infoCd=ZZZ, fromDt=20220408, toDt=20220415, findRng=E, sFNmTp=DFLT, recvDir=/home/hyphen/HpnBbnkDemon/recv, runMode=T
+02:38:54.584 [main] DEBUG UpdnLib - [rcvDataMulti] ipAddr=129.200.9.18, port=50001, sendCd=A001, recvCd=9999, infoCd=ZZZ, fromDt=220408, toDt=220415, fRng=MSG_TP_REQ_YET, fNmTp=DEFAULT, recvDir=/home/hyphen/HpnBbnkDemon/recv, zipYn=true, encTp=NONE
+02:38:55.400 [main] DEBUG UpdnLib - [chkRplyMsg] NO_DATA
+02:38:55.506 [main] DEBUG HpnBbnk - [recvDataMulti](NO_DATA) sendCd=A001, recvCd=9999, infoCd=ZZZ, fromDt=220408, toDt=220415, findRng=E, runMode=T
+02:38:55.506 [main] DEBUG HpnBbnkDemon - [chkRcvData](A001) NO_DATA
+02:38:55.506 [main] DEBUG HpnBbnkDemon - WAIT...
+
+
+02:48:55.510 [main] DEBUG Config - resource=hpnbbnk.properties
+02:48:55.510 [main] DEBUG Config - hyphenId=A001
+02:48:55.510 [main] DEBUG Config - sendDir=/home/hyphen/HpnBbnkDemon/send, usedDir=/home/hyphen/HpnBbnkDemon/send/usedfile, recvDir=/home/hyphen/HpnBbnkDemon/recv, recvDataTp=ZZZ, fromDate=20220408, toDate=20220415, reqTp=E, monitTerm=10, delnYn=true, zipYn=true, netBps=2M, fileNameTp=DFLT, runMode=T, customIpYn=N
+02:48:55.510 [main] DEBUG HpnBbnkDemon - [chkRcvData] work 4 hyphenId:A001
+02:48:55.510 [main] DEBUG HpnBbnk - [recvDataMulti](START) sendCd=A001, recvCd=9999, infoCd=ZZZ, fromDt=20220408, toDt=20220415, findRng=E, sFNmTp=DFLT, recvDir=/home/hyphen/HpnBbnkDemon/recv, runMode=T
+02:48:55.510 [main] DEBUG UpdnLib - [rcvDataMulti] ipAddr=129.200.9.18, port=50001, sendCd=A001, recvCd=9999, infoCd=ZZZ, fromDt=220408, toDt=220415, fRng=MSG_TP_REQ_YET, fNmTp=DEFAULT, recvDir=/home/hyphen/HpnBbnkDemon/recv, zipYn=true, encTp=NONE
+02:48:56.260 [main] DEBUG UpdnLib - [chkRplyMsg] NO_DATA
+02:48:56.424 [main] DEBUG HpnBbnk - [recvDataMulti](NO_DATA) sendCd=A001, recvCd=9999, infoCd=ZZZ, fromDt=220408, toDt=220415, findRng=E, runMode=T
+02:48:56.424 [main] DEBUG HpnBbnkDemon - [chkRcvData](A001) NO_DATA
+02:48:56.424 [main] DEBUG HpnBbnkDemon - WAIT...
+
+
+02:58:56.425 [main] DEBUG Config - resource=hpnbbnk.properties
+02:58:56.426 [main] DEBUG Config - hyphenId=A001
+02:58:56.426 [main] DEBUG Config - sendDir=/home/hyphen/HpnBbnkDemon/send, usedDir=/home/hyphen/HpnBbnkDemon/send/usedfile, recvDir=/home/hyphen/HpnBbnkDemon/recv, recvDataTp=ZZZ, fromDate=20220408, toDate=20220415, reqTp=E, monitTerm=10, delnYn=true, zipYn=true, netBps=2M, fileNameTp=DFLT, runMode=T, customIpYn=N
+02:58:56.426 [main] DEBUG HpnBbnkDemon - [chkRcvData] work 4 hyphenId:A001
+02:58:56.426 [main] DEBUG HpnBbnk - [recvDataMulti](START) sendCd=A001, recvCd=9999, infoCd=ZZZ, fromDt=20220408, toDt=20220415, findRng=E, sFNmTp=DFLT, recvDir=/home/hyphen/HpnBbnkDemon/recv, runMode=T
+02:58:56.426 [main] DEBUG UpdnLib - [rcvDataMulti] ipAddr=129.200.9.18, port=50001, sendCd=A001, recvCd=9999, infoCd=ZZZ, fromDt=220408, toDt=220415, fRng=MSG_TP_REQ_YET, fNmTp=DEFAULT, recvDir=/home/hyphen/HpnBbnkDemon/recv, zipYn=true, encTp=NONE
+02:58:57.128 [main] DEBUG UpdnLib - [chkRplyMsg] NO_DATA
+02:58:57.145 [main] DEBUG HpnBbnk - [recvDataMulti](NO_DATA) sendCd=A001, recvCd=9999, infoCd=ZZZ, fromDt=220408, toDt=220415, findRng=E, runMode=T
+02:58:57.145 [main] DEBUG HpnBbnkDemon - [chkRcvData](A001) NO_DATA
+02:58:57.145 [main] DEBUG HpnBbnkDemon - WAIT...
+
+
+03:08:57.146 [main] DEBUG Config - resource=hpnbbnk.properties
+03:08:57.146 [main] DEBUG Config - hyphenId=A001
+03:08:57.147 [main] DEBUG Config - sendDir=/home/hyphen/HpnBbnkDemon/send, usedDir=/home/hyphen/HpnBbnkDemon/send/usedfile, recvDir=/home/hyphen/HpnBbnkDemon/recv, recvDataTp=ZZZ, fromDate=20220408, toDate=20220415, reqTp=E, monitTerm=10, delnYn=true, zipYn=true, netBps=2M, fileNameTp=DFLT, runMode=T, customIpYn=N
+03:08:57.147 [main] DEBUG HpnBbnkDemon - [chkRcvData] work 4 hyphenId:A001
+03:08:57.147 [main] DEBUG HpnBbnk - [recvDataMulti](START) sendCd=A001, recvCd=9999, infoCd=ZZZ, fromDt=20220408, toDt=20220415, findRng=E, sFNmTp=DFLT, recvDir=/home/hyphen/HpnBbnkDemon/recv, runMode=T
+03:08:57.147 [main] DEBUG UpdnLib - [rcvDataMulti] ipAddr=129.200.9.18, port=50001, sendCd=A001, recvCd=9999, infoCd=ZZZ, fromDt=220408, toDt=220415, fRng=MSG_TP_REQ_YET, fNmTp=DEFAULT, recvDir=/home/hyphen/HpnBbnkDemon/recv, zipYn=true, encTp=NONE
+03:08:57.997 [main] DEBUG UpdnLib - [chkRplyMsg] NO_DATA
+03:08:58.070 [main] DEBUG HpnBbnk - [recvDataMulti](NO_DATA) sendCd=A001, recvCd=9999, infoCd=ZZZ, fromDt=220408, toDt=220415, findRng=E, runMode=T
+03:08:58.070 [main] DEBUG HpnBbnkDemon - [chkRcvData](A001) NO_DATA
+03:08:58.070 [main] DEBUG HpnBbnkDemon - WAIT...
+
+
+03:18:58.079 [main] DEBUG Config - resource=hpnbbnk.properties
+03:18:58.079 [main] DEBUG Config - hyphenId=A001
+03:18:58.079 [main] DEBUG Config - sendDir=/home/hyphen/HpnBbnkDemon/send, usedDir=/home/hyphen/HpnBbnkDemon/send/usedfile, recvDir=/home/hyphen/HpnBbnkDemon/recv, recvDataTp=ZZZ, fromDate=20220408, toDate=20220415, reqTp=E, monitTerm=10, delnYn=true, zipYn=true, netBps=2M, fileNameTp=DFLT, runMode=T, customIpYn=N
+03:18:58.079 [main] DEBUG HpnBbnkDemon - [chkRcvData] work 4 hyphenId:A001
+03:18:58.079 [main] DEBUG HpnBbnk - [recvDataMulti](START) sendCd=A001, recvCd=9999, infoCd=ZZZ, fromDt=20220408, toDt=20220415, findRng=E, sFNmTp=DFLT, recvDir=/home/hyphen/HpnBbnkDemon/recv, runMode=T
+03:18:58.079 [main] DEBUG UpdnLib - [rcvDataMulti] ipAddr=129.200.9.18, port=50001, sendCd=A001, recvCd=9999, infoCd=ZZZ, fromDt=220408, toDt=220415, fRng=MSG_TP_REQ_YET, fNmTp=DEFAULT, recvDir=/home/hyphen/HpnBbnkDemon/recv, zipYn=true, encTp=NONE
+03:18:58.865 [main] DEBUG UpdnLib - [chkRplyMsg] NO_DATA
+03:18:58.998 [main] DEBUG HpnBbnk - [recvDataMulti](NO_DATA) sendCd=A001, recvCd=9999, infoCd=ZZZ, fromDt=220408, toDt=220415, findRng=E, runMode=T
+03:18:58.998 [main] DEBUG HpnBbnkDemon - [chkRcvData](A001) NO_DATA
+03:18:58.998 [main] DEBUG HpnBbnkDemon - WAIT...
+
+
+03:28:58.999 [main] DEBUG Config - resource=hpnbbnk.properties
+03:28:58.999 [main] DEBUG Config - hyphenId=A001
+03:28:58.999 [main] DEBUG Config - sendDir=/home/hyphen/HpnBbnkDemon/send, usedDir=/home/hyphen/HpnBbnkDemon/send/usedfile, recvDir=/home/hyphen/HpnBbnkDemon/recv, recvDataTp=ZZZ, fromDate=20220408, toDate=20220415, reqTp=E, monitTerm=10, delnYn=true, zipYn=true, netBps=2M, fileNameTp=DFLT, runMode=T, customIpYn=N
+03:28:58.999 [main] DEBUG HpnBbnkDemon - [chkRcvData] work 4 hyphenId:A001
+03:28:58.999 [main] DEBUG HpnBbnk - [recvDataMulti](START) sendCd=A001, recvCd=9999, infoCd=ZZZ, fromDt=20220408, toDt=20220415, findRng=E, sFNmTp=DFLT, recvDir=/home/hyphen/HpnBbnkDemon/recv, runMode=T
+03:28:59.000 [main] DEBUG UpdnLib - [rcvDataMulti] ipAddr=129.200.9.18, port=50001, sendCd=A001, recvCd=9999, infoCd=ZZZ, fromDt=220408, toDt=220415, fRng=MSG_TP_REQ_YET, fNmTp=DEFAULT, recvDir=/home/hyphen/HpnBbnkDemon/recv, zipYn=true, encTp=NONE
+03:28:59.732 [main] DEBUG UpdnLib - [chkRplyMsg] NO_DATA
+03:28:59.914 [main] DEBUG HpnBbnk - [recvDataMulti](NO_DATA) sendCd=A001, recvCd=9999, infoCd=ZZZ, fromDt=220408, toDt=220415, findRng=E, runMode=T
+03:28:59.914 [main] DEBUG HpnBbnkDemon - [chkRcvData](A001) NO_DATA
+03:28:59.914 [main] DEBUG HpnBbnkDemon - WAIT...
+
+
+03:38:59.917 [main] DEBUG Config - resource=hpnbbnk.properties
+03:38:59.917 [main] DEBUG Config - hyphenId=A001
+03:38:59.917 [main] DEBUG Config - sendDir=/home/hyphen/HpnBbnkDemon/send, usedDir=/home/hyphen/HpnBbnkDemon/send/usedfile, recvDir=/home/hyphen/HpnBbnkDemon/recv, recvDataTp=ZZZ, fromDate=20220408, toDate=20220415, reqTp=E, monitTerm=10, delnYn=true, zipYn=true, netBps=2M, fileNameTp=DFLT, runMode=T, customIpYn=N
+03:38:59.918 [main] DEBUG HpnBbnkDemon - [chkRcvData] work 4 hyphenId:A001
+03:38:59.918 [main] DEBUG HpnBbnk - [recvDataMulti](START) sendCd=A001, recvCd=9999, infoCd=ZZZ, fromDt=20220408, toDt=20220415, findRng=E, sFNmTp=DFLT, recvDir=/home/hyphen/HpnBbnkDemon/recv, runMode=T
+03:38:59.918 [main] DEBUG UpdnLib - [rcvDataMulti] ipAddr=129.200.9.18, port=50001, sendCd=A001, recvCd=9999, infoCd=ZZZ, fromDt=220408, toDt=220415, fRng=MSG_TP_REQ_YET, fNmTp=DEFAULT, recvDir=/home/hyphen/HpnBbnkDemon/recv, zipYn=true, encTp=NONE
+03:39:00.601 [main] DEBUG UpdnLib - [chkRplyMsg] NO_DATA
+03:39:00.625 [main] DEBUG HpnBbnk - [recvDataMulti](NO_DATA) sendCd=A001, recvCd=9999, infoCd=ZZZ, fromDt=220408, toDt=220415, findRng=E, runMode=T
+03:39:00.626 [main] DEBUG HpnBbnkDemon - [chkRcvData](A001) NO_DATA
+03:39:00.626 [main] DEBUG HpnBbnkDemon - WAIT...
+
+
+03:49:00.627 [main] DEBUG Config - resource=hpnbbnk.properties
+03:49:00.627 [main] DEBUG Config - hyphenId=A001
+03:49:00.627 [main] DEBUG Config - sendDir=/home/hyphen/HpnBbnkDemon/send, usedDir=/home/hyphen/HpnBbnkDemon/send/usedfile, recvDir=/home/hyphen/HpnBbnkDemon/recv, recvDataTp=ZZZ, fromDate=20220408, toDate=20220415, reqTp=E, monitTerm=10, delnYn=true, zipYn=true, netBps=2M, fileNameTp=DFLT, runMode=T, customIpYn=N
+03:49:00.627 [main] DEBUG HpnBbnkDemon - [chkRcvData] work 4 hyphenId:A001
+03:49:00.627 [main] DEBUG HpnBbnk - [recvDataMulti](START) sendCd=A001, recvCd=9999, infoCd=ZZZ, fromDt=20220408, toDt=20220415, findRng=E, sFNmTp=DFLT, recvDir=/home/hyphen/HpnBbnkDemon/recv, runMode=T
+03:49:00.627 [main] DEBUG UpdnLib - [rcvDataMulti] ipAddr=129.200.9.18, port=50001, sendCd=A001, recvCd=9999, infoCd=ZZZ, fromDt=220408, toDt=220415, fRng=MSG_TP_REQ_YET, fNmTp=DEFAULT, recvDir=/home/hyphen/HpnBbnkDemon/recv, zipYn=true, encTp=NONE
+03:49:01.477 [main] DEBUG UpdnLib - [chkRplyMsg] NO_DATA
+03:49:01.554 [main] DEBUG HpnBbnk - [recvDataMulti](NO_DATA) sendCd=A001, recvCd=9999, infoCd=ZZZ, fromDt=220408, toDt=220415, findRng=E, runMode=T
+03:49:01.554 [main] DEBUG HpnBbnkDemon - [chkRcvData](A001) NO_DATA
+03:49:01.554 [main] DEBUG HpnBbnkDemon - WAIT...
+
+
+03:59:01.555 [main] DEBUG Config - resource=hpnbbnk.properties
+03:59:01.556 [main] DEBUG Config - hyphenId=A001
+03:59:01.556 [main] DEBUG Config - sendDir=/home/hyphen/HpnBbnkDemon/send, usedDir=/home/hyphen/HpnBbnkDemon/send/usedfile, recvDir=/home/hyphen/HpnBbnkDemon/recv, recvDataTp=ZZZ, fromDate=20220408, toDate=20220415, reqTp=E, monitTerm=10, delnYn=true, zipYn=true, netBps=2M, fileNameTp=DFLT, runMode=T, customIpYn=N
+03:59:01.556 [main] DEBUG HpnBbnkDemon - [chkRcvData] work 4 hyphenId:A001
+03:59:01.556 [main] DEBUG HpnBbnk - [recvDataMulti](START) sendCd=A001, recvCd=9999, infoCd=ZZZ, fromDt=20220408, toDt=20220415, findRng=E, sFNmTp=DFLT, recvDir=/home/hyphen/HpnBbnkDemon/recv, runMode=T
+03:59:01.556 [main] DEBUG UpdnLib - [rcvDataMulti] ipAddr=129.200.9.18, port=50001, sendCd=A001, recvCd=9999, infoCd=ZZZ, fromDt=220408, toDt=220415, fRng=MSG_TP_REQ_YET, fNmTp=DEFAULT, recvDir=/home/hyphen/HpnBbnkDemon/recv, zipYn=true, encTp=NONE
+03:59:02.336 [main] DEBUG UpdnLib - [chkRplyMsg] NO_DATA
+03:59:02.457 [main] DEBUG HpnBbnk - [recvDataMulti](NO_DATA) sendCd=A001, recvCd=9999, infoCd=ZZZ, fromDt=220408, toDt=220415, findRng=E, runMode=T
+03:59:02.458 [main] DEBUG HpnBbnkDemon - [chkRcvData](A001) NO_DATA
+03:59:02.458 [main] DEBUG HpnBbnkDemon - WAIT...
+
+
+04:09:02.464 [main] DEBUG Config - resource=hpnbbnk.properties
+04:09:02.465 [main] DEBUG Config - hyphenId=A001
+04:09:02.465 [main] DEBUG Config - sendDir=/home/hyphen/HpnBbnkDemon/send, usedDir=/home/hyphen/HpnBbnkDemon/send/usedfile, recvDir=/home/hyphen/HpnBbnkDemon/recv, recvDataTp=ZZZ, fromDate=20220408, toDate=20220415, reqTp=E, monitTerm=10, delnYn=true, zipYn=true, netBps=2M, fileNameTp=DFLT, runMode=T, customIpYn=N
+04:09:02.465 [main] DEBUG HpnBbnkDemon - [chkRcvData] work 4 hyphenId:A001
+04:09:02.465 [main] DEBUG HpnBbnk - [recvDataMulti](START) sendCd=A001, recvCd=9999, infoCd=ZZZ, fromDt=20220408, toDt=20220415, findRng=E, sFNmTp=DFLT, recvDir=/home/hyphen/HpnBbnkDemon/recv, runMode=T
+04:09:02.465 [main] DEBUG UpdnLib - [rcvDataMulti] ipAddr=129.200.9.18, port=50001, sendCd=A001, recvCd=9999, infoCd=ZZZ, fromDt=220408, toDt=220415, fRng=MSG_TP_REQ_YET, fNmTp=DEFAULT, recvDir=/home/hyphen/HpnBbnkDemon/recv, zipYn=true, encTp=NONE
+04:09:03.201 [main] DEBUG UpdnLib - [chkRplyMsg] NO_DATA
+04:09:03.377 [main] DEBUG HpnBbnk - [recvDataMulti](NO_DATA) sendCd=A001, recvCd=9999, infoCd=ZZZ, fromDt=220408, toDt=220415, findRng=E, runMode=T
+04:09:03.377 [main] DEBUG HpnBbnkDemon - [chkRcvData](A001) NO_DATA
+04:09:03.377 [main] DEBUG HpnBbnkDemon - WAIT...
+
+
+04:19:03.377 [main] DEBUG Config - resource=hpnbbnk.properties
+04:19:03.377 [main] DEBUG Config - hyphenId=A001
+04:19:03.377 [main] DEBUG Config - sendDir=/home/hyphen/HpnBbnkDemon/send, usedDir=/home/hyphen/HpnBbnkDemon/send/usedfile, recvDir=/home/hyphen/HpnBbnkDemon/recv, recvDataTp=ZZZ, fromDate=20220408, toDate=20220415, reqTp=E, monitTerm=10, delnYn=true, zipYn=true, netBps=2M, fileNameTp=DFLT, runMode=T, customIpYn=N
+04:19:03.377 [main] DEBUG HpnBbnkDemon - [chkRcvData] work 4 hyphenId:A001
+04:19:03.377 [main] DEBUG HpnBbnk - [recvDataMulti](START) sendCd=A001, recvCd=9999, infoCd=ZZZ, fromDt=20220408, toDt=20220415, findRng=E, sFNmTp=DFLT, recvDir=/home/hyphen/HpnBbnkDemon/recv, runMode=T
+04:19:03.377 [main] DEBUG UpdnLib - [rcvDataMulti] ipAddr=129.200.9.18, port=50001, sendCd=A001, recvCd=9999, infoCd=ZZZ, fromDt=220408, toDt=220415, fRng=MSG_TP_REQ_YET, fNmTp=DEFAULT, recvDir=/home/hyphen/HpnBbnkDemon/recv, zipYn=true, encTp=NONE
+04:19:04.066 [main] DEBUG UpdnLib - [chkRplyMsg] NO_DATA
+04:19:04.096 [main] DEBUG HpnBbnk - [recvDataMulti](NO_DATA) sendCd=A001, recvCd=9999, infoCd=ZZZ, fromDt=220408, toDt=220415, findRng=E, runMode=T
+04:19:04.096 [main] DEBUG HpnBbnkDemon - [chkRcvData](A001) NO_DATA
+04:19:04.096 [main] DEBUG HpnBbnkDemon - WAIT...
+
+
+04:29:04.097 [main] DEBUG Config - resource=hpnbbnk.properties
+04:29:04.097 [main] DEBUG Config - hyphenId=A001
+04:29:04.097 [main] DEBUG Config - sendDir=/home/hyphen/HpnBbnkDemon/send, usedDir=/home/hyphen/HpnBbnkDemon/send/usedfile, recvDir=/home/hyphen/HpnBbnkDemon/recv, recvDataTp=ZZZ, fromDate=20220408, toDate=20220415, reqTp=E, monitTerm=10, delnYn=true, zipYn=true, netBps=2M, fileNameTp=DFLT, runMode=T, customIpYn=N
+04:29:04.097 [main] DEBUG HpnBbnkDemon - [chkRcvData] work 4 hyphenId:A001
+04:29:04.097 [main] DEBUG HpnBbnk - [recvDataMulti](START) sendCd=A001, recvCd=9999, infoCd=ZZZ, fromDt=20220408, toDt=20220415, findRng=E, sFNmTp=DFLT, recvDir=/home/hyphen/HpnBbnkDemon/recv, runMode=T
+04:29:04.097 [main] DEBUG UpdnLib - [rcvDataMulti] ipAddr=129.200.9.18, port=50001, sendCd=A001, recvCd=9999, infoCd=ZZZ, fromDt=220408, toDt=220415, fRng=MSG_TP_REQ_YET, fNmTp=DEFAULT, recvDir=/home/hyphen/HpnBbnkDemon/recv, zipYn=true, encTp=NONE
+04:29:04.934 [main] DEBUG UpdnLib - [chkRplyMsg] NO_DATA
+04:29:05.017 [main] DEBUG HpnBbnk - [recvDataMulti](NO_DATA) sendCd=A001, recvCd=9999, infoCd=ZZZ, fromDt=220408, toDt=220415, findRng=E, runMode=T
+04:29:05.017 [main] DEBUG HpnBbnkDemon - [chkRcvData](A001) NO_DATA
+04:29:05.017 [main] DEBUG HpnBbnkDemon - WAIT...
+
+
+04:39:04.636 [main] DEBUG Config - resource=hpnbbnk.properties
+04:39:04.636 [main] DEBUG Config - hyphenId=A001
+04:39:04.636 [main] DEBUG Config - sendDir=/home/hyphen/HpnBbnkDemon/send, usedDir=/home/hyphen/HpnBbnkDemon/send/usedfile, recvDir=/home/hyphen/HpnBbnkDemon/recv, recvDataTp=ZZZ, fromDate=20220408, toDate=20220415, reqTp=E, monitTerm=10, delnYn=true, zipYn=true, netBps=2M, fileNameTp=DFLT, runMode=T, customIpYn=N
+04:39:04.636 [main] DEBUG HpnBbnkDemon - [chkRcvData] work 4 hyphenId:A001
+04:39:04.636 [main] DEBUG HpnBbnk - [recvDataMulti](START) sendCd=A001, recvCd=9999, infoCd=ZZZ, fromDt=20220408, toDt=20220415, findRng=E, sFNmTp=DFLT, recvDir=/home/hyphen/HpnBbnkDemon/recv, runMode=T
+04:39:04.636 [main] DEBUG UpdnLib - [rcvDataMulti] ipAddr=129.200.9.18, port=50001, sendCd=A001, recvCd=9999, infoCd=ZZZ, fromDt=220408, toDt=220415, fRng=MSG_TP_REQ_YET, fNmTp=DEFAULT, recvDir=/home/hyphen/HpnBbnkDemon/recv, zipYn=true, encTp=NONE
+04:39:05.411 [main] DEBUG UpdnLib - [chkRplyMsg] NO_DATA
+04:39:05.550 [main] DEBUG HpnBbnk - [recvDataMulti](NO_DATA) sendCd=A001, recvCd=9999, infoCd=ZZZ, fromDt=220408, toDt=220415, findRng=E, runMode=T
+04:39:05.550 [main] DEBUG HpnBbnkDemon - [chkRcvData](A001) NO_DATA
+04:39:05.550 [main] DEBUG HpnBbnkDemon - WAIT...
+
+
+04:49:05.552 [main] DEBUG Config - resource=hpnbbnk.properties
+04:49:05.552 [main] DEBUG Config - hyphenId=A001
+04:49:05.552 [main] DEBUG Config - sendDir=/home/hyphen/HpnBbnkDemon/send, usedDir=/home/hyphen/HpnBbnkDemon/send/usedfile, recvDir=/home/hyphen/HpnBbnkDemon/recv, recvDataTp=ZZZ, fromDate=20220408, toDate=20220415, reqTp=E, monitTerm=10, delnYn=true, zipYn=true, netBps=2M, fileNameTp=DFLT, runMode=T, customIpYn=N
+04:49:05.552 [main] DEBUG HpnBbnkDemon - [chkRcvData] work 4 hyphenId:A001
+04:49:05.552 [main] DEBUG HpnBbnk - [recvDataMulti](START) sendCd=A001, recvCd=9999, infoCd=ZZZ, fromDt=20220408, toDt=20220415, findRng=E, sFNmTp=DFLT, recvDir=/home/hyphen/HpnBbnkDemon/recv, runMode=T
+04:49:05.552 [main] DEBUG UpdnLib - [rcvDataMulti] ipAddr=129.200.9.18, port=50001, sendCd=A001, recvCd=9999, infoCd=ZZZ, fromDt=220408, toDt=220415, fRng=MSG_TP_REQ_YET, fNmTp=DEFAULT, recvDir=/home/hyphen/HpnBbnkDemon/recv, zipYn=true, encTp=NONE
+04:49:06.277 [main] DEBUG UpdnLib - [chkRplyMsg] NO_DATA
+04:49:06.472 [main] DEBUG HpnBbnk - [recvDataMulti](NO_DATA) sendCd=A001, recvCd=9999, infoCd=ZZZ, fromDt=220408, toDt=220415, findRng=E, runMode=T
+04:49:06.472 [main] DEBUG HpnBbnkDemon - [chkRcvData](A001) NO_DATA
+04:49:06.472 [main] DEBUG HpnBbnkDemon - WAIT...
+
+
+04:59:06.478 [main] DEBUG Config - resource=hpnbbnk.properties
+04:59:06.478 [main] DEBUG Config - hyphenId=A001
+04:59:06.478 [main] DEBUG Config - sendDir=/home/hyphen/HpnBbnkDemon/send, usedDir=/home/hyphen/HpnBbnkDemon/send/usedfile, recvDir=/home/hyphen/HpnBbnkDemon/recv, recvDataTp=ZZZ, fromDate=20220408, toDate=20220415, reqTp=E, monitTerm=10, delnYn=true, zipYn=true, netBps=2M, fileNameTp=DFLT, runMode=T, customIpYn=N
+04:59:06.478 [main] DEBUG HpnBbnkDemon - [chkRcvData] work 4 hyphenId:A001
+04:59:06.478 [main] DEBUG HpnBbnk - [recvDataMulti](START) sendCd=A001, recvCd=9999, infoCd=ZZZ, fromDt=20220408, toDt=20220415, findRng=E, sFNmTp=DFLT, recvDir=/home/hyphen/HpnBbnkDemon/recv, runMode=T
+04:59:06.478 [main] DEBUG UpdnLib - [rcvDataMulti] ipAddr=129.200.9.18, port=50001, sendCd=A001, recvCd=9999, infoCd=ZZZ, fromDt=220408, toDt=220415, fRng=MSG_TP_REQ_YET, fNmTp=DEFAULT, recvDir=/home/hyphen/HpnBbnkDemon/recv, zipYn=true, encTp=NONE
+04:59:07.161 [main] DEBUG UpdnLib - [chkRplyMsg] NO_DATA
+04:59:07.192 [main] DEBUG HpnBbnk - [recvDataMulti](NO_DATA) sendCd=A001, recvCd=9999, infoCd=ZZZ, fromDt=220408, toDt=220415, findRng=E, runMode=T
+04:59:07.192 [main] DEBUG HpnBbnkDemon - [chkRcvData](A001) NO_DATA
+04:59:07.192 [main] DEBUG HpnBbnkDemon - WAIT...
+
+
+05:09:07.193 [main] DEBUG Config - resource=hpnbbnk.properties
+05:09:07.193 [main] DEBUG Config - hyphenId=A001
+05:09:07.193 [main] DEBUG Config - sendDir=/home/hyphen/HpnBbnkDemon/send, usedDir=/home/hyphen/HpnBbnkDemon/send/usedfile, recvDir=/home/hyphen/HpnBbnkDemon/recv, recvDataTp=ZZZ, fromDate=20220408, toDate=20220415, reqTp=E, monitTerm=10, delnYn=true, zipYn=true, netBps=2M, fileNameTp=DFLT, runMode=T, customIpYn=N
+05:09:07.193 [main] DEBUG HpnBbnkDemon - [chkRcvData] work 4 hyphenId:A001
+05:09:07.193 [main] DEBUG HpnBbnk - [recvDataMulti](START) sendCd=A001, recvCd=9999, infoCd=ZZZ, fromDt=20220408, toDt=20220415, findRng=E, sFNmTp=DFLT, recvDir=/home/hyphen/HpnBbnkDemon/recv, runMode=T
+05:09:07.193 [main] DEBUG UpdnLib - [rcvDataMulti] ipAddr=129.200.9.18, port=50001, sendCd=A001, recvCd=9999, infoCd=ZZZ, fromDt=220408, toDt=220415, fRng=MSG_TP_REQ_YET, fNmTp=DEFAULT, recvDir=/home/hyphen/HpnBbnkDemon/recv, zipYn=true, encTp=NONE
+05:09:08.005 [main] DEBUG UpdnLib - [chkRplyMsg] NO_DATA
+05:09:08.111 [main] DEBUG HpnBbnk - [recvDataMulti](NO_DATA) sendCd=A001, recvCd=9999, infoCd=ZZZ, fromDt=220408, toDt=220415, findRng=E, runMode=T
+05:09:08.111 [main] DEBUG HpnBbnkDemon - [chkRcvData](A001) NO_DATA
+05:09:08.111 [main] DEBUG HpnBbnkDemon - WAIT...
+
+
+05:19:08.113 [main] DEBUG Config - resource=hpnbbnk.properties
+05:19:08.114 [main] DEBUG Config - hyphenId=A001
+05:19:08.114 [main] DEBUG Config - sendDir=/home/hyphen/HpnBbnkDemon/send, usedDir=/home/hyphen/HpnBbnkDemon/send/usedfile, recvDir=/home/hyphen/HpnBbnkDemon/recv, recvDataTp=ZZZ, fromDate=20220408, toDate=20220415, reqTp=E, monitTerm=10, delnYn=true, zipYn=true, netBps=2M, fileNameTp=DFLT, runMode=T, customIpYn=N
+05:19:08.114 [main] DEBUG HpnBbnkDemon - [chkRcvData] work 4 hyphenId:A001
+05:19:08.114 [main] DEBUG HpnBbnk - [recvDataMulti](START) sendCd=A001, recvCd=9999, infoCd=ZZZ, fromDt=20220408, toDt=20220415, findRng=E, sFNmTp=DFLT, recvDir=/home/hyphen/HpnBbnkDemon/recv, runMode=T
+05:19:08.114 [main] DEBUG UpdnLib - [rcvDataMulti] ipAddr=129.200.9.18, port=50001, sendCd=A001, recvCd=9999, infoCd=ZZZ, fromDt=220408, toDt=220415, fRng=MSG_TP_REQ_YET, fNmTp=DEFAULT, recvDir=/home/hyphen/HpnBbnkDemon/recv, zipYn=true, encTp=NONE
+05:19:08.871 [main] DEBUG UpdnLib - [chkRplyMsg] NO_DATA
+05:19:09.063 [main] DEBUG HpnBbnk - [recvDataMulti](NO_DATA) sendCd=A001, recvCd=9999, infoCd=ZZZ, fromDt=220408, toDt=220415, findRng=E, runMode=T
+05:19:09.063 [main] DEBUG HpnBbnkDemon - [chkRcvData](A001) NO_DATA
+05:19:09.063 [main] DEBUG HpnBbnkDemon - WAIT...
+
+
+05:29:09.072 [main] DEBUG Config - resource=hpnbbnk.properties
+05:29:09.072 [main] DEBUG Config - hyphenId=A001
+05:29:09.072 [main] DEBUG Config - sendDir=/home/hyphen/HpnBbnkDemon/send, usedDir=/home/hyphen/HpnBbnkDemon/send/usedfile, recvDir=/home/hyphen/HpnBbnkDemon/recv, recvDataTp=ZZZ, fromDate=20220408, toDate=20220415, reqTp=E, monitTerm=10, delnYn=true, zipYn=true, netBps=2M, fileNameTp=DFLT, runMode=T, customIpYn=N
+05:29:09.072 [main] DEBUG HpnBbnkDemon - [chkRcvData] work 4 hyphenId:A001
+05:29:09.072 [main] DEBUG HpnBbnk - [recvDataMulti](START) sendCd=A001, recvCd=9999, infoCd=ZZZ, fromDt=20220408, toDt=20220415, findRng=E, sFNmTp=DFLT, recvDir=/home/hyphen/HpnBbnkDemon/recv, runMode=T
+05:29:09.072 [main] DEBUG UpdnLib - [rcvDataMulti] ipAddr=129.200.9.18, port=50001, sendCd=A001, recvCd=9999, infoCd=ZZZ, fromDt=220408, toDt=220415, fRng=MSG_TP_REQ_YET, fNmTp=DEFAULT, recvDir=/home/hyphen/HpnBbnkDemon/recv, zipYn=true, encTp=NONE
+05:29:09.737 [main] DEBUG UpdnLib - [chkRplyMsg] NO_DATA
+05:29:09.748 [main] DEBUG HpnBbnk - [recvDataMulti](NO_DATA) sendCd=A001, recvCd=9999, infoCd=ZZZ, fromDt=220408, toDt=220415, findRng=E, runMode=T
+05:29:09.748 [main] DEBUG HpnBbnkDemon - [chkRcvData](A001) NO_DATA
+05:29:09.748 [main] DEBUG HpnBbnkDemon - WAIT...
+
+
+05:39:09.751 [main] DEBUG Config - resource=hpnbbnk.properties
+05:39:09.751 [main] DEBUG Config - hyphenId=A001
+05:39:09.751 [main] DEBUG Config - sendDir=/home/hyphen/HpnBbnkDemon/send, usedDir=/home/hyphen/HpnBbnkDemon/send/usedfile, recvDir=/home/hyphen/HpnBbnkDemon/recv, recvDataTp=ZZZ, fromDate=20220408, toDate=20220415, reqTp=E, monitTerm=10, delnYn=true, zipYn=true, netBps=2M, fileNameTp=DFLT, runMode=T, customIpYn=N
+05:39:09.751 [main] DEBUG HpnBbnkDemon - [chkRcvData] work 4 hyphenId:A001
+05:39:09.751 [main] DEBUG HpnBbnk - [recvDataMulti](START) sendCd=A001, recvCd=9999, infoCd=ZZZ, fromDt=20220408, toDt=20220415, findRng=E, sFNmTp=DFLT, recvDir=/home/hyphen/HpnBbnkDemon/recv, runMode=T
+05:39:09.751 [main] DEBUG UpdnLib - [rcvDataMulti] ipAddr=129.200.9.18, port=50001, sendCd=A001, recvCd=9999, infoCd=ZZZ, fromDt=220408, toDt=220415, fRng=MSG_TP_REQ_YET, fNmTp=DEFAULT, recvDir=/home/hyphen/HpnBbnkDemon/recv, zipYn=true, encTp=NONE
+05:39:10.663 [main] DEBUG UpdnLib - [chkRplyMsg] NO_DATA
+05:39:10.674 [main] DEBUG HpnBbnk - [recvDataMulti](NO_DATA) sendCd=A001, recvCd=9999, infoCd=ZZZ, fromDt=220408, toDt=220415, findRng=E, runMode=T
+05:39:10.675 [main] DEBUG HpnBbnkDemon - [chkRcvData](A001) NO_DATA
+05:39:10.675 [main] DEBUG HpnBbnkDemon - WAIT...
+
+
+05:49:10.675 [main] DEBUG Config - resource=hpnbbnk.properties
+05:49:10.675 [main] DEBUG Config - hyphenId=A001
+05:49:10.675 [main] DEBUG Config - sendDir=/home/hyphen/HpnBbnkDemon/send, usedDir=/home/hyphen/HpnBbnkDemon/send/usedfile, recvDir=/home/hyphen/HpnBbnkDemon/recv, recvDataTp=ZZZ, fromDate=20220408, toDate=20220415, reqTp=E, monitTerm=10, delnYn=true, zipYn=true, netBps=2M, fileNameTp=DFLT, runMode=T, customIpYn=N
+05:49:10.676 [main] DEBUG HpnBbnkDemon - [chkRcvData] work 4 hyphenId:A001
+05:49:10.676 [main] DEBUG HpnBbnk - [recvDataMulti](START) sendCd=A001, recvCd=9999, infoCd=ZZZ, fromDt=20220408, toDt=20220415, findRng=E, sFNmTp=DFLT, recvDir=/home/hyphen/HpnBbnkDemon/recv, runMode=T
+05:49:10.676 [main] DEBUG UpdnLib - [rcvDataMulti] ipAddr=129.200.9.18, port=50001, sendCd=A001, recvCd=9999, infoCd=ZZZ, fromDt=220408, toDt=220415, fRng=MSG_TP_REQ_YET, fNmTp=DEFAULT, recvDir=/home/hyphen/HpnBbnkDemon/recv, zipYn=true, encTp=NONE
+05:49:11.467 [main] DEBUG UpdnLib - [chkRplyMsg] NO_DATA
+05:49:11.612 [main] DEBUG HpnBbnk - [recvDataMulti](NO_DATA) sendCd=A001, recvCd=9999, infoCd=ZZZ, fromDt=220408, toDt=220415, findRng=E, runMode=T
+05:49:11.612 [main] DEBUG HpnBbnkDemon - [chkRcvData](A001) NO_DATA
+05:49:11.612 [main] DEBUG HpnBbnkDemon - WAIT...
+
+
+05:59:11.611 [main] DEBUG Config - resource=hpnbbnk.properties
+05:59:11.612 [main] DEBUG Config - hyphenId=A001
+05:59:11.612 [main] DEBUG Config - sendDir=/home/hyphen/HpnBbnkDemon/send, usedDir=/home/hyphen/HpnBbnkDemon/send/usedfile, recvDir=/home/hyphen/HpnBbnkDemon/recv, recvDataTp=ZZZ, fromDate=20220408, toDate=20220415, reqTp=E, monitTerm=10, delnYn=true, zipYn=true, netBps=2M, fileNameTp=DFLT, runMode=T, customIpYn=N
+05:59:11.612 [main] DEBUG HpnBbnkDemon - [chkRcvData] work 4 hyphenId:A001
+05:59:11.612 [main] DEBUG HpnBbnk - [recvDataMulti](START) sendCd=A001, recvCd=9999, infoCd=ZZZ, fromDt=20220408, toDt=20220415, findRng=E, sFNmTp=DFLT, recvDir=/home/hyphen/HpnBbnkDemon/recv, runMode=T
+05:59:11.612 [main] DEBUG UpdnLib - [rcvDataMulti] ipAddr=129.200.9.18, port=50001, sendCd=A001, recvCd=9999, infoCd=ZZZ, fromDt=220408, toDt=220415, fRng=MSG_TP_REQ_YET, fNmTp=DEFAULT, recvDir=/home/hyphen/HpnBbnkDemon/recv, zipYn=true, encTp=NONE
+05:59:12.334 [main] DEBUG UpdnLib - [chkRplyMsg] NO_DATA
+05:59:12.507 [main] DEBUG HpnBbnk - [recvDataMulti](NO_DATA) sendCd=A001, recvCd=9999, infoCd=ZZZ, fromDt=220408, toDt=220415, findRng=E, runMode=T
+05:59:12.507 [main] DEBUG HpnBbnkDemon - [chkRcvData](A001) NO_DATA
+05:59:12.507 [main] DEBUG HpnBbnkDemon - WAIT...
+
+
+06:09:12.509 [main] DEBUG Config - resource=hpnbbnk.properties
+06:09:12.509 [main] DEBUG Config - hyphenId=A001
+06:09:12.509 [main] DEBUG Config - sendDir=/home/hyphen/HpnBbnkDemon/send, usedDir=/home/hyphen/HpnBbnkDemon/send/usedfile, recvDir=/home/hyphen/HpnBbnkDemon/recv, recvDataTp=ZZZ, fromDate=20220408, toDate=20220415, reqTp=E, monitTerm=10, delnYn=true, zipYn=true, netBps=2M, fileNameTp=DFLT, runMode=T, customIpYn=N
+06:09:12.510 [main] DEBUG HpnBbnkDemon - [chkRcvData] work 4 hyphenId:A001
+06:09:12.510 [main] DEBUG HpnBbnk - [recvDataMulti](START) sendCd=A001, recvCd=9999, infoCd=ZZZ, fromDt=20220408, toDt=20220415, findRng=E, sFNmTp=DFLT, recvDir=/home/hyphen/HpnBbnkDemon/recv, runMode=T
+06:09:12.510 [main] DEBUG UpdnLib - [rcvDataMulti] ipAddr=129.200.9.18, port=50001, sendCd=A001, recvCd=9999, infoCd=ZZZ, fromDt=220408, toDt=220415, fRng=MSG_TP_REQ_YET, fNmTp=DEFAULT, recvDir=/home/hyphen/HpnBbnkDemon/recv, zipYn=true, encTp=NONE
+06:09:13.199 [main] DEBUG UpdnLib - [chkRplyMsg] NO_DATA
+06:09:13.228 [main] DEBUG HpnBbnk - [recvDataMulti](NO_DATA) sendCd=A001, recvCd=9999, infoCd=ZZZ, fromDt=220408, toDt=220415, findRng=E, runMode=T
+06:09:13.228 [main] DEBUG HpnBbnkDemon - [chkRcvData](A001) NO_DATA
+06:09:13.228 [main] DEBUG HpnBbnkDemon - WAIT...
+
+
+06:19:13.229 [main] DEBUG Config - resource=hpnbbnk.properties
+06:19:13.229 [main] DEBUG Config - hyphenId=A001
+06:19:13.229 [main] DEBUG Config - sendDir=/home/hyphen/HpnBbnkDemon/send, usedDir=/home/hyphen/HpnBbnkDemon/send/usedfile, recvDir=/home/hyphen/HpnBbnkDemon/recv, recvDataTp=ZZZ, fromDate=20220408, toDate=20220415, reqTp=E, monitTerm=10, delnYn=true, zipYn=true, netBps=2M, fileNameTp=DFLT, runMode=T, customIpYn=N
+06:19:13.229 [main] DEBUG HpnBbnkDemon - [chkRcvData] work 4 hyphenId:A001
+06:19:13.229 [main] DEBUG HpnBbnk - [recvDataMulti](START) sendCd=A001, recvCd=9999, infoCd=ZZZ, fromDt=20220408, toDt=20220415, findRng=E, sFNmTp=DFLT, recvDir=/home/hyphen/HpnBbnkDemon/recv, runMode=T
+06:19:13.230 [main] DEBUG UpdnLib - [rcvDataMulti] ipAddr=129.200.9.18, port=50001, sendCd=A001, recvCd=9999, infoCd=ZZZ, fromDt=220408, toDt=220415, fRng=MSG_TP_REQ_YET, fNmTp=DEFAULT, recvDir=/home/hyphen/HpnBbnkDemon/recv, zipYn=true, encTp=NONE
+06:19:14.067 [main] DEBUG UpdnLib - [chkRplyMsg] NO_DATA
+06:19:14.147 [main] DEBUG HpnBbnk - [recvDataMulti](NO_DATA) sendCd=A001, recvCd=9999, infoCd=ZZZ, fromDt=220408, toDt=220415, findRng=E, runMode=T
+06:19:14.147 [main] DEBUG HpnBbnkDemon - [chkRcvData](A001) NO_DATA
+06:19:14.147 [main] DEBUG HpnBbnkDemon - WAIT...
+
+
+06:29:14.148 [main] DEBUG Config - resource=hpnbbnk.properties
+06:29:14.148 [main] DEBUG Config - hyphenId=A001
+06:29:14.148 [main] DEBUG Config - sendDir=/home/hyphen/HpnBbnkDemon/send, usedDir=/home/hyphen/HpnBbnkDemon/send/usedfile, recvDir=/home/hyphen/HpnBbnkDemon/recv, recvDataTp=ZZZ, fromDate=20220408, toDate=20220415, reqTp=E, monitTerm=10, delnYn=true, zipYn=true, netBps=2M, fileNameTp=DFLT, runMode=T, customIpYn=N
+06:29:14.148 [main] DEBUG HpnBbnkDemon - [chkRcvData] work 4 hyphenId:A001
+06:29:14.148 [main] DEBUG HpnBbnk - [recvDataMulti](START) sendCd=A001, recvCd=9999, infoCd=ZZZ, fromDt=20220408, toDt=20220415, findRng=E, sFNmTp=DFLT, recvDir=/home/hyphen/HpnBbnkDemon/recv, runMode=T
+06:29:14.149 [main] DEBUG UpdnLib - [rcvDataMulti] ipAddr=129.200.9.18, port=50001, sendCd=A001, recvCd=9999, infoCd=ZZZ, fromDt=220408, toDt=220415, fRng=MSG_TP_REQ_YET, fNmTp=DEFAULT, recvDir=/home/hyphen/HpnBbnkDemon/recv, zipYn=true, encTp=NONE
+06:29:14.931 [main] DEBUG UpdnLib - [chkRplyMsg] NO_DATA
+06:29:15.066 [main] DEBUG HpnBbnk - [recvDataMulti](NO_DATA) sendCd=A001, recvCd=9999, infoCd=ZZZ, fromDt=220408, toDt=220415, findRng=E, runMode=T
+06:29:15.066 [main] DEBUG HpnBbnkDemon - [chkRcvData](A001) NO_DATA
+06:29:15.066 [main] DEBUG HpnBbnkDemon - WAIT...
+
+
+06:39:15.068 [main] DEBUG Config - resource=hpnbbnk.properties
+06:39:15.068 [main] DEBUG Config - hyphenId=A001
+06:39:15.068 [main] DEBUG Config - sendDir=/home/hyphen/HpnBbnkDemon/send, usedDir=/home/hyphen/HpnBbnkDemon/send/usedfile, recvDir=/home/hyphen/HpnBbnkDemon/recv, recvDataTp=ZZZ, fromDate=20220408, toDate=20220415, reqTp=E, monitTerm=10, delnYn=true, zipYn=true, netBps=2M, fileNameTp=DFLT, runMode=T, customIpYn=N
+06:39:15.068 [main] DEBUG HpnBbnkDemon - [chkRcvData] work 4 hyphenId:A001
+06:39:15.068 [main] DEBUG HpnBbnk - [recvDataMulti](START) sendCd=A001, recvCd=9999, infoCd=ZZZ, fromDt=20220408, toDt=20220415, findRng=E, sFNmTp=DFLT, recvDir=/home/hyphen/HpnBbnkDemon/recv, runMode=T
+06:39:15.068 [main] DEBUG UpdnLib - [rcvDataMulti] ipAddr=129.200.9.18, port=50001, sendCd=A001, recvCd=9999, infoCd=ZZZ, fromDt=220408, toDt=220415, fRng=MSG_TP_REQ_YET, fNmTp=DEFAULT, recvDir=/home/hyphen/HpnBbnkDemon/recv, zipYn=true, encTp=NONE
+06:39:15.801 [main] DEBUG UpdnLib - [chkRplyMsg] NO_DATA
+06:39:15.991 [main] DEBUG HpnBbnk - [recvDataMulti](NO_DATA) sendCd=A001, recvCd=9999, infoCd=ZZZ, fromDt=220408, toDt=220415, findRng=E, runMode=T
+06:39:15.991 [main] DEBUG HpnBbnkDemon - [chkRcvData](A001) NO_DATA
+06:39:15.991 [main] DEBUG HpnBbnkDemon - WAIT...
+
+
+06:49:15.991 [main] DEBUG Config - resource=hpnbbnk.properties
+06:49:15.992 [main] DEBUG Config - hyphenId=A001
+06:49:15.992 [main] DEBUG Config - sendDir=/home/hyphen/HpnBbnkDemon/send, usedDir=/home/hyphen/HpnBbnkDemon/send/usedfile, recvDir=/home/hyphen/HpnBbnkDemon/recv, recvDataTp=ZZZ, fromDate=20220408, toDate=20220415, reqTp=E, monitTerm=10, delnYn=true, zipYn=true, netBps=2M, fileNameTp=DFLT, runMode=T, customIpYn=N
+06:49:15.992 [main] DEBUG HpnBbnkDemon - [chkRcvData] work 4 hyphenId:A001
+06:49:15.992 [main] DEBUG HpnBbnk - [recvDataMulti](START) sendCd=A001, recvCd=9999, infoCd=ZZZ, fromDt=20220408, toDt=20220415, findRng=E, sFNmTp=DFLT, recvDir=/home/hyphen/HpnBbnkDemon/recv, runMode=T
+06:49:15.992 [main] DEBUG UpdnLib - [rcvDataMulti] ipAddr=129.200.9.18, port=50001, sendCd=A001, recvCd=9999, infoCd=ZZZ, fromDt=220408, toDt=220415, fRng=MSG_TP_REQ_YET, fNmTp=DEFAULT, recvDir=/home/hyphen/HpnBbnkDemon/recv, zipYn=true, encTp=NONE
+06:49:16.668 [main] DEBUG UpdnLib - [chkRplyMsg] NO_DATA
+06:49:16.710 [main] DEBUG HpnBbnk - [recvDataMulti](NO_DATA) sendCd=A001, recvCd=9999, infoCd=ZZZ, fromDt=220408, toDt=220415, findRng=E, runMode=T
+06:49:16.710 [main] DEBUG HpnBbnkDemon - [chkRcvData](A001) NO_DATA
+06:49:16.710 [main] DEBUG HpnBbnkDemon - WAIT...
+
+
+06:59:16.717 [main] DEBUG Config - resource=hpnbbnk.properties
+06:59:16.717 [main] DEBUG Config - hyphenId=A001
+06:59:16.717 [main] DEBUG Config - sendDir=/home/hyphen/HpnBbnkDemon/send, usedDir=/home/hyphen/HpnBbnkDemon/send/usedfile, recvDir=/home/hyphen/HpnBbnkDemon/recv, recvDataTp=ZZZ, fromDate=20220408, toDate=20220415, reqTp=E, monitTerm=10, delnYn=true, zipYn=true, netBps=2M, fileNameTp=DFLT, runMode=T, customIpYn=N
+06:59:16.717 [main] DEBUG HpnBbnkDemon - [chkRcvData] work 4 hyphenId:A001
+06:59:16.717 [main] DEBUG HpnBbnk - [recvDataMulti](START) sendCd=A001, recvCd=9999, infoCd=ZZZ, fromDt=20220408, toDt=20220415, findRng=E, sFNmTp=DFLT, recvDir=/home/hyphen/HpnBbnkDemon/recv, runMode=T
+06:59:16.718 [main] DEBUG UpdnLib - [rcvDataMulti] ipAddr=129.200.9.18, port=50001, sendCd=A001, recvCd=9999, infoCd=ZZZ, fromDt=220408, toDt=220415, fRng=MSG_TP_REQ_YET, fNmTp=DEFAULT, recvDir=/home/hyphen/HpnBbnkDemon/recv, zipYn=true, encTp=NONE
+06:59:17.535 [main] DEBUG UpdnLib - [chkRplyMsg] NO_DATA
+06:59:17.690 [main] DEBUG HpnBbnk - [recvDataMulti](NO_DATA) sendCd=A001, recvCd=9999, infoCd=ZZZ, fromDt=220408, toDt=220415, findRng=E, runMode=T
+06:59:17.690 [main] DEBUG HpnBbnkDemon - [chkRcvData](A001) NO_DATA
+06:59:17.690 [main] DEBUG HpnBbnkDemon - WAIT...
+
+
+07:09:17.690 [main] DEBUG Config - resource=hpnbbnk.properties
+07:09:17.691 [main] DEBUG Config - hyphenId=A001
+07:09:17.691 [main] DEBUG Config - sendDir=/home/hyphen/HpnBbnkDemon/send, usedDir=/home/hyphen/HpnBbnkDemon/send/usedfile, recvDir=/home/hyphen/HpnBbnkDemon/recv, recvDataTp=ZZZ, fromDate=20220408, toDate=20220415, reqTp=E, monitTerm=10, delnYn=true, zipYn=true, netBps=2M, fileNameTp=DFLT, runMode=T, customIpYn=N
+07:09:17.691 [main] DEBUG HpnBbnkDemon - [chkRcvData] work 4 hyphenId:A001
+07:09:17.691 [main] DEBUG HpnBbnk - [recvDataMulti](START) sendCd=A001, recvCd=9999, infoCd=ZZZ, fromDt=20220408, toDt=20220415, findRng=E, sFNmTp=DFLT, recvDir=/home/hyphen/HpnBbnkDemon/recv, runMode=T
+07:09:17.691 [main] DEBUG UpdnLib - [rcvDataMulti] ipAddr=129.200.9.18, port=50001, sendCd=A001, recvCd=9999, infoCd=ZZZ, fromDt=220408, toDt=220415, fRng=MSG_TP_REQ_YET, fNmTp=DEFAULT, recvDir=/home/hyphen/HpnBbnkDemon/recv, zipYn=true, encTp=NONE
+07:09:18.395 [main] DEBUG UpdnLib - [chkRplyMsg] NO_DATA
+07:09:18.549 [main] DEBUG HpnBbnk - [recvDataMulti](NO_DATA) sendCd=A001, recvCd=9999, infoCd=ZZZ, fromDt=220408, toDt=220415, findRng=E, runMode=T
+07:09:18.550 [main] DEBUG HpnBbnkDemon - [chkRcvData](A001) NO_DATA
+07:09:18.550 [main] DEBUG HpnBbnkDemon - WAIT...
+
+
+07:19:18.557 [main] DEBUG Config - resource=hpnbbnk.properties
+07:19:18.557 [main] DEBUG Config - hyphenId=A001
+07:19:18.557 [main] DEBUG Config - sendDir=/home/hyphen/HpnBbnkDemon/send, usedDir=/home/hyphen/HpnBbnkDemon/send/usedfile, recvDir=/home/hyphen/HpnBbnkDemon/recv, recvDataTp=ZZZ, fromDate=20220408, toDate=20220415, reqTp=E, monitTerm=10, delnYn=true, zipYn=true, netBps=2M, fileNameTp=DFLT, runMode=T, customIpYn=N
+07:19:18.558 [main] DEBUG HpnBbnkDemon - [chkRcvData] work 4 hyphenId:A001
+07:19:18.558 [main] DEBUG HpnBbnk - [recvDataMulti](START) sendCd=A001, recvCd=9999, infoCd=ZZZ, fromDt=20220408, toDt=20220415, findRng=E, sFNmTp=DFLT, recvDir=/home/hyphen/HpnBbnkDemon/recv, runMode=T
+07:19:18.558 [main] DEBUG UpdnLib - [rcvDataMulti] ipAddr=129.200.9.18, port=50001, sendCd=A001, recvCd=9999, infoCd=ZZZ, fromDt=220408, toDt=220415, fRng=MSG_TP_REQ_YET, fNmTp=DEFAULT, recvDir=/home/hyphen/HpnBbnkDemon/recv, zipYn=true, encTp=NONE
+07:19:19.250 [main] DEBUG UpdnLib - [chkRplyMsg] NO_DATA
+07:19:19.269 [main] DEBUG HpnBbnk - [recvDataMulti](NO_DATA) sendCd=A001, recvCd=9999, infoCd=ZZZ, fromDt=220408, toDt=220415, findRng=E, runMode=T
+07:19:19.269 [main] DEBUG HpnBbnkDemon - [chkRcvData](A001) NO_DATA
+07:19:19.269 [main] DEBUG HpnBbnkDemon - WAIT...
+
+
+07:29:19.273 [main] DEBUG Config - resource=hpnbbnk.properties
+07:29:19.273 [main] DEBUG Config - hyphenId=A001
+07:29:19.273 [main] DEBUG Config - sendDir=/home/hyphen/HpnBbnkDemon/send, usedDir=/home/hyphen/HpnBbnkDemon/send/usedfile, recvDir=/home/hyphen/HpnBbnkDemon/recv, recvDataTp=ZZZ, fromDate=20220408, toDate=20220415, reqTp=E, monitTerm=10, delnYn=true, zipYn=true, netBps=2M, fileNameTp=DFLT, runMode=T, customIpYn=N
+07:29:19.274 [main] DEBUG HpnBbnkDemon - [chkRcvData] work 4 hyphenId:A001
+07:29:19.274 [main] DEBUG HpnBbnk - [recvDataMulti](START) sendCd=A001, recvCd=9999, infoCd=ZZZ, fromDt=20220408, toDt=20220415, findRng=E, sFNmTp=DFLT, recvDir=/home/hyphen/HpnBbnkDemon/recv, runMode=T
+07:29:19.274 [main] DEBUG UpdnLib - [rcvDataMulti] ipAddr=129.200.9.18, port=50001, sendCd=A001, recvCd=9999, infoCd=ZZZ, fromDt=220408, toDt=220415, fRng=MSG_TP_REQ_YET, fNmTp=DEFAULT, recvDir=/home/hyphen/HpnBbnkDemon/recv, zipYn=true, encTp=NONE
+07:29:20.117 [main] DEBUG UpdnLib - [chkRplyMsg] NO_DATA
+07:29:20.186 [main] DEBUG HpnBbnk - [recvDataMulti](NO_DATA) sendCd=A001, recvCd=9999, infoCd=ZZZ, fromDt=220408, toDt=220415, findRng=E, runMode=T
+07:29:20.186 [main] DEBUG HpnBbnkDemon - [chkRcvData](A001) NO_DATA
+07:29:20.186 [main] DEBUG HpnBbnkDemon - WAIT...
+
+
+07:39:20.193 [main] DEBUG Config - resource=hpnbbnk.properties
+07:39:20.193 [main] DEBUG Config - hyphenId=A001
+07:39:20.193 [main] DEBUG Config - sendDir=/home/hyphen/HpnBbnkDemon/send, usedDir=/home/hyphen/HpnBbnkDemon/send/usedfile, recvDir=/home/hyphen/HpnBbnkDemon/recv, recvDataTp=ZZZ, fromDate=20220408, toDate=20220415, reqTp=E, monitTerm=10, delnYn=true, zipYn=true, netBps=2M, fileNameTp=DFLT, runMode=T, customIpYn=N
+07:39:20.193 [main] DEBUG HpnBbnkDemon - [chkRcvData] work 4 hyphenId:A001
+07:39:20.193 [main] DEBUG HpnBbnk - [recvDataMulti](START) sendCd=A001, recvCd=9999, infoCd=ZZZ, fromDt=20220408, toDt=20220415, findRng=E, sFNmTp=DFLT, recvDir=/home/hyphen/HpnBbnkDemon/recv, runMode=T
+07:39:20.193 [main] DEBUG UpdnLib - [rcvDataMulti] ipAddr=129.200.9.18, port=50001, sendCd=A001, recvCd=9999, infoCd=ZZZ, fromDt=220408, toDt=220415, fRng=MSG_TP_REQ_YET, fNmTp=DEFAULT, recvDir=/home/hyphen/HpnBbnkDemon/recv, zipYn=true, encTp=NONE
+07:39:20.963 [main] DEBUG UpdnLib - [chkRplyMsg] NO_DATA
+07:39:21.105 [main] DEBUG HpnBbnk - [recvDataMulti](NO_DATA) sendCd=A001, recvCd=9999, infoCd=ZZZ, fromDt=220408, toDt=220415, findRng=E, runMode=T
+07:39:21.105 [main] DEBUG HpnBbnkDemon - [chkRcvData](A001) NO_DATA
+07:39:21.105 [main] DEBUG HpnBbnkDemon - WAIT...
+
+
+07:49:20.651 [main] DEBUG Config - resource=hpnbbnk.properties
+07:49:20.651 [main] DEBUG Config - hyphenId=A001
+07:49:20.651 [main] DEBUG Config - sendDir=/home/hyphen/HpnBbnkDemon/send, usedDir=/home/hyphen/HpnBbnkDemon/send/usedfile, recvDir=/home/hyphen/HpnBbnkDemon/recv, recvDataTp=ZZZ, fromDate=20220408, toDate=20220415, reqTp=E, monitTerm=10, delnYn=true, zipYn=true, netBps=2M, fileNameTp=DFLT, runMode=T, customIpYn=N
+07:49:20.651 [main] DEBUG HpnBbnkDemon - [chkRcvData] work 4 hyphenId:A001
+07:49:20.651 [main] DEBUG HpnBbnk - [recvDataMulti](START) sendCd=A001, recvCd=9999, infoCd=ZZZ, fromDt=20220408, toDt=20220415, findRng=E, sFNmTp=DFLT, recvDir=/home/hyphen/HpnBbnkDemon/recv, runMode=T
+07:49:20.651 [main] DEBUG UpdnLib - [rcvDataMulti] ipAddr=129.200.9.18, port=50001, sendCd=A001, recvCd=9999, infoCd=ZZZ, fromDt=220408, toDt=220415, fRng=MSG_TP_REQ_YET, fNmTp=DEFAULT, recvDir=/home/hyphen/HpnBbnkDemon/recv, zipYn=true, encTp=NONE
+07:49:21.377 [main] DEBUG UpdnLib - [chkRplyMsg] NO_DATA
+07:49:21.569 [main] DEBUG HpnBbnk - [recvDataMulti](NO_DATA) sendCd=A001, recvCd=9999, infoCd=ZZZ, fromDt=220408, toDt=220415, findRng=E, runMode=T
+07:49:21.569 [main] DEBUG HpnBbnkDemon - [chkRcvData](A001) NO_DATA
+07:49:21.569 [main] DEBUG HpnBbnkDemon - WAIT...
+
+
+07:59:21.571 [main] DEBUG Config - resource=hpnbbnk.properties
+07:59:21.571 [main] DEBUG Config - hyphenId=A001
+07:59:21.571 [main] DEBUG Config - sendDir=/home/hyphen/HpnBbnkDemon/send, usedDir=/home/hyphen/HpnBbnkDemon/send/usedfile, recvDir=/home/hyphen/HpnBbnkDemon/recv, recvDataTp=ZZZ, fromDate=20220408, toDate=20220415, reqTp=E, monitTerm=10, delnYn=true, zipYn=true, netBps=2M, fileNameTp=DFLT, runMode=T, customIpYn=N
+07:59:21.571 [main] DEBUG HpnBbnkDemon - [chkRcvData] work 4 hyphenId:A001
+07:59:21.571 [main] DEBUG HpnBbnk - [recvDataMulti](START) sendCd=A001, recvCd=9999, infoCd=ZZZ, fromDt=20220408, toDt=20220415, findRng=E, sFNmTp=DFLT, recvDir=/home/hyphen/HpnBbnkDemon/recv, runMode=T
+07:59:21.572 [main] DEBUG UpdnLib - [rcvDataMulti] ipAddr=129.200.9.18, port=50001, sendCd=A001, recvCd=9999, infoCd=ZZZ, fromDt=220408, toDt=220415, fRng=MSG_TP_REQ_YET, fNmTp=DEFAULT, recvDir=/home/hyphen/HpnBbnkDemon/recv, zipYn=true, encTp=NONE
+07:59:22.245 [main] DEBUG UpdnLib - [chkRplyMsg] NO_DATA
+07:59:22.335 [main] DEBUG HpnBbnk - [recvDataMulti](NO_DATA) sendCd=A001, recvCd=9999, infoCd=ZZZ, fromDt=220408, toDt=220415, findRng=E, runMode=T
+07:59:22.335 [main] DEBUG HpnBbnkDemon - [chkRcvData](A001) NO_DATA
+07:59:22.335 [main] DEBUG HpnBbnkDemon - WAIT...
+
+
+08:09:22.338 [main] DEBUG Config - resource=hpnbbnk.properties
+08:09:22.338 [main] DEBUG Config - hyphenId=A001
+08:09:22.338 [main] DEBUG Config - sendDir=/home/hyphen/HpnBbnkDemon/send, usedDir=/home/hyphen/HpnBbnkDemon/send/usedfile, recvDir=/home/hyphen/HpnBbnkDemon/recv, recvDataTp=ZZZ, fromDate=20220408, toDate=20220415, reqTp=E, monitTerm=10, delnYn=true, zipYn=true, netBps=2M, fileNameTp=DFLT, runMode=T, customIpYn=N
+08:09:22.338 [main] DEBUG HpnBbnkDemon - [chkRcvData] work 4 hyphenId:A001
+08:09:22.338 [main] DEBUG HpnBbnk - [recvDataMulti](START) sendCd=A001, recvCd=9999, infoCd=ZZZ, fromDt=20220408, toDt=20220415, findRng=E, sFNmTp=DFLT, recvDir=/home/hyphen/HpnBbnkDemon/recv, runMode=T
+08:09:22.338 [main] DEBUG UpdnLib - [rcvDataMulti] ipAddr=129.200.9.18, port=50001, sendCd=A001, recvCd=9999, infoCd=ZZZ, fromDt=220408, toDt=220415, fRng=MSG_TP_REQ_YET, fNmTp=DEFAULT, recvDir=/home/hyphen/HpnBbnkDemon/recv, zipYn=true, encTp=NONE
+08:09:23.110 [main] DEBUG UpdnLib - [chkRplyMsg] NO_DATA
+08:09:23.200 [main] DEBUG HpnBbnk - [recvDataMulti](NO_DATA) sendCd=A001, recvCd=9999, infoCd=ZZZ, fromDt=220408, toDt=220415, findRng=E, runMode=T
+08:09:23.200 [main] DEBUG HpnBbnkDemon - [chkRcvData](A001) NO_DATA
+08:09:23.200 [main] DEBUG HpnBbnkDemon - WAIT...
+
+
+08:19:23.200 [main] DEBUG Config - resource=hpnbbnk.properties
+08:19:23.200 [main] DEBUG Config - hyphenId=A001
+08:19:23.200 [main] DEBUG Config - sendDir=/home/hyphen/HpnBbnkDemon/send, usedDir=/home/hyphen/HpnBbnkDemon/send/usedfile, recvDir=/home/hyphen/HpnBbnkDemon/recv, recvDataTp=ZZZ, fromDate=20220408, toDate=20220415, reqTp=E, monitTerm=10, delnYn=true, zipYn=true, netBps=2M, fileNameTp=DFLT, runMode=T, customIpYn=N
+08:19:23.200 [main] DEBUG HpnBbnkDemon - [chkRcvData] work 4 hyphenId:A001
+08:19:23.200 [main] DEBUG HpnBbnk - [recvDataMulti](START) sendCd=A001, recvCd=9999, infoCd=ZZZ, fromDt=20220408, toDt=20220415, findRng=E, sFNmTp=DFLT, recvDir=/home/hyphen/HpnBbnkDemon/recv, runMode=T
+08:19:23.200 [main] DEBUG UpdnLib - [rcvDataMulti] ipAddr=129.200.9.18, port=50001, sendCd=A001, recvCd=9999, infoCd=ZZZ, fromDt=220408, toDt=220415, fRng=MSG_TP_REQ_YET, fNmTp=DEFAULT, recvDir=/home/hyphen/HpnBbnkDemon/recv, zipYn=true, encTp=NONE
+08:19:23.968 [main] DEBUG UpdnLib - [chkRplyMsg] NO_DATA
+08:19:24.119 [main] DEBUG HpnBbnk - [recvDataMulti](NO_DATA) sendCd=A001, recvCd=9999, infoCd=ZZZ, fromDt=220408, toDt=220415, findRng=E, runMode=T
+08:19:24.119 [main] DEBUG HpnBbnkDemon - [chkRcvData](A001) NO_DATA
+08:19:24.119 [main] DEBUG HpnBbnkDemon - WAIT...
+
+
+08:29:24.120 [main] DEBUG Config - resource=hpnbbnk.properties
+08:29:24.120 [main] DEBUG Config - hyphenId=A001
+08:29:24.120 [main] DEBUG Config - sendDir=/home/hyphen/HpnBbnkDemon/send, usedDir=/home/hyphen/HpnBbnkDemon/send/usedfile, recvDir=/home/hyphen/HpnBbnkDemon/recv, recvDataTp=ZZZ, fromDate=20220408, toDate=20220415, reqTp=E, monitTerm=10, delnYn=true, zipYn=true, netBps=2M, fileNameTp=DFLT, runMode=T, customIpYn=N
+08:29:24.120 [main] DEBUG HpnBbnkDemon - [chkRcvData] work 4 hyphenId:A001
+08:29:24.120 [main] DEBUG HpnBbnk - [recvDataMulti](START) sendCd=A001, recvCd=9999, infoCd=ZZZ, fromDt=20220408, toDt=20220415, findRng=E, sFNmTp=DFLT, recvDir=/home/hyphen/HpnBbnkDemon/recv, runMode=T
+08:29:24.120 [main] DEBUG UpdnLib - [rcvDataMulti] ipAddr=129.200.9.18, port=50001, sendCd=A001, recvCd=9999, infoCd=ZZZ, fromDt=220408, toDt=220415, fRng=MSG_TP_REQ_YET, fNmTp=DEFAULT, recvDir=/home/hyphen/HpnBbnkDemon/recv, zipYn=true, encTp=NONE
+08:29:24.830 [main] DEBUG UpdnLib - [chkRplyMsg] NO_DATA
+08:29:24.836 [main] DEBUG HpnBbnk - [recvDataMulti](NO_DATA) sendCd=A001, recvCd=9999, infoCd=ZZZ, fromDt=220408, toDt=220415, findRng=E, runMode=T
+08:29:24.836 [main] DEBUG HpnBbnkDemon - [chkRcvData](A001) NO_DATA
+08:29:24.836 [main] DEBUG HpnBbnkDemon - WAIT...
+
+
+08:39:24.839 [main] DEBUG Config - resource=hpnbbnk.properties
+08:39:24.839 [main] DEBUG Config - hyphenId=A001
+08:39:24.839 [main] DEBUG Config - sendDir=/home/hyphen/HpnBbnkDemon/send, usedDir=/home/hyphen/HpnBbnkDemon/send/usedfile, recvDir=/home/hyphen/HpnBbnkDemon/recv, recvDataTp=ZZZ, fromDate=20220408, toDate=20220415, reqTp=E, monitTerm=10, delnYn=true, zipYn=true, netBps=2M, fileNameTp=DFLT, runMode=T, customIpYn=N
+08:39:24.839 [main] DEBUG HpnBbnkDemon - [chkRcvData] work 4 hyphenId:A001
+08:39:24.839 [main] DEBUG HpnBbnk - [recvDataMulti](START) sendCd=A001, recvCd=9999, infoCd=ZZZ, fromDt=20220408, toDt=20220415, findRng=E, sFNmTp=DFLT, recvDir=/home/hyphen/HpnBbnkDemon/recv, runMode=T
+08:39:24.840 [main] DEBUG UpdnLib - [rcvDataMulti] ipAddr=129.200.9.18, port=50001, sendCd=A001, recvCd=9999, infoCd=ZZZ, fromDt=220408, toDt=220415, fRng=MSG_TP_REQ_YET, fNmTp=DEFAULT, recvDir=/home/hyphen/HpnBbnkDemon/recv, zipYn=true, encTp=NONE
+08:39:25.702 [main] DEBUG UpdnLib - [chkRplyMsg] NO_DATA
+08:39:25.753 [main] DEBUG HpnBbnk - [recvDataMulti](NO_DATA) sendCd=A001, recvCd=9999, infoCd=ZZZ, fromDt=220408, toDt=220415, findRng=E, runMode=T
+08:39:25.753 [main] DEBUG HpnBbnkDemon - [chkRcvData](A001) NO_DATA
+08:39:25.753 [main] DEBUG HpnBbnkDemon - WAIT...
+
+
+08:49:25.777 [main] DEBUG Config - resource=hpnbbnk.properties
+08:49:25.777 [main] DEBUG Config - hyphenId=A001
+08:49:25.777 [main] DEBUG Config - sendDir=/home/hyphen/HpnBbnkDemon/send, usedDir=/home/hyphen/HpnBbnkDemon/send/usedfile, recvDir=/home/hyphen/HpnBbnkDemon/recv, recvDataTp=ZZZ, fromDate=20220408, toDate=20220415, reqTp=E, monitTerm=10, delnYn=true, zipYn=true, netBps=2M, fileNameTp=DFLT, runMode=T, customIpYn=N
+08:49:25.778 [main] DEBUG HpnBbnkDemon - [chkRcvData] work 4 hyphenId:A001
+08:49:25.778 [main] DEBUG HpnBbnk - [recvDataMulti](START) sendCd=A001, recvCd=9999, infoCd=ZZZ, fromDt=20220408, toDt=20220415, findRng=E, sFNmTp=DFLT, recvDir=/home/hyphen/HpnBbnkDemon/recv, runMode=T
+08:49:25.778 [main] DEBUG UpdnLib - [rcvDataMulti] ipAddr=129.200.9.18, port=50001, sendCd=A001, recvCd=9999, infoCd=ZZZ, fromDt=220408, toDt=220415, fRng=MSG_TP_REQ_YET, fNmTp=DEFAULT, recvDir=/home/hyphen/HpnBbnkDemon/recv, zipYn=true, encTp=NONE
+08:49:26.561 [main] DEBUG UpdnLib - [chkRplyMsg] NO_DATA
+08:49:26.676 [main] DEBUG HpnBbnk - [recvDataMulti](NO_DATA) sendCd=A001, recvCd=9999, infoCd=ZZZ, fromDt=220408, toDt=220415, findRng=E, runMode=T
+08:49:26.676 [main] DEBUG HpnBbnkDemon - [chkRcvData](A001) NO_DATA
+08:49:26.676 [main] DEBUG HpnBbnkDemon - WAIT...
+
+
+08:59:26.676 [main] DEBUG Config - resource=hpnbbnk.properties
+08:59:26.676 [main] DEBUG Config - hyphenId=A001
+08:59:26.676 [main] DEBUG Config - sendDir=/home/hyphen/HpnBbnkDemon/send, usedDir=/home/hyphen/HpnBbnkDemon/send/usedfile, recvDir=/home/hyphen/HpnBbnkDemon/recv, recvDataTp=ZZZ, fromDate=20220408, toDate=20220415, reqTp=E, monitTerm=10, delnYn=true, zipYn=true, netBps=2M, fileNameTp=DFLT, runMode=T, customIpYn=N
+08:59:26.677 [main] DEBUG HpnBbnkDemon - [chkRcvData] work 4 hyphenId:A001
+08:59:26.677 [main] DEBUG HpnBbnk - [recvDataMulti](START) sendCd=A001, recvCd=9999, infoCd=ZZZ, fromDt=20220408, toDt=20220415, findRng=E, sFNmTp=DFLT, recvDir=/home/hyphen/HpnBbnkDemon/recv, runMode=T
+08:59:26.677 [main] DEBUG UpdnLib - [rcvDataMulti] ipAddr=129.200.9.18, port=50001, sendCd=A001, recvCd=9999, infoCd=ZZZ, fromDt=220408, toDt=220415, fRng=MSG_TP_REQ_YET, fNmTp=DEFAULT, recvDir=/home/hyphen/HpnBbnkDemon/recv, zipYn=true, encTp=NONE
+08:59:27.414 [main] DEBUG UpdnLib - [chkRplyMsg] NO_DATA
+08:59:27.598 [main] DEBUG HpnBbnk - [recvDataMulti](NO_DATA) sendCd=A001, recvCd=9999, infoCd=ZZZ, fromDt=220408, toDt=220415, findRng=E, runMode=T
+08:59:27.599 [main] DEBUG HpnBbnkDemon - [chkRcvData](A001) NO_DATA
+08:59:27.599 [main] DEBUG HpnBbnkDemon - WAIT...
+
+
