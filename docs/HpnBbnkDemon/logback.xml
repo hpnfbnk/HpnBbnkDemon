@@ -10,9 +10,10 @@
 	</appender>
 	
 	<appender name="file" class="ch.qos.logback.core.rolling.RollingFileAppender">
-		<!--<file>C:\HpnBbnkDemon\log\HpnBbnkDemon.log</file>-->
+		<!--<file>C:\itjProject\HpnBbnkDemon\docs\HpnBbnkDemon\log\HpnBbnkDemon.log</file>-->
 		<file>./log/HpnBbnkDemon.log</file>
 		<rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+			<!--<fileNamePattern>C:\itjProject\HpnBbnkDemon\docs\HpnBbnkDemon\log\HpnBbnkDemon.%d{yyyyMMdd}.log</fileNamePattern>-->
 			<fileNamePattern>./log/HpnBbnkDemon.%d{yyyyMMdd}.log</fileNamePattern>
 			<maxHistory>7</maxHistory>
 		</rollingPolicy>
@@ -23,7 +24,7 @@
 		</layout>
 	</appender>
 	<!--
-	<logger name="com.hyphen.fbnk" level="INFO" />
+	<logger name="com.hyphen.fbnk" level="DEBUG" />
 	-->
 	<root level="DEBUG">
 		<!--<appender-ref ref="console" />-->

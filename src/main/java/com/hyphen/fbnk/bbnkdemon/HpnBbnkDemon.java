@@ -35,7 +35,6 @@ public class HpnBbnkDemon {
             try{
                 //환경파일 읽어들임.
                 Config.setConfig();
-
                 //HpnBbnk 생성
                 if(Config.getCustomIpYn().equals("Y")){
                     hpnBbnk = new HpnBbnk(Config.getHpnSvrIpProd(), Config.getHpnSvrIpTest(), Config.getHpnSvrPort(), Config.getHpnSvrIpPrf(),
@@ -57,7 +56,6 @@ public class HpnBbnkDemon {
                 try {Thread.sleep(Config.getMonitTerm()*60*1000L);} catch (InterruptedException ignored) {}
             }
         }//while end.
-
     }
 
     public void chkRcvData(){
@@ -67,13 +65,21 @@ public class HpnBbnkDemon {
             log.debug("[chkRcvData] work 4 hyphenId:"+hpnId);
             if(rcvDataLists!=null)  rcvDataLists.clear();
             //hpnBbnk.recvDataMulti("KEDU", "9999", "ZZZ", "20220410", "20220414", "A", "KEDU", "./sample", "T");
-            rcvDataLists = hpnBbnk.recvDataMulti(hpnId, Config.getRecvCd(), Config.getRecvDataTp(), Config.getFromDate(), Config.getToDate(),
+
+            if(Config.getCocaDbYn().equals("Y"))
+                rcvDataLists = hpnBbnk.recvDataMulti2DB(hpnId, Config.getRecvCd(), Config.getRecvDataTp(), Config.getFromDate(), Config.getToDate(),
+                        Config.getReqTp(), Config.getFileNameTp(), Config.getRecvDir(), Config.getRunMode(), Config.getJdbcDriver(), Config.getJdbcUrl(),
+                        Config.getJdbcUser(), Config.getJdbcPwd());
+            else
+                rcvDataLists = hpnBbnk.recvDataMulti(hpnId, Config.getRecvCd(), Config.getRecvDataTp(), Config.getFromDate(), Config.getToDate(),
                     Config.getReqTp(), Config.getFileNameTp(), Config.getRecvDir(), Config.getRunMode());
 
             if(rcvDataLists.isEmpty())
                 log.debug("[chkRcvData]("+hpnId+") NO_DATA");
             else
                 for (DtoFileList rcvDataList : rcvDataLists) log.debug("[chkRcvData]("+hpnId+") : "+rcvDataList);
+
+
         }
     }
 

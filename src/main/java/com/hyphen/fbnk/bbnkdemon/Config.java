@@ -38,6 +38,11 @@ public class Config {
     private static int hpnSvrPort = 29994;
     private static String hpnSvrIpPrf = "121.138.30.10";
     private static int hpnSvrPortPrf = 29995;
+    private static String cocaDbYn = "N";
+    private static String jdbcUser = "";
+    private static String jdbcPwd = "";
+    private static String jdbcDriver = "";
+    private static String jdbcUrl = "";
 
     public Config(){}
     public static void setConfig() {
@@ -80,6 +85,11 @@ public class Config {
         hpnSvrPort      = Integer.parseInt(get("hpnSvrPort"));
         hpnSvrIpPrf     = get("hpnSvrIpPrf");
         hpnSvrPortPrf   = Integer.parseInt(get("hpnSvrPortPrf"));
+        cocaDbYn        = get("cocaDbYn");
+        jdbcUser        = get("jdbcUser");
+        jdbcPwd         = get("jdbcPwd");
+        jdbcDriver      = get("jdbcDriver");
+        jdbcUrl         = get("jdbcUrl");
 
         for (String hpnId : hyphenId)   log.debug("hyphenId="+hpnId);
         log.debug("sendDir="+sendDir+", usedDir="+usedDir+", recvDir="+recvDir+", recvDataTp="+recvDataTp+
@@ -90,6 +100,8 @@ public class Config {
                     ", hpnSvrPortPrf="+hpnSvrPortPrf);
         if(fileNameTp.equals("KEDU"))
             log.debug("sendOkDir="+sendOkDir+", sendFailDir="+sendFailDir);
+        if(cocaDbYn.equals("Y"))
+            log.debug("cocaDbYn="+cocaDbYn+", jdbcDriver="+jdbcDriver+", jdbcUrl="+jdbcUrl);
     }
 
     public static String spanDate(String yyyymmdd, int span){
@@ -134,9 +146,7 @@ public class Config {
         return recvDataTp;
     }
 
-    public static String getFromDate() {
-        return fromDate;
-    }
+    public static String getFromDate() { return fromDate; }
 
     public static String getToDate() {
         return toDate;
@@ -158,9 +168,7 @@ public class Config {
         return delnYn;
     }
 
-    public static boolean isZipYn() {
-        return zipYn;
-    }
+    public static boolean isZipYn() { return zipYn; }
 
     public static String getNetBps() {
         return netBps;
@@ -197,5 +205,9 @@ public class Config {
     public static int getHpnSvrPortPrf() {
         return hpnSvrPortPrf;
     }
-
+    public static String getCocaDbYn() {return cocaDbYn;}
+    public static String getJdbcUser() {return jdbcUser;}
+    public static String getJdbcPwd() {return jdbcPwd;}
+    public static String getJdbcDriver() {return jdbcDriver;}
+    public static String getJdbcUrl() {return jdbcUrl;}
 }

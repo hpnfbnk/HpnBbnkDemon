@@ -1,12 +1,12 @@
 #!/usr/bin/ksh
 
-##HYPHEN_ID(HYPHEN¿¡¼­ ¹ß±Þ¹ÞÀº ID)
+##HYPHEN_ID(HYPHENï¿½ï¿½ï¿½ï¿½ ï¿½ß±Þ¹ï¿½ï¿½ï¿½ ID)
 HYPHEN_ID=A001
-##java¼³Ä¡°æ·Î (java7 ÀÌ»ó ÇÊ¿ä)
+##javaï¿½ï¿½Ä¡ï¿½ï¿½ï¿½ (java7 ï¿½Ì»ï¿½ ï¿½Ê¿ï¿½)
 JAVA_HOME=/usr/java7_64
-##HYPHEN¸ðµâ ¼³Ä¡°æ·Î
+##HYPHENï¿½ï¿½ï¿½ ï¿½ï¿½Ä¡ï¿½ï¿½ï¿½
 INSTALL_HOME=/home/hyphen/HpnBbnkDemon
-##Process ÀÌ¸§
+##Process ï¿½Ì¸ï¿½
 PROC_NAME=HpnBbnkDemon_$HYPHEN_ID
 #######Daemon Process start 
-nohup $JAVA_HOME/bin/java -D$PROC_NAME -jar $INSTALL_HOME/HpnBbnkDemon-1.0.1-jar-with-dependencies.jar 1>/dev/null 2>$INSTALL_HOME/log/err.log &
+nohup $JAVA_HOME/bin/java -D$PROC_NAME -jar $INSTALL_HOME/HpnBbnkDemon-1.1.0-jar-with-dependencies.jar 1>/dev/null 2>$INSTALL_HOME/log/err.log &
