@@ -131,13 +131,9 @@ hpnbbnk.properties 내의 fileNameTp 값이 기본(DFLT)인 경우
 ### 파일명타입:K-에듀파인용 (fileNameTp=KEDU)
 K-에듀파인용 파일명타입 규칙에 따릅니다.
 
-## 기타참고자료
-- [배치펌뱅킹-은행포맷.zip](https://hpnfbnk.github.io/HpnBbnk/배치펌뱅킹-은행포맷.zip) : 은행별 파일포맷
-- [HYPHEN통합(v1004)_파일포맷.xlsx](https://hpnfbnk.github.io/HpnBbnk/HYPHEN통합(v1004)_파일포맷.xlsx) : HYPHEN-공통 파일포맷(HYPHEN 타입)
-- [HYPHEN통합(금결원호환v2001)_파일포맷.docx](https://hpnfbnk.github.io/HpnBbnk/HYPHEN통합(금결원호환v2001)_파일포맷.docx) : HYPHEN-공통 파일포맷(금결원호환 타입)
-- [출금이체정보_통합관리시스템_전산설계서(KSNET)V3.7.docx](https://hpnfbnk.github.io/HpnBbnk/출금이체정보_통합관리시스템_전산설계서(KSNET)V3.7.docx) : 계좌통합관리업무용 안내문서
-- [HYPHEN배치대행_파일포맷(금결원호환v2016).xls](https://hpnfbnk.github.io/HpnBbnk/HYPHEN배치대행_파일포맷(금결원호환v2016).xls) : 배치대행이체 파일포맷
-- [법인카드가맹점신표준전문(banking).xls](https://hpnfbnk.github.io/HpnBbnk/법인카드가맹점신표준전문(banking).xls) : 법인카드사용내역 파일포맷
-- [HYPHEN펌뱅킹_파일종류구분코드표.xlsx](https://hpnfbnk.github.io/HpnBbnk/HYPHEN펌뱅킹_파일종류구분코드표.xlsx) : 파일종류구분표
-- [배치펌뱅킹_오류코드정리.xlsx](https://hpnfbnk.github.io/HpnBbnk/배치펌뱅킹_오류코드정리.xlsx) : 오류코드표
-- [HYPHEN_Tcp송수신전문내역서.xls](https://hpnfbnk.github.io/HpnBbnk/HYPHEN_Tcp송수신전문내역서.xls) : 전문상세내역서
+## DB 연계
+법인카드사용내역(C01~C06)의 경우 준비된 TABLE에 INSERT시킬수도 있습니다.
+* 첨부된 [TableScheme.sql](https://hpnfbnk.github.io/HpnBbnkDemon/HpnBbnkDemon/TableScheme.sql) 을 참조해 각업무별 TABLE들을 만들어 놓습니다.
+* hpnbbnk.properties 의 cocaDbYn값을 Y로 하고 사용하실 DB환경에 따라 jdbc관련값(jdbcUser, jdbcPwd, jdbcDriver, jdbcUrl)들을 설정합니다.
+* 사용하실 DB환경에 알맞은 JDBC 라이브러리(mysql-connector-java-5.1.6-bin.jar, ojdbc14.jar 등..)를 classpath에 포함시킵니다.
+* 법인카드사용내역파일이 수신되면 그내역이 각업무별 table에 insert될것입니다. 
