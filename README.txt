@@ -10,7 +10,7 @@
 JAVA 1.7 이상을 요구합니다.
 
 ## 설치
-[HpnBbnkDemon.tar.gz](https://hpnfbnk.github.io/HpnBbnkDemon/HpnBbnkDemon.tar.gz) 을 다운받아 압축해제하면 됩니다.
+[HpnBbnkDemon-1.1.0.tar.gz](https://hpnfbnk.github.io/HpnBbnkDemon/HpnBbnkDemon-1.1.0.tar.gz) 을 다운받아 압축해제하면 됩니다.
 
 ## 환경설정
 ### Logging (logback.xml)
@@ -131,3 +131,9 @@ hpnbbnk.properties 내의 fileNameTp 값이 기본(DFLT)인 경우
 ### 파일명타입:K-에듀파인용 (fileNameTp=KEDU)
 K-에듀파인용 파일명타입 규칙에 따릅니다.
 
+## DB 연계
+법인카드사용내역(C01~C06)의 경우 준비된 TABLE에 INSERT시킬수도 있습니다.
+* 첨부된 [TableScheme.sql](https://hpnfbnk.github.io/HpnBbnkDemon/HpnBbnkDemon/logback.xml/TableScheme.sql) 을 참조해 각업무별 TABLE들을 만들어 놓습니다.
+* hpnbbnk.properties 의 cocaDbYn값을 Y로 하고 사용하실 DB환경에 따라 jdbc관련값(jdbcUser, jdbcPwd, jdbcDriver, jdbcUrl)들을 설정합니다.
+* 사용하실 DB환경에 알맞은 JDBC 라이브러리(mysql-connector-java-5.1.6-bin.jar, ojdbc14.jar 등..)를 classpath에 포함시킵니다.
+* 법인카드사용내역파일이 수신되면 그내역이 각업무별 table에 insert될것입니다.
