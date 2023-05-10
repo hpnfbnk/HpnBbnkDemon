@@ -1,0 +1,145 @@
+15:54:07,370 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Found resource [logback.xml] at [file:/C:/itjProject/HpnBbnkDemon/docs/HpnBbnkDemon/logback.xml]
+15:54:07,527 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - debug attribute not set
+15:54:07,543 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - Setting ReconfigureOnChangeFilter scanning period to 3 seconds
+15:54:07,543 |-INFO in ReconfigureOnChangeFilter{invocationCounter=0} - Will scan for changes in [[C:\itjProject\HpnBbnkDemon\docs\HpnBbnkDemon\logback.xml]] every 3 seconds. 
+15:54:07,543 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - Adding ReconfigureOnChangeFilter as a turbo filter
+15:54:07,571 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [ch.qos.logback.core.ConsoleAppender]
+15:54:07,575 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [console]
+15:54:07,624 |-INFO in ch.qos.logback.core.joran.action.NestedComplexPropertyIA - Assuming default type [ch.qos.logback.classic.PatternLayout] for [layout] property
+15:54:07,790 |-WARN in ch.qos.logback.core.ConsoleAppender[console] - This appender no longer admits a layout as a sub-component, set an encoder instead.
+15:54:07,790 |-WARN in ch.qos.logback.core.ConsoleAppender[console] - To ensure compatibility, wrapping your layout in LayoutWrappingEncoder.
+15:54:07,790 |-WARN in ch.qos.logback.core.ConsoleAppender[console] - See also http://logback.qos.ch/codes.html#layoutInsteadOfEncoder for details
+15:54:07,790 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [ch.qos.logback.core.rolling.RollingFileAppender]
+15:54:07,797 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [file]
+15:54:07,821 |-INFO in c.q.l.core.rolling.TimeBasedRollingPolicy - No compression will be used
+15:54:07,824 |-INFO in c.q.l.core.rolling.TimeBasedRollingPolicy - Will use the pattern ./log/HpnBbnkDemon.%d{yyyyMMdd}.log for the active file
+15:54:07,829 |-INFO in c.q.l.core.rolling.DefaultTimeBasedFileNamingAndTriggeringPolicy - The date pattern is 'yyyyMMdd' from file name pattern './log/HpnBbnkDemon.%d{yyyyMMdd}.log'.
+15:54:07,829 |-INFO in c.q.l.core.rolling.DefaultTimeBasedFileNamingAndTriggeringPolicy - Roll-over at midnight.
+15:54:07,836 |-INFO in c.q.l.core.rolling.DefaultTimeBasedFileNamingAndTriggeringPolicy - Setting initial period to Tue Jun 14 16:24:39 KST 2022
+15:54:07,837 |-INFO in ch.qos.logback.core.joran.action.NestedComplexPropertyIA - Assuming default type [ch.qos.logback.classic.PatternLayout] for [layout] property
+15:54:07,838 |-WARN in ch.qos.logback.core.rolling.RollingFileAppender[file] - This appender no longer admits a layout as a sub-component, set an encoder instead.
+15:54:07,838 |-WARN in ch.qos.logback.core.rolling.RollingFileAppender[file] - To ensure compatibility, wrapping your layout in LayoutWrappingEncoder.
+15:54:07,838 |-WARN in ch.qos.logback.core.rolling.RollingFileAppender[file] - See also http://logback.qos.ch/codes.html#layoutInsteadOfEncoder for details
+15:54:07,840 |-INFO in ch.qos.logback.core.rolling.RollingFileAppender[file] - Active log file name: ./log/HpnBbnkDemon.log
+15:54:07,840 |-INFO in ch.qos.logback.core.rolling.RollingFileAppender[file] - File property is set to [./log/HpnBbnkDemon.log]
+15:54:07,842 |-INFO in ch.qos.logback.classic.joran.action.RootLoggerAction - Setting level of ROOT logger to DEBUG
+15:54:07,842 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [file] to Logger[ROOT]
+15:54:07,843 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - End of configuration.
+15:54:07,845 |-INFO in ch.qos.logback.classic.joran.JoranConfigurator@270421f5 - Registering current configuration as safe fallback point
+
+15:57:48,839 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Found resource [logback.xml] at [file:/C:/itjProject/HpnBbnkDemon/docs/HpnBbnkDemon/logback.xml]
+15:57:48,906 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - debug attribute not set
+15:57:48,915 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - Setting ReconfigureOnChangeFilter scanning period to 3 seconds
+15:57:48,915 |-INFO in ReconfigureOnChangeFilter{invocationCounter=0} - Will scan for changes in [[C:\itjProject\HpnBbnkDemon\docs\HpnBbnkDemon\logback.xml]] every 3 seconds. 
+15:57:48,915 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - Adding ReconfigureOnChangeFilter as a turbo filter
+15:57:48,934 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [ch.qos.logback.core.ConsoleAppender]
+15:57:48,937 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [console]
+15:57:48,957 |-INFO in ch.qos.logback.core.joran.action.NestedComplexPropertyIA - Assuming default type [ch.qos.logback.classic.PatternLayout] for [layout] property
+15:57:49,022 |-WARN in ch.qos.logback.core.ConsoleAppender[console] - This appender no longer admits a layout as a sub-component, set an encoder instead.
+15:57:49,022 |-WARN in ch.qos.logback.core.ConsoleAppender[console] - To ensure compatibility, wrapping your layout in LayoutWrappingEncoder.
+15:57:49,022 |-WARN in ch.qos.logback.core.ConsoleAppender[console] - See also http://logback.qos.ch/codes.html#layoutInsteadOfEncoder for details
+15:57:49,022 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [ch.qos.logback.core.rolling.RollingFileAppender]
+15:57:49,026 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [file]
+15:57:49,041 |-INFO in c.q.l.core.rolling.TimeBasedRollingPolicy - No compression will be used
+15:57:49,043 |-INFO in c.q.l.core.rolling.TimeBasedRollingPolicy - Will use the pattern ./log/HpnBbnkDemon.%d{yyyyMMdd}.log for the active file
+15:57:49,047 |-INFO in c.q.l.core.rolling.DefaultTimeBasedFileNamingAndTriggeringPolicy - The date pattern is 'yyyyMMdd' from file name pattern './log/HpnBbnkDemon.%d{yyyyMMdd}.log'.
+15:57:49,047 |-INFO in c.q.l.core.rolling.DefaultTimeBasedFileNamingAndTriggeringPolicy - Roll-over at midnight.
+15:57:49,050 |-INFO in c.q.l.core.rolling.DefaultTimeBasedFileNamingAndTriggeringPolicy - Setting initial period to Tue Jan 03 15:54:07 KST 2023
+15:57:49,051 |-INFO in ch.qos.logback.core.joran.action.NestedComplexPropertyIA - Assuming default type [ch.qos.logback.classic.PatternLayout] for [layout] property
+15:57:49,051 |-WARN in ch.qos.logback.core.rolling.RollingFileAppender[file] - This appender no longer admits a layout as a sub-component, set an encoder instead.
+15:57:49,051 |-WARN in ch.qos.logback.core.rolling.RollingFileAppender[file] - To ensure compatibility, wrapping your layout in LayoutWrappingEncoder.
+15:57:49,051 |-WARN in ch.qos.logback.core.rolling.RollingFileAppender[file] - See also http://logback.qos.ch/codes.html#layoutInsteadOfEncoder for details
+15:57:49,053 |-INFO in ch.qos.logback.core.rolling.RollingFileAppender[file] - Active log file name: ./log/HpnBbnkDemon.log
+15:57:49,053 |-INFO in ch.qos.logback.core.rolling.RollingFileAppender[file] - File property is set to [./log/HpnBbnkDemon.log]
+15:57:49,054 |-INFO in ch.qos.logback.classic.joran.action.RootLoggerAction - Setting level of ROOT logger to DEBUG
+15:57:49,054 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [file] to Logger[ROOT]
+15:57:49,055 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - End of configuration.
+15:57:49,056 |-INFO in ch.qos.logback.classic.joran.JoranConfigurator@270421f5 - Registering current configuration as safe fallback point
+
+15:59:25,333 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Found resource [logback.xml] at [file:/C:/itjProject/HpnBbnkDemon/docs/HpnBbnkDemon/logback.xml]
+15:59:25,421 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - debug attribute not set
+15:59:25,429 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - Setting ReconfigureOnChangeFilter scanning period to 3 seconds
+15:59:25,429 |-INFO in ReconfigureOnChangeFilter{invocationCounter=0} - Will scan for changes in [[C:\itjProject\HpnBbnkDemon\docs\HpnBbnkDemon\logback.xml]] every 3 seconds. 
+15:59:25,429 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - Adding ReconfigureOnChangeFilter as a turbo filter
+15:59:25,446 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [ch.qos.logback.core.ConsoleAppender]
+15:59:25,449 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [console]
+15:59:25,469 |-INFO in ch.qos.logback.core.joran.action.NestedComplexPropertyIA - Assuming default type [ch.qos.logback.classic.PatternLayout] for [layout] property
+15:59:25,531 |-WARN in ch.qos.logback.core.ConsoleAppender[console] - This appender no longer admits a layout as a sub-component, set an encoder instead.
+15:59:25,531 |-WARN in ch.qos.logback.core.ConsoleAppender[console] - To ensure compatibility, wrapping your layout in LayoutWrappingEncoder.
+15:59:25,531 |-WARN in ch.qos.logback.core.ConsoleAppender[console] - See also http://logback.qos.ch/codes.html#layoutInsteadOfEncoder for details
+15:59:25,532 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [ch.qos.logback.core.rolling.RollingFileAppender]
+15:59:25,535 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [file]
+15:59:25,549 |-INFO in c.q.l.core.rolling.TimeBasedRollingPolicy - No compression will be used
+15:59:25,551 |-INFO in c.q.l.core.rolling.TimeBasedRollingPolicy - Will use the pattern ./log/HpnBbnkDemon.%d{yyyyMMdd}.log for the active file
+15:59:25,555 |-INFO in c.q.l.core.rolling.DefaultTimeBasedFileNamingAndTriggeringPolicy - The date pattern is 'yyyyMMdd' from file name pattern './log/HpnBbnkDemon.%d{yyyyMMdd}.log'.
+15:59:25,555 |-INFO in c.q.l.core.rolling.DefaultTimeBasedFileNamingAndTriggeringPolicy - Roll-over at midnight.
+15:59:25,558 |-INFO in c.q.l.core.rolling.DefaultTimeBasedFileNamingAndTriggeringPolicy - Setting initial period to Tue Jan 03 15:57:49 KST 2023
+15:59:25,560 |-INFO in ch.qos.logback.core.joran.action.NestedComplexPropertyIA - Assuming default type [ch.qos.logback.classic.PatternLayout] for [layout] property
+15:59:25,560 |-WARN in ch.qos.logback.core.rolling.RollingFileAppender[file] - This appender no longer admits a layout as a sub-component, set an encoder instead.
+15:59:25,560 |-WARN in ch.qos.logback.core.rolling.RollingFileAppender[file] - To ensure compatibility, wrapping your layout in LayoutWrappingEncoder.
+15:59:25,560 |-WARN in ch.qos.logback.core.rolling.RollingFileAppender[file] - See also http://logback.qos.ch/codes.html#layoutInsteadOfEncoder for details
+15:59:25,562 |-INFO in ch.qos.logback.core.rolling.RollingFileAppender[file] - Active log file name: ./log/HpnBbnkDemon.log
+15:59:25,562 |-INFO in ch.qos.logback.core.rolling.RollingFileAppender[file] - File property is set to [./log/HpnBbnkDemon.log]
+15:59:25,564 |-INFO in ch.qos.logback.classic.joran.action.RootLoggerAction - Setting level of ROOT logger to DEBUG
+15:59:25,564 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [file] to Logger[ROOT]
+15:59:25,564 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - End of configuration.
+15:59:25,565 |-INFO in ch.qos.logback.classic.joran.JoranConfigurator@270421f5 - Registering current configuration as safe fallback point
+
+16:07:34,559 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Found resource [logback.xml] at [file:/C:/itjProject/HpnBbnkDemon/docs/HpnBbnkDemon/logback.xml]
+16:07:34,627 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - debug attribute not set
+16:07:34,637 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - Setting ReconfigureOnChangeFilter scanning period to 3 seconds
+16:07:34,637 |-INFO in ReconfigureOnChangeFilter{invocationCounter=0} - Will scan for changes in [[C:\itjProject\HpnBbnkDemon\docs\HpnBbnkDemon\logback.xml]] every 3 seconds. 
+16:07:34,637 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - Adding ReconfigureOnChangeFilter as a turbo filter
+16:07:34,663 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [ch.qos.logback.core.ConsoleAppender]
+16:07:34,667 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [console]
+16:07:34,693 |-INFO in ch.qos.logback.core.joran.action.NestedComplexPropertyIA - Assuming default type [ch.qos.logback.classic.PatternLayout] for [layout] property
+16:07:34,896 |-WARN in ch.qos.logback.core.ConsoleAppender[console] - This appender no longer admits a layout as a sub-component, set an encoder instead.
+16:07:34,896 |-WARN in ch.qos.logback.core.ConsoleAppender[console] - To ensure compatibility, wrapping your layout in LayoutWrappingEncoder.
+16:07:34,896 |-WARN in ch.qos.logback.core.ConsoleAppender[console] - See also http://logback.qos.ch/codes.html#layoutInsteadOfEncoder for details
+16:07:34,896 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [ch.qos.logback.core.rolling.RollingFileAppender]
+16:07:34,900 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [file]
+16:07:34,919 |-INFO in c.q.l.core.rolling.TimeBasedRollingPolicy - No compression will be used
+16:07:34,921 |-INFO in c.q.l.core.rolling.TimeBasedRollingPolicy - Will use the pattern ./log/HpnBbnkDemon.%d{yyyyMMdd}.log for the active file
+16:07:34,926 |-INFO in c.q.l.core.rolling.DefaultTimeBasedFileNamingAndTriggeringPolicy - The date pattern is 'yyyyMMdd' from file name pattern './log/HpnBbnkDemon.%d{yyyyMMdd}.log'.
+16:07:34,926 |-INFO in c.q.l.core.rolling.DefaultTimeBasedFileNamingAndTriggeringPolicy - Roll-over at midnight.
+16:07:34,929 |-INFO in c.q.l.core.rolling.DefaultTimeBasedFileNamingAndTriggeringPolicy - Setting initial period to Tue Jan 03 15:59:25 KST 2023
+16:07:34,930 |-INFO in ch.qos.logback.core.joran.action.NestedComplexPropertyIA - Assuming default type [ch.qos.logback.classic.PatternLayout] for [layout] property
+16:07:34,931 |-WARN in ch.qos.logback.core.rolling.RollingFileAppender[file] - This appender no longer admits a layout as a sub-component, set an encoder instead.
+16:07:34,931 |-WARN in ch.qos.logback.core.rolling.RollingFileAppender[file] - To ensure compatibility, wrapping your layout in LayoutWrappingEncoder.
+16:07:34,931 |-WARN in ch.qos.logback.core.rolling.RollingFileAppender[file] - See also http://logback.qos.ch/codes.html#layoutInsteadOfEncoder for details
+16:07:34,933 |-INFO in ch.qos.logback.core.rolling.RollingFileAppender[file] - Active log file name: ./log/HpnBbnkDemon.log
+16:07:34,933 |-INFO in ch.qos.logback.core.rolling.RollingFileAppender[file] - File property is set to [./log/HpnBbnkDemon.log]
+16:07:34,935 |-INFO in ch.qos.logback.classic.joran.action.RootLoggerAction - Setting level of ROOT logger to DEBUG
+16:07:34,935 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [file] to Logger[ROOT]
+16:07:34,936 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - End of configuration.
+16:07:34,937 |-INFO in ch.qos.logback.classic.joran.JoranConfigurator@270421f5 - Registering current configuration as safe fallback point
+
+16:15:13,157 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Found resource [logback.xml] at [file:/C:/itjProject/HpnBbnkDemon/docs/HpnBbnkDemon/logback.xml]
+16:15:13,241 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - debug attribute not set
+16:15:13,251 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - Setting ReconfigureOnChangeFilter scanning period to 3 seconds
+16:15:13,251 |-INFO in ReconfigureOnChangeFilter{invocationCounter=0} - Will scan for changes in [[C:\itjProject\HpnBbnkDemon\docs\HpnBbnkDemon\logback.xml]] every 3 seconds. 
+16:15:13,251 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - Adding ReconfigureOnChangeFilter as a turbo filter
+16:15:13,274 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [ch.qos.logback.core.ConsoleAppender]
+16:15:13,276 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [console]
+16:15:13,296 |-INFO in ch.qos.logback.core.joran.action.NestedComplexPropertyIA - Assuming default type [ch.qos.logback.classic.PatternLayout] for [layout] property
+16:15:13,357 |-WARN in ch.qos.logback.core.ConsoleAppender[console] - This appender no longer admits a layout as a sub-component, set an encoder instead.
+16:15:13,357 |-WARN in ch.qos.logback.core.ConsoleAppender[console] - To ensure compatibility, wrapping your layout in LayoutWrappingEncoder.
+16:15:13,357 |-WARN in ch.qos.logback.core.ConsoleAppender[console] - See also http://logback.qos.ch/codes.html#layoutInsteadOfEncoder for details
+16:15:13,357 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [ch.qos.logback.core.rolling.RollingFileAppender]
+16:15:13,360 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [file]
+16:15:13,374 |-INFO in c.q.l.core.rolling.TimeBasedRollingPolicy - No compression will be used
+16:15:13,375 |-INFO in c.q.l.core.rolling.TimeBasedRollingPolicy - Will use the pattern ./log/HpnBbnkDemon.%d{yyyyMMdd}.log for the active file
+16:15:13,379 |-INFO in c.q.l.core.rolling.DefaultTimeBasedFileNamingAndTriggeringPolicy - The date pattern is 'yyyyMMdd' from file name pattern './log/HpnBbnkDemon.%d{yyyyMMdd}.log'.
+16:15:13,379 |-INFO in c.q.l.core.rolling.DefaultTimeBasedFileNamingAndTriggeringPolicy - Roll-over at midnight.
+16:15:13,382 |-INFO in c.q.l.core.rolling.DefaultTimeBasedFileNamingAndTriggeringPolicy - Setting initial period to Tue Jan 03 16:07:34 KST 2023
+16:15:13,383 |-INFO in ch.qos.logback.core.joran.action.NestedComplexPropertyIA - Assuming default type [ch.qos.logback.classic.PatternLayout] for [layout] property
+16:15:13,383 |-WARN in ch.qos.logback.core.rolling.RollingFileAppender[file] - This appender no longer admits a layout as a sub-component, set an encoder instead.
+16:15:13,383 |-WARN in ch.qos.logback.core.rolling.RollingFileAppender[file] - To ensure compatibility, wrapping your layout in LayoutWrappingEncoder.
+16:15:13,383 |-WARN in ch.qos.logback.core.rolling.RollingFileAppender[file] - See also http://logback.qos.ch/codes.html#layoutInsteadOfEncoder for details
+16:15:13,385 |-INFO in ch.qos.logback.core.rolling.RollingFileAppender[file] - Active log file name: ./log/HpnBbnkDemon.log
+16:15:13,385 |-INFO in ch.qos.logback.core.rolling.RollingFileAppender[file] - File property is set to [./log/HpnBbnkDemon.log]
+16:15:13,387 |-INFO in ch.qos.logback.classic.joran.action.RootLoggerAction - Setting level of ROOT logger to DEBUG
+16:15:13,387 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [file] to Logger[ROOT]
+16:15:13,388 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - End of configuration.
+16:15:13,389 |-INFO in ch.qos.logback.classic.joran.JoranConfigurator@270421f5 - Registering current configuration as safe fallback point
+

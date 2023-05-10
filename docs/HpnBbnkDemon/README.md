@@ -104,7 +104,7 @@ hpnbbnk.properties 내의 fileNameTp 값이 기본(DFLT)인 경우
 * 업무종류 구분 : HYPHEN으로 송신할파일은 파일명에 **BRQ**라는 구분자를 가지고 있어  야합니다.
   (BRQ라는 구분자가 없는것은 송신대상파일이 아니라고 판단해 송신업무에서 제외됩니다.)
 * 송신일자 : 송신일자가 당일인것만 송신대상파일이라고 취급합니다.
-* 송신자코드 : 파일을 보내는측의 HYPHEN_ID (A001, 1234 등...)+69+
+* 송신자코드 : 파일을 보내는측의 HYPHEN_ID (A001, 1234 등...)
 * 수신자코드 : 파일을 받을기관의 HYPHEN_ID(0081:하나은행, 0084:우리은행, 0240:삼성증권, 0997:HYPHEN배치대행서버, 0998:HYPHEN통합처리서버 등..)
 * 파일종류구분 : 송신파일의 종류(200:집금, 300:지급, R00:계좌등록, Y00:증빙자료,I02:집금-통합, I03:지급-통합, I0R:계좌등록-통합, IY0:증빙자료-통합,A02:집금-대행, A0R:계좌등록-대행, AY0:증빙자료-대행,Y01:계좌변경, Y02:계좌변경결과, Y03:해지통보, Y05:증빙자료사후점검,Y06:증빙자료사후점검정보, C01:법인카드승인내역 등..)
 * 순번 : 동일한 수신자에게 동일한종류의 파일을 여러개보낼때 순번으로 파일구분.
@@ -137,3 +137,8 @@ K-에듀파인용 파일명타입 규칙에 따릅니다.
 * hpnbbnk.properties 의 cocaDbYn값을 Y로 하고 사용하실 DB환경에 따라 jdbc관련값(jdbcUser, jdbcPwd, jdbcDriver, jdbcUrl)들을 설정합니다.
 * 사용하실 DB환경에 알맞은 JDBC 라이브러리(mysql-connector-java-5.1.6-bin.jar, ojdbc14.jar 등..)를 classpath에 포함시킵니다.
 * 법인카드사용내역파일이 수신되면 그내역이 각업무별 table에 insert될것입니다. 
+* Sample JDBC library : 
+  [INFORMIX용](https://hpnfbnk.github.io/HpnBbnkDemon/ifxjdbc.jar),
+  [MYSQL용](https://hpnfbnk.github.io/HpnBbnkDemon/mysql-connector-java-5.1.6-bin.jar),
+  [ORACLE용](https://hpnfbnk.github.io/HpnBbnkDemon/ojdbc14.jar),
+  [MSSQL용](https://hpnfbnk.github.io/HpnBbnkDemon/sqljdbc.jar)

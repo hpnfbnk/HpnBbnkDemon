@@ -1,0 +1,20 @@
+java.lang.NullPointerException
+	at com.hyphen.fbnk.bbnkdemon.HpnBbnkDemon.chkSndData(HpnBbnkDemon.java:90)
+	at com.hyphen.fbnk.bbnkdemon.HpnBbnkDemon.loopWork(HpnBbnkDemon.java:47)
+	at com.hyphen.fbnk.bbnkdemon.HpnBbnkDemon.main(HpnBbnkDemon.java:29)
+java.lang.NullPointerException
+	at com.hyphen.fbnk.bbnkdemon.HpnBbnkDemon.chkSndData(HpnBbnkDemon.java:90)
+	at com.hyphen.fbnk.bbnkdemon.HpnBbnkDemon.loopWork(HpnBbnkDemon.java:47)
+	at com.hyphen.fbnk.bbnkdemon.HpnBbnkDemon.main(HpnBbnkDemon.java:29)
+java.lang.NullPointerException
+	at com.hyphen.fbnk.bbnkdemon.HpnBbnkDemon.chkSndData(HpnBbnkDemon.java:90)
+	at com.hyphen.fbnk.bbnkdemon.HpnBbnkDemon.loopWork(HpnBbnkDemon.java:47)
+	at com.hyphen.fbnk.bbnkdemon.HpnBbnkDemon.main(HpnBbnkDemon.java:29)
+java.lang.NullPointerException
+	at com.hyphen.fbnk.bbnkdemon.HpnBbnkDemon.chkSndData(HpnBbnkDemon.java:90)
+	at com.hyphen.fbnk.bbnkdemon.HpnBbnkDemon.loopWork(HpnBbnkDemon.java:47)
+	at com.hyphen.fbnk.bbnkdemon.HpnBbnkDemon.main(HpnBbnkDemon.java:29)
+java.lang.NullPointerException
+	at com.hyphen.fbnk.bbnkdemon.HpnBbnkDemon.chkSndData(HpnBbnkDemon.java:90)
+	at com.hyphen.fbnk.bbnkdemon.HpnBbnkDemon.loopWork(HpnBbnkDemon.java:47)
+	at com.hyphen.fbnk.bbnkdemon.HpnBbnkDemon.main(HpnBbnkDemon.java:29)
