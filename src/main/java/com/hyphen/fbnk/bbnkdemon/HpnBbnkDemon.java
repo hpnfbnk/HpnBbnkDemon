@@ -30,12 +30,12 @@ public class HpnBbnkDemon {
     }
 
     public void loopWork() {
-        //ê°ì‹œì—…ë¬´ ì‹œì‘
+        //°¨½Ã¾÷¹« ½ÃÀÛ
         while(true){
             try{
-                //í™˜ê²½íŒŒì¼ ì½ì–´ë“¤ì„.
+                //È¯°æÆÄÀÏ ÀĞ¾îµéÀÓ.
                 Config.setConfig();
-                //HpnBbnk ìƒì„±
+                //HpnBbnk »ı¼º
                 if(Config.getCustomIpYn().equals("Y")){
                     hpnBbnk = new HpnBbnk(Config.getHpnSvrIpProd(), Config.getHpnSvrIpTest(), Config.getHpnSvrPort(), Config.getHpnSvrIpPrf(),
                             Config.getHpnSvrPortPrf(), Config.isZipYn(), Config.getNetBps(), Config.isDelnYn());
@@ -43,15 +43,15 @@ public class HpnBbnkDemon {
                 else{
                     hpnBbnk = new HpnBbnk(Config.isZipYn(), Config.getNetBps(), Config.isDelnYn());
                 }
-                //ì†¡ì‹ ëŒ€ìƒ ê°ì‹œ
+                //¼Û½Å´ë»ó °¨½Ã
                 chkSndData();
-                //ìˆ˜ì‹ ëŒ€ìƒ ê°ì‹œ
+                //¼ö½Å´ë»ó °¨½Ã
                 chkRcvData();
             } catch (Exception e){
                 log.error(e.toString());
                 e.printStackTrace();
             } finally {
-                //ê°ì‹œì£¼ê¸°
+                //°¨½ÃÁÖ±â
                 log.debug("WAIT...\n\n");
                 try {Thread.sleep(Config.getMonitTerm()*60*1000L);} catch (InterruptedException ignored) {}
             }
@@ -63,23 +63,29 @@ public class HpnBbnkDemon {
 
         for (String hpnId : Config.getHyphenId()) {
             log.debug("[chkRcvData] work 4 hyphenId:"+hpnId);
+
+            //¼ö½Å¿äÃ»ÀÚÀÇ Åë½Åºñ¹ø °Ë»ö
+            String hpnPwd = "";
+            for(int i=0 ; i<Config.getHyphenId().length ; i++){
+                if(Config.getHyphenId()[i].equals(hpnId))
+                    try {hpnPwd = Config.getHyphenPwd()[i];}catch (Exception e){hpnPwd = "";}
+            }
+
             if(rcvDataLists!=null)  rcvDataLists.clear();
             //hpnBbnk.recvDataMulti("KEDU", "9999", "ZZZ", "20220410", "20220414", "A", "KEDU", "./sample", "T");
 
             if(Config.getCocaDbYn().equals("Y"))
                 rcvDataLists = hpnBbnk.recvDataMulti2DB(hpnId, Config.getRecvCd(), Config.getRecvDataTp(), Config.getFromDate(), Config.getToDate(),
                         Config.getReqTp(), Config.getFileNameTp(), Config.getRecvDir(), Config.getRunMode(), Config.getJdbcDriver(), Config.getJdbcUrl(),
-                        Config.getJdbcUser(), Config.getJdbcPwd());
+                        Config.getJdbcUser(), Config.getJdbcPwd(), hpnPwd);
             else
                 rcvDataLists = hpnBbnk.recvDataMulti(hpnId, Config.getRecvCd(), Config.getRecvDataTp(), Config.getFromDate(), Config.getToDate(),
-                    Config.getReqTp(), Config.getFileNameTp(), Config.getRecvDir(), Config.getRunMode());
+                    Config.getReqTp(), Config.getFileNameTp(), Config.getRecvDir(), Config.getRunMode(), hpnPwd);
 
             if(rcvDataLists.isEmpty())
                 log.debug("[chkRcvData]("+hpnId+") NO_DATA");
             else
                 for (DtoFileList rcvDataList : rcvDataLists) log.debug("[chkRcvData]("+hpnId+") : "+rcvDataList);
-
-
         }
     }
 
@@ -91,7 +97,7 @@ public class HpnBbnkDemon {
             if(file.isFile())   setSndFile(file, sndDataLists);
         //for (DtoFileList dtoFileList : sndDataList) log.debug("[chkSndData] "+dtoFileList);
         List<DtoFileList> resultLists = hpnBbnk.sendDataMulti(Config.getHyphenId()[0], sndDataLists, Config.getFileNameTp(), Config.getRunMode());
-        //ê²°ê³¼ì²˜ë¦¬
+        //°á°úÃ³¸®
         resultTreat(resultLists);
     }
 
@@ -100,30 +106,30 @@ public class HpnBbnkDemon {
         String rtnFname = "";
         for (DtoFileList resultList : resultLists) {
             try {
-                //ì„±ê³µë¶„ ì²˜ë¦¬
+                //¼º°øºĞ Ã³¸®
                 if(resultList.isRetYn()){
                     if(Config.getFileNameTp().equals("KEDU")){
-                        //ë°ì´í„°íŒŒì¼ì´ë™
+                        //µ¥ÀÌÅÍÆÄÀÏÀÌµ¿
                         moveDataFile(resultList.getFilePath(), Config.getSendOkDir(), "");
                     }
                     else {
-                        //ë¦¬í„´íŒŒì¼ìƒì„±
+                        //¸®ÅÏÆÄÀÏ»ı¼º
                         rtnFname = resultList.getFilePath().replace("ABRQ", "ABRP")+".OK";
                         bw = new BufferedWriter(new FileWriter(rtnFname));
                         bw.close();
                         log.debug("[resultTreat] "+rtnFname);
-                        //ë°ì´í„°íŒŒì¼ì´ë™
+                        //µ¥ÀÌÅÍÆÄÀÏÀÌµ¿
                         moveDataFile(resultList.getFilePath(), Config.getUsedDir(), "."+Util.getCurDtTm().substring(8));
                     }
                 }
-                //ì‹¤íŒ¨ë¶„ ì²˜ë¦¬
+                //½ÇÆĞºĞ Ã³¸®
                 else{
                     if(Config.getFileNameTp().equals("KEDU")){
-                        //ë°ì´í„°íŒŒì¼ì´ë™
+                        //µ¥ÀÌÅÍÆÄÀÏÀÌµ¿
                         moveDataFile(resultList.getFilePath(), Config.getSendFailDir(), "");
                     }
                     else {
-                        //ë¦¬í„´íŒŒì¼ìƒì„±
+                        //¸®ÅÏÆÄÀÏ»ı¼º
                         rtnFname = resultList.getFilePath().replace("ABRQ", "ABRP")+".FAIL";
                         bw = new BufferedWriter(new FileWriter(rtnFname));
                         bw.close();
@@ -184,32 +190,40 @@ public class HpnBbnkDemon {
             log.error(e.toString());
             return;
         }
-        //ê³¼ê±°ì˜ ë©”ì„¸ì§€íŒŒì¼ ì‚­ì œ
+        //°ú°ÅÀÇ ¸Ş¼¼ÁöÆÄÀÏ »èÁ¦
         if(fileFlag.equals("BRP")){
             file.delete();
             return;
         }
-        //íŒŒì¼ëª…ê·œì¹™ ì ê²€
+        //ÆÄÀÏ¸í±ÔÄ¢ Á¡°Ë
         log.debug("[setSndFile] "+fname);
-        //ì†¡ì‹ ëŒ€ìƒíŒŒì¼ì¸ì§€ ì ê²€
+        //¼Û½Å´ë»óÆÄÀÏÀÎÁö Á¡°Ë
         if(!fileFlag.equals(FnmTpKsnet.fFlagReq)){
             log.error("[setSndFile] no subject file : "+fileFlag);
             return;
         }
-        //ì†¡ì‹ ëŒ€ìƒì¼ìíŒŒì¼ì¸ì§€ ì ê²€
+        //¼Û½Å´ë»óÀÏÀÚÆÄÀÏÀÎÁö Á¡°Ë
         String curDt = Util.getCurDtTm().substring(0,8);
         if(!sendDt.equals(curDt)){
             log.error("[setSndFile] not workdate file "+sendDt);
             return;
         }
-        //ì•„ì§ ì“°ê³ ìˆëŠ”ì¤‘ì¸ íŒŒì¼ì¸ì§€ ì ê²€
+        //¾ÆÁ÷ ¾²°íÀÖ´ÂÁßÀÎ ÆÄÀÏÀÎÁö Á¡°Ë
         long timeGap = System.currentTimeMillis() - file.lastModified();
         if(timeGap < 60*1000L){
             log.debug("[setSndFile] probably still writing in the file...");
             return;
         }
-        //ì†¡ì‹ ëª©ë¡ì— ì¶”ê°€
-        DtoFileList dtoFileList = new DtoFileList(sendDt, infoCd, sendCd, recvCd, fileSeq, file.getAbsolutePath(), false);
+
+        //¼Û½ÅÀÚÀÇ Åë½Åºñ¹ø °Ë»ö
+        String hpnPwd = "";
+        for(int i=0 ; i<Config.getHyphenId().length ; i++){
+            if(Config.getHyphenId()[i].equals(sendCd))
+                try {hpnPwd = Config.getHyphenPwd()[i];}catch (Exception e){hpnPwd = "";}
+        }
+
+        //¼Û½Å¸ñ·Ï¿¡ Ãß°¡
+        DtoFileList dtoFileList = new DtoFileList(sendDt, infoCd, sendCd, recvCd, fileSeq, file.getAbsolutePath(), false, hpnPwd);
         sndDataLists.add(dtoFileList);
     }
 

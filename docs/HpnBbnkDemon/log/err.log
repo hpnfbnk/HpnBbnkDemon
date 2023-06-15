@@ -18,3 +18,17 @@ java.lang.NullPointerException
 	at com.hyphen.fbnk.bbnkdemon.HpnBbnkDemon.chkSndData(HpnBbnkDemon.java:90)
 	at com.hyphen.fbnk.bbnkdemon.HpnBbnkDemon.loopWork(HpnBbnkDemon.java:47)
 	at com.hyphen.fbnk.bbnkdemon.HpnBbnkDemon.main(HpnBbnkDemon.java:29)
+java.lang.Exception: Abnormal RtnCode:[91]
+	at com.hyphen.fbnk.bbnk.UpdnLib.chkRplyMsg(UpdnLib.java:977)
+	at com.hyphen.fbnk.bbnk.UpdnLib.rcvDataMulti(UpdnLib.java:365)
+	at com.hyphen.fbnk.bbnk.HpnBbnk.recvDataMulti(HpnBbnk.java:437)
+	at com.hyphen.fbnk.bbnkdemon.HpnBbnkDemon.chkRcvData(HpnBbnkDemon.java:82)
+	at com.hyphen.fbnk.bbnkdemon.HpnBbnkDemon.loopWork(HpnBbnkDemon.java:49)
+	at com.hyphen.fbnk.bbnkdemon.HpnBbnkDemon.main(HpnBbnkDemon.java:29)
+java.lang.Exception: Abnormal RtnCode:[91]
+	at com.hyphen.fbnk.bbnk.UpdnLib.chkRplyMsg(UpdnLib.java:977)
+	at com.hyphen.fbnk.bbnk.UpdnLib.rcvDataMulti(UpdnLib.java:365)
+	at com.hyphen.fbnk.bbnk.HpnBbnk.recvDataMulti(HpnBbnk.java:437)
+	at com.hyphen.fbnk.bbnkdemon.HpnBbnkDemon.chkRcvData(HpnBbnkDemon.java:82)
+	at com.hyphen.fbnk.bbnkdemon.HpnBbnkDemon.loopWork(HpnBbnkDemon.java:49)
+	at com.hyphen.fbnk.bbnkdemon.HpnBbnkDemon.main(HpnBbnkDemon.java:29)

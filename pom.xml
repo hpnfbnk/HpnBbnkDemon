@@ -6,7 +6,7 @@
 
     <groupId>com.hyphen.fbnk</groupId>
     <artifactId>HpnBbnkDemon</artifactId>
-    <version>1.1.0</version>
+    <version>1.2.0</version>
     <name>HpnBbnk batch firm banking demon module</name>
     <packaging>jar</packaging>
 
@@ -26,7 +26,7 @@
         <dependency>
             <groupId>com.github.hpnfbnk</groupId>
             <artifactId>HpnBbnk</artifactId>
-            <version>1.2.0</version>
+            <version>1.7.0</version>
         </dependency>
         <dependency>
             <groupId>org.slf4j</groupId>
@@ -65,7 +65,6 @@
                 </configuration>
             </plugin>
             -->
-
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-assembly-plugin</artifactId>
@@ -81,8 +80,6 @@
                     </archive>
                 </configuration>
             </plugin>
-
-
         </plugins>
     </build>
 

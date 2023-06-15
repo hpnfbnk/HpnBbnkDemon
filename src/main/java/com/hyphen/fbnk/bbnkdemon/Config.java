@@ -43,6 +43,7 @@ public class Config {
     private static String jdbcPwd = "";
     private static String jdbcDriver = "";
     private static String jdbcUrl = "";
+    private static String[] hyphenPwd = null;
 
     public Config(){}
     public static void setConfig() {
@@ -90,6 +91,7 @@ public class Config {
         jdbcPwd         = get("jdbcPwd");
         jdbcDriver      = get("jdbcDriver");
         jdbcUrl         = get("jdbcUrl");
+        hyphenPwd       = get("hyphenPwd").split(",");
 
         for (String hpnId : hyphenId)   log.debug("hyphenId="+hpnId);
         log.debug("sendDir="+sendDir+", usedDir="+usedDir+", recvDir="+recvDir+", recvDataTp="+recvDataTp+
@@ -210,4 +212,8 @@ public class Config {
     public static String getJdbcPwd() {return jdbcPwd;}
     public static String getJdbcDriver() {return jdbcDriver;}
     public static String getJdbcUrl() {return jdbcUrl;}
+
+    public static String[] getHyphenPwd() {
+        return hyphenPwd;
+    }
 }
