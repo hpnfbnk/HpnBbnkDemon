@@ -1,75 +1,111 @@
-17:04:38.415 [main] DEBUG Config - resource=/C:/itjProject/HpnBbnkDemon/docs/HpnBbnkDemon/hpnbbnk.properties
-17:04:38.448 [main] DEBUG LogFactory - Logging initialized using 'class com.hyphen.fbnk.bbnk.logging.Slf4jImpl' adapter...
-17:04:38.448 [main] DEBUG LogFactory - isDebugEnabled=true, isTraceEnabled=false
-17:04:38.450 [main] DEBUG Config - hyphenId=A002
-17:04:38.450 [main] DEBUG Config - sendDir=C:\itjProject\HpnBbnkDemon\docs\HpnBbnkDemon\send, usedDir=C:\itjProject\HpnBbnkDemon\docs\HpnBbnkDemon\send\usedfile, recvDir=C:\itjProject\HpnBbnkDemon\docs\HpnBbnkDemon\recv, recvDataTp=ZZZ, fromDate=20230607, toDate=20230614, reqTp=E, monitTerm=10, delnYn=false, zipYn=false, netBps=2M, fileNameTp=DFLT, runMode=T, customIpYn=N
-17:04:38.456 [main] DEBUG HpnBbnkDemon - [setSndFile] ABRQ20191211_A0010081200.001
-17:04:38.456 [main] ERROR HpnBbnkDemon - [setSndFile] not workdate file 20191211
-17:04:38.463 [main] DEBUG HpnBbnkDemon - [chkRcvData] work 4 hyphenId:A002
-17:04:38.463 [main] DEBUG HpnBbnk - [recvDataMulti](START) sendCd=A002, recvCd=9999, infoCd=ZZZ, fromDt=20230607, toDt=20230614, findRng=E, sFNmTp=DFLT, recvDir=C:\itjProject\HpnBbnkDemon\docs\HpnBbnkDemon\recv, runMode=T
-17:04:38.466 [main] DEBUG UpdnLib - [rcvDataMulti] ipAddr=210.181.28.96, port=29994, sendCd=A002, recvCd=9999, infoCd=ZZZ, fromDt=230607, toDt=230614, fRng=MSG_TP_REQ_YET, fNmTp=DEFAULT, recvDir=C:\itjProject\HpnBbnkDemon\docs\HpnBbnkDemon\recv, zipYn=false, encTp=SEED
-17:04:42.806 [main] DEBUG UpdnLib - [chkRplyMsg] NO_DATA
-17:04:42.921 [main] DEBUG HpnBbnk - [recvDataMulti](NO_DATA) sendCd=A002, recvCd=9999, infoCd=ZZZ, fromDt=230607, toDt=230614, findRng=E, runMode=T
-17:04:42.921 [main] DEBUG HpnBbnkDemon - [chkRcvData](A002) NO_DATA
-17:04:42.921 [main] DEBUG HpnBbnkDemon - WAIT...
+09:50:23.795 [main] DEBUG Config - resource=hpnbbnk.properties
+09:50:23.807 [main] DEBUG LogFactory - Logging initialized using 'class com.hyphen.fbnk.bbnk.logging.Slf4jImpl' adapter...
+09:50:23.807 [main] DEBUG LogFactory - isDebugEnabled=true, isTraceEnabled=false
+09:50:23.807 [main] DEBUG Config - hyphenId=A002
+09:50:23.807 [main] DEBUG Config - hyphenId=A003
+09:50:23.808 [main] DEBUG Config - sendDir=/home/firmbk/batch/prog/java/HpnBbnkDemon/send, usedDir=/home/firmbk/batch/prog/java/HpnBbnkDemon/send/usedfile, recvDir=/home/firmbk/batch/prog/java/HpnBbnkDemon/recv, recvDataTp=ZZZ, fromDate=20230608, toDate=20230615, reqTp=E, monitTerm=10, delnYn=true, zipYn=false, netBps=2M, fileNameTp=DFLT, runMode=T, customIpYn=N
+09:50:23.812 [main] DEBUG HpnBbnkDemon - [chkRcvData] work 4 hyphenId:A002
+09:50:23.812 [main] DEBUG HpnBbnk - [recvDataMulti](START) sendCd=A002, recvCd=9999, infoCd=ZZZ, fromDt=20230608, toDt=20230615, findRng=E, sFNmTp=DFLT, recvDir=/home/firmbk/batch/prog/java/HpnBbnkDemon/recv, runMode=T
+09:50:23.813 [main] DEBUG UpdnLib - [rcvDataMulti] ipAddr=129.200.9.18, port=50001, sendCd=A002, recvCd=9999, infoCd=ZZZ, fromDt=230608, toDt=230615, fRng=MSG_TP_REQ_YET, fNmTp=DEFAULT, recvDir=/home/firmbk/batch/prog/java/HpnBbnkDemon/recv, zipYn=false, encTp=NONE
+09:50:24.599 [main] ERROR UpdnLib - java.lang.Exception: Abnormal RtnCode:[91]
+09:50:24.599 [main] DEBUG HpnBbnk - [recvDataMulti](NO_DATA) sendCd=A002, recvCd=9999, infoCd=ZZZ, fromDt=230608, toDt=230615, findRng=E, runMode=T
+09:50:24.599 [main] DEBUG HpnBbnkDemon - [chkRcvData](A002) NO_DATA
+09:50:24.599 [main] DEBUG HpnBbnkDemon - [chkRcvData] work 4 hyphenId:A003
+09:50:24.599 [main] DEBUG HpnBbnk - [recvDataMulti](START) sendCd=A003, recvCd=9999, infoCd=ZZZ, fromDt=20230608, toDt=20230615, findRng=E, sFNmTp=DFLT, recvDir=/home/firmbk/batch/prog/java/HpnBbnkDemon/recv, runMode=T
+09:50:24.600 [main] DEBUG UpdnLib - [rcvDataMulti] ipAddr=129.200.9.18, port=50001, sendCd=A003, recvCd=9999, infoCd=ZZZ, fromDt=230608, toDt=230615, fRng=MSG_TP_REQ_YET, fNmTp=DEFAULT, recvDir=/home/firmbk/batch/prog/java/HpnBbnkDemon/recv, zipYn=false, encTp=NONE
+09:50:25.403 [main] ERROR UpdnLib - java.lang.Exception: Abnormal RtnCode:[91]
+09:50:25.404 [main] DEBUG HpnBbnk - [recvDataMulti](NO_DATA) sendCd=A003, recvCd=9999, infoCd=ZZZ, fromDt=230608, toDt=230615, findRng=E, runMode=T
+09:50:25.404 [main] DEBUG HpnBbnkDemon - [chkRcvData](A003) NO_DATA
+09:50:25.404 [main] DEBUG HpnBbnkDemon - WAIT...
 
 
-17:14:42.935 [main] DEBUG Config - resource=/C:/itjProject/HpnBbnkDemon/docs/HpnBbnkDemon/hpnbbnk.properties
-17:14:42.936 [main] DEBUG Config - hyphenId=A002
-17:14:42.936 [main] DEBUG Config - hyphenId=A003
-17:14:42.936 [main] DEBUG Config - sendDir=C:\itjProject\HpnBbnkDemon\docs\HpnBbnkDemon\send, usedDir=C:\itjProject\HpnBbnkDemon\docs\HpnBbnkDemon\send\usedfile, recvDir=C:\itjProject\HpnBbnkDemon\docs\HpnBbnkDemon\recv, recvDataTp=ZZZ, fromDate=20230607, toDate=20230614, reqTp=E, monitTerm=10, delnYn=false, zipYn=false, netBps=2M, fileNameTp=DFLT, runMode=T, customIpYn=N
-17:14:42.937 [main] DEBUG HpnBbnkDemon - [setSndFile] ABRQ20230614_A0020181R00.001
-17:14:42.938 [main] DEBUG HpnBbnkDemon - [setSndFile] ABRQ20230614_A0030181R00.001
-17:14:42.939 [main] DEBUG HpnBbnk - [sendDataMulti](START) DtoFileList{sendDt='20230614', infoCd='R00', sendCd='A002', recvCd='0181', seqNo='001', filePath='C:\itjProject\HpnBbnkDemon\docs\HpnBbnkDemon\send\ABRQ20230614_A0020181R00.001', retCd='false'}, fNmTp=DFLT, runMode=T
-17:14:42.939 [main] DEBUG HpnBbnk - [sendDataMulti](START) DtoFileList{sendDt='20230614', infoCd='R00', sendCd='A003', recvCd='0181', seqNo='001', filePath='C:\itjProject\HpnBbnkDemon\docs\HpnBbnkDemon\send\ABRQ20230614_A0030181R00.001', retCd='false'}, fNmTp=DFLT, runMode=T
-17:14:42.939 [main] DEBUG UpdnLib - [sndDataMulti] ipAddr=210.181.28.96, port=29994, sendCd=A002, fileListCnt=2, zipYn=false, encTp=SEED, maxBps=2M, fNmTp=DFLT
-17:14:43.448 [main] DEBUG UpdnLib - [sndDataMulti](1/2) DtoFileList{sendDt='20230614', infoCd='R00', sendCd='A002', recvCd='0181', seqNo='001', filePath='C:\itjProject\HpnBbnkDemon\docs\HpnBbnkDemon\send\ABRQ20230614_A0020181R00.001', retCd='false'}
-17:14:43.850 [main] DEBUG UpdnLib - [upLoadProcess] sendFile=[C:\itjProject\HpnBbnkDemon\docs\HpnBbnkDemon\send\ABRQ20230614_A0020181R00.001]
-17:14:43.851 [main] DEBUG Util - [controlSpeed] MAX_BPS=[2M]
-17:14:44.050 [main] DEBUG UpdnLib - [chkMissData] blockNo=1, seqNo=2, missCnt=0
-17:14:44.261 [main] DEBUG UpdnLib - [sndDataMulti](2/2) DtoFileList{sendDt='20230614', infoCd='R00', sendCd='A003', recvCd='0181', seqNo='001', filePath='C:\itjProject\HpnBbnkDemon\docs\HpnBbnkDemon\send\ABRQ20230614_A0030181R00.001', retCd='false'}
-17:14:44.654 [main] DEBUG UpdnLib - [upLoadProcess] sendFile=[C:\itjProject\HpnBbnkDemon\docs\HpnBbnkDemon\send\ABRQ20230614_A0030181R00.001]
-17:14:44.655 [main] DEBUG Util - [controlSpeed] MAX_BPS=[2M]
-17:14:44.851 [main] DEBUG UpdnLib - [chkMissData] blockNo=1, seqNo=2, missCnt=0
-17:14:45.071 [main] DEBUG HpnBbnk - [sendDataMulti](RESULT) DtoFileList{sendDt='20230614', infoCd='R00', sendCd='A002', recvCd='0181', seqNo='001', filePath='C:\itjProject\HpnBbnkDemon\docs\HpnBbnkDemon\send\ABRQ20230614_A0020181R00.001', retCd='true'}
-17:14:45.071 [main] DEBUG HpnBbnk - [sendDataMulti](RESULT) DtoFileList{sendDt='20230614', infoCd='R00', sendCd='A003', recvCd='0181', seqNo='001', filePath='C:\itjProject\HpnBbnkDemon\docs\HpnBbnkDemon\send\ABRQ20230614_A0030181R00.001', retCd='true'}
-17:14:45.073 [main] DEBUG HpnBbnkDemon - [resultTreat] C:\itjProject\HpnBbnkDemon\docs\HpnBbnkDemon\send\ABRP20230614_A0020181R00.001.OK
-17:14:45.073 [main] DEBUG HpnBbnkDemon - [moveDataFile] => C:\itjProject\HpnBbnkDemon\docs\HpnBbnkDemon\send\usedfile\ABRQ20230614_A0020181R00.001.171445
-17:14:45.083 [main] DEBUG HpnBbnkDemon - [resultTreat] C:\itjProject\HpnBbnkDemon\docs\HpnBbnkDemon\send\ABRP20230614_A0030181R00.001.OK
-17:14:45.084 [main] DEBUG HpnBbnkDemon - [moveDataFile] => C:\itjProject\HpnBbnkDemon\docs\HpnBbnkDemon\send\usedfile\ABRQ20230614_A0030181R00.001.171445
-17:14:45.087 [main] DEBUG HpnBbnkDemon - [chkRcvData] work 4 hyphenId:A002
-17:14:45.087 [main] DEBUG HpnBbnk - [recvDataMulti](START) sendCd=A002, recvCd=9999, infoCd=ZZZ, fromDt=20230607, toDt=20230614, findRng=E, sFNmTp=DFLT, recvDir=C:\itjProject\HpnBbnkDemon\docs\HpnBbnkDemon\recv, runMode=T
-17:14:45.087 [main] DEBUG UpdnLib - [rcvDataMulti] ipAddr=210.181.28.96, port=29994, sendCd=A002, recvCd=9999, infoCd=ZZZ, fromDt=230607, toDt=230614, fRng=MSG_TP_REQ_YET, fNmTp=DEFAULT, recvDir=C:\itjProject\HpnBbnkDemon\docs\HpnBbnkDemon\recv, zipYn=false, encTp=SEED
-17:14:46.069 [main] DEBUG UpdnLib - [chkRplyMsg] NO_DATA
-17:14:46.185 [main] DEBUG HpnBbnk - [recvDataMulti](NO_DATA) sendCd=A002, recvCd=9999, infoCd=ZZZ, fromDt=230607, toDt=230614, findRng=E, runMode=T
-17:14:46.185 [main] DEBUG HpnBbnkDemon - [chkRcvData](A002) NO_DATA
-17:14:46.185 [main] DEBUG HpnBbnkDemon - [chkRcvData] work 4 hyphenId:A003
-17:14:46.185 [main] DEBUG HpnBbnk - [recvDataMulti](START) sendCd=A003, recvCd=9999, infoCd=ZZZ, fromDt=20230607, toDt=20230614, findRng=E, sFNmTp=DFLT, recvDir=C:\itjProject\HpnBbnkDemon\docs\HpnBbnkDemon\recv, runMode=T
-17:14:46.185 [main] DEBUG UpdnLib - [rcvDataMulti] ipAddr=210.181.28.96, port=29994, sendCd=A003, recvCd=9999, infoCd=ZZZ, fromDt=230607, toDt=230614, fRng=MSG_TP_REQ_YET, fNmTp=DEFAULT, recvDir=C:\itjProject\HpnBbnkDemon\docs\HpnBbnkDemon\recv, zipYn=false, encTp=SEED
-17:14:47.058 [main] DEBUG UpdnLib - [chkRplyMsg] NO_DATA
-17:14:47.158 [main] DEBUG HpnBbnk - [recvDataMulti](NO_DATA) sendCd=A003, recvCd=9999, infoCd=ZZZ, fromDt=230607, toDt=230614, findRng=E, runMode=T
-17:14:47.158 [main] DEBUG HpnBbnkDemon - [chkRcvData](A003) NO_DATA
-17:14:47.159 [main] DEBUG HpnBbnkDemon - WAIT...
+10:00:25.396 [main] DEBUG Config - resource=hpnbbnk.properties
+10:00:25.397 [main] DEBUG Config - hyphenId=A002
+10:00:25.397 [main] DEBUG Config - hyphenId=A003
+10:00:25.397 [main] DEBUG Config - sendDir=/home/firmbk/batch/prog/java/HpnBbnkDemon/send, usedDir=/home/firmbk/batch/prog/java/HpnBbnkDemon/send/usedfile, recvDir=/home/firmbk/batch/prog/java/HpnBbnkDemon/recv, recvDataTp=ZZZ, fromDate=20230608, toDate=20230615, reqTp=E, monitTerm=10, delnYn=true, zipYn=false, netBps=2M, fileNameTp=DFLT, runMode=T, customIpYn=N
+10:00:25.398 [main] DEBUG HpnBbnkDemon - [chkRcvData] work 4 hyphenId:A002
+10:00:25.398 [main] DEBUG HpnBbnk - [recvDataMulti](START) sendCd=A002, recvCd=9999, infoCd=ZZZ, fromDt=20230608, toDt=20230615, findRng=E, sFNmTp=DFLT, recvDir=/home/firmbk/batch/prog/java/HpnBbnkDemon/recv, runMode=T
+10:00:25.398 [main] DEBUG UpdnLib - [rcvDataMulti] ipAddr=129.200.9.18, port=50001, sendCd=A002, recvCd=9999, infoCd=ZZZ, fromDt=230608, toDt=230615, fRng=MSG_TP_REQ_YET, fNmTp=DEFAULT, recvDir=/home/firmbk/batch/prog/java/HpnBbnkDemon/recv, zipYn=false, encTp=NONE
+10:00:26.236 [main] ERROR UpdnLib - java.lang.Exception: Abnormal RtnCode:[91]
+10:00:26.236 [main] DEBUG HpnBbnk - [recvDataMulti](NO_DATA) sendCd=A002, recvCd=9999, infoCd=ZZZ, fromDt=230608, toDt=230615, findRng=E, runMode=T
+10:00:26.236 [main] DEBUG HpnBbnkDemon - [chkRcvData](A002) NO_DATA
+10:00:26.236 [main] DEBUG HpnBbnkDemon - [chkRcvData] work 4 hyphenId:A003
+10:00:26.236 [main] DEBUG HpnBbnk - [recvDataMulti](START) sendCd=A003, recvCd=9999, infoCd=ZZZ, fromDt=20230608, toDt=20230615, findRng=E, sFNmTp=DFLT, recvDir=/home/firmbk/batch/prog/java/HpnBbnkDemon/recv, runMode=T
+10:00:26.237 [main] DEBUG UpdnLib - [rcvDataMulti] ipAddr=129.200.9.18, port=50001, sendCd=A003, recvCd=9999, infoCd=ZZZ, fromDt=230608, toDt=230615, fRng=MSG_TP_REQ_YET, fNmTp=DEFAULT, recvDir=/home/firmbk/batch/prog/java/HpnBbnkDemon/recv, zipYn=false, encTp=NONE
+10:00:27.039 [main] ERROR UpdnLib - java.lang.Exception: Abnormal RtnCode:[91]
+10:00:27.039 [main] DEBUG HpnBbnk - [recvDataMulti](NO_DATA) sendCd=A003, recvCd=9999, infoCd=ZZZ, fromDt=230608, toDt=230615, findRng=E, runMode=T
+10:00:27.039 [main] DEBUG HpnBbnkDemon - [chkRcvData](A003) NO_DATA
+10:00:27.039 [main] DEBUG HpnBbnkDemon - WAIT...
 
 
-17:15:56.129 [main] DEBUG Config - resource=/C:/itjProject/HpnBbnkDemon/docs/HpnBbnkDemon/hpnbbnk.properties
-17:15:56.143 [main] DEBUG LogFactory - Logging initialized using 'class com.hyphen.fbnk.bbnk.logging.Slf4jImpl' adapter...
-17:15:56.143 [main] DEBUG LogFactory - isDebugEnabled=true, isTraceEnabled=false
-17:15:56.145 [main] DEBUG Config - hyphenId=A002
-17:15:56.145 [main] DEBUG Config - hyphenId=A003
-17:15:56.145 [main] DEBUG Config - sendDir=C:\itjProject\HpnBbnkDemon\docs\HpnBbnkDemon\send, usedDir=C:\itjProject\HpnBbnkDemon\docs\HpnBbnkDemon\send\usedfile, recvDir=C:\itjProject\HpnBbnkDemon\docs\HpnBbnkDemon\recv, recvDataTp=ZZZ, fromDate=20230607, toDate=20230614, reqTp=E, monitTerm=10, delnYn=false, zipYn=false, netBps=2M, fileNameTp=DFLT, runMode=T, customIpYn=N
-17:15:56.167 [main] DEBUG HpnBbnkDemon - [chkRcvData] work 4 hyphenId:A002
-17:15:56.167 [main] DEBUG HpnBbnk - [recvDataMulti](START) sendCd=A002, recvCd=9999, infoCd=ZZZ, fromDt=20230607, toDt=20230614, findRng=E, sFNmTp=DFLT, recvDir=C:\itjProject\HpnBbnkDemon\docs\HpnBbnkDemon\recv, runMode=T
-17:15:56.171 [main] DEBUG UpdnLib - [rcvDataMulti] ipAddr=210.181.28.96, port=29994, sendCd=A002, recvCd=9999, infoCd=ZZZ, fromDt=230607, toDt=230614, fRng=MSG_TP_REQ_YET, fNmTp=DEFAULT, recvDir=C:\itjProject\HpnBbnkDemon\docs\HpnBbnkDemon\recv, zipYn=false, encTp=SEED
-17:16:00.758 [main] ERROR UpdnLib - java.lang.Exception: Abnormal RtnCode:[91]
-17:16:00.758 [main] DEBUG HpnBbnk - [recvDataMulti](NO_DATA) sendCd=A002, recvCd=9999, infoCd=ZZZ, fromDt=230607, toDt=230614, findRng=E, runMode=T
-17:16:00.758 [main] DEBUG HpnBbnkDemon - [chkRcvData](A002) NO_DATA
-17:16:00.758 [main] DEBUG HpnBbnkDemon - [chkRcvData] work 4 hyphenId:A003
-17:16:00.758 [main] DEBUG HpnBbnk - [recvDataMulti](START) sendCd=A003, recvCd=9999, infoCd=ZZZ, fromDt=20230607, toDt=20230614, findRng=E, sFNmTp=DFLT, recvDir=C:\itjProject\HpnBbnkDemon\docs\HpnBbnkDemon\recv, runMode=T
-17:16:00.758 [main] DEBUG UpdnLib - [rcvDataMulti] ipAddr=210.181.28.96, port=29994, sendCd=A003, recvCd=9999, infoCd=ZZZ, fromDt=230607, toDt=230614, fRng=MSG_TP_REQ_YET, fNmTp=DEFAULT, recvDir=C:\itjProject\HpnBbnkDemon\docs\HpnBbnkDemon\recv, zipYn=false, encTp=SEED
-17:16:01.561 [main] ERROR UpdnLib - java.lang.Exception: Abnormal RtnCode:[91]
-17:16:01.561 [main] DEBUG HpnBbnk - [recvDataMulti](NO_DATA) sendCd=A003, recvCd=9999, infoCd=ZZZ, fromDt=230607, toDt=230614, findRng=E, runMode=T
-17:16:01.561 [main] DEBUG HpnBbnkDemon - [chkRcvData](A003) NO_DATA
-17:16:01.561 [main] DEBUG HpnBbnkDemon - WAIT...
+10:10:27.032 [main] DEBUG Config - resource=hpnbbnk.properties
+10:10:27.033 [main] DEBUG Config - hyphenId=A002
+10:10:27.033 [main] DEBUG Config - hyphenId=A003
+10:10:27.033 [main] DEBUG Config - sendDir=/home/firmbk/batch/prog/java/HpnBbnkDemon/send, usedDir=/home/firmbk/batch/prog/java/HpnBbnkDemon/send/usedfile, recvDir=/home/firmbk/batch/prog/java/HpnBbnkDemon/recv, recvDataTp=ZZZ, fromDate=20230608, toDate=20230615, reqTp=E, monitTerm=10, delnYn=true, zipYn=false, netBps=2M, fileNameTp=DFLT, runMode=T, customIpYn=N
+10:10:27.034 [main] DEBUG HpnBbnkDemon - [setSndFile] ABRQ20230615_A0020181R00.001
+10:10:27.035 [main] DEBUG HpnBbnkDemon - [setSndFile] ABRQ20230615_A0030181R00.001
+10:10:27.035 [main] DEBUG HpnBbnk - [sendDataMulti](START) DtoFileList{sendDt='20230615', infoCd='R00', sendCd='A002', recvCd='0181', seqNo='001', filePath='/home/firmbk/batch/prog/java/HpnBbnkDemon/send/ABRQ20230615_A0020181R00.001', retCd='false'}, fNmTp=DFLT, runMode=T
+10:10:27.035 [main] DEBUG HpnBbnk - [sendDataMulti](START) DtoFileList{sendDt='20230615', infoCd='R00', sendCd='A003', recvCd='0181', seqNo='001', filePath='/home/firmbk/batch/prog/java/HpnBbnkDemon/send/ABRQ20230615_A0030181R00.001', retCd='false'}, fNmTp=DFLT, runMode=T
+10:10:27.036 [main] DEBUG UpdnLib - [sndDataMulti] ipAddr=129.200.9.18, port=50001, sendCd=A002, fileListCnt=2, zipYn=false, encTp=NONE, maxBps=2M, fNmTp=DFLT
+10:10:27.695 [main] DEBUG UpdnLib - [sndDataMulti](1/2) DtoFileList{sendDt='20230615', infoCd='R00', sendCd='A002', recvCd='0181', seqNo='001', filePath='/home/firmbk/batch/prog/java/HpnBbnkDemon/send/ABRQ20230615_A0020181R00.001', retCd='false'}
+10:10:28.095 [main] ERROR UpdnLib - [sndDataMulti] java.lang.Exception: Abnormal RtnCode:[91]
+10:10:28.095 [main] DEBUG UpdnLib - [sndDataMulti](2/2) DtoFileList{sendDt='20230615', infoCd='R00', sendCd='A003', recvCd='0181', seqNo='001', filePath='/home/firmbk/batch/prog/java/HpnBbnkDemon/send/ABRQ20230615_A0030181R00.001', retCd='false'}
+10:10:28.097 [main] ERROR UpdnLib - [sndDataMulti] java.io.EOFException
+10:10:28.100 [main] ERROR UpdnLib - java.io.EOFException
+10:10:28.100 [main] DEBUG HpnBbnk - [sendDataMulti](RESULT) DtoFileList{sendDt='20230615', infoCd='R00', sendCd='A002', recvCd='0181', seqNo='001', filePath='/home/firmbk/batch/prog/java/HpnBbnkDemon/send/ABRQ20230615_A0020181R00.001', retCd='false'}
+10:10:28.100 [main] DEBUG HpnBbnk - [sendDataMulti](RESULT) DtoFileList{sendDt='20230615', infoCd='R00', sendCd='A003', recvCd='0181', seqNo='001', filePath='/home/firmbk/batch/prog/java/HpnBbnkDemon/send/ABRQ20230615_A0030181R00.001', retCd='false'}
+10:10:28.102 [main] DEBUG HpnBbnkDemon - [resultTreat] /home/firmbk/batch/prog/java/HpnBbnkDemon/send/ABRP20230615_A0020181R00.001.FAIL
+10:10:28.103 [main] DEBUG HpnBbnkDemon - [resultTreat] /home/firmbk/batch/prog/java/HpnBbnkDemon/send/ABRP20230615_A0030181R00.001.FAIL
+10:10:28.103 [main] DEBUG HpnBbnkDemon - [chkRcvData] work 4 hyphenId:A002
+10:10:28.103 [main] DEBUG HpnBbnk - [recvDataMulti](START) sendCd=A002, recvCd=9999, infoCd=ZZZ, fromDt=20230608, toDt=20230615, findRng=E, sFNmTp=DFLT, recvDir=/home/firmbk/batch/prog/java/HpnBbnkDemon/recv, runMode=T
+10:10:28.103 [main] DEBUG UpdnLib - [rcvDataMulti] ipAddr=129.200.9.18, port=50001, sendCd=A002, recvCd=9999, infoCd=ZZZ, fromDt=230608, toDt=230615, fRng=MSG_TP_REQ_YET, fNmTp=DEFAULT, recvDir=/home/firmbk/batch/prog/java/HpnBbnkDemon/recv, zipYn=false, encTp=NONE
+10:10:28.896 [main] ERROR UpdnLib - java.lang.Exception: Abnormal RtnCode:[91]
+10:10:28.897 [main] DEBUG HpnBbnk - [recvDataMulti](NO_DATA) sendCd=A002, recvCd=9999, infoCd=ZZZ, fromDt=230608, toDt=230615, findRng=E, runMode=T
+10:10:28.897 [main] DEBUG HpnBbnkDemon - [chkRcvData](A002) NO_DATA
+10:10:28.897 [main] DEBUG HpnBbnkDemon - [chkRcvData] work 4 hyphenId:A003
+10:10:28.897 [main] DEBUG HpnBbnk - [recvDataMulti](START) sendCd=A003, recvCd=9999, infoCd=ZZZ, fromDt=20230608, toDt=20230615, findRng=E, sFNmTp=DFLT, recvDir=/home/firmbk/batch/prog/java/HpnBbnkDemon/recv, runMode=T
+10:10:28.897 [main] DEBUG UpdnLib - [rcvDataMulti] ipAddr=129.200.9.18, port=50001, sendCd=A003, recvCd=9999, infoCd=ZZZ, fromDt=230608, toDt=230615, fRng=MSG_TP_REQ_YET, fNmTp=DEFAULT, recvDir=/home/firmbk/batch/prog/java/HpnBbnkDemon/recv, zipYn=false, encTp=NONE
+10:10:29.698 [main] ERROR UpdnLib - java.lang.Exception: Abnormal RtnCode:[91]
+10:10:29.699 [main] DEBUG HpnBbnk - [recvDataMulti](NO_DATA) sendCd=A003, recvCd=9999, infoCd=ZZZ, fromDt=230608, toDt=230615, findRng=E, runMode=T
+10:10:29.699 [main] DEBUG HpnBbnkDemon - [chkRcvData](A003) NO_DATA
+10:10:29.699 [main] DEBUG HpnBbnkDemon - WAIT...
+
+
+10:20:29.684 [main] DEBUG Config - resource=hpnbbnk.properties
+10:20:29.685 [main] DEBUG Config - hyphenId=A002
+10:20:29.685 [main] DEBUG Config - hyphenId=A003
+10:20:29.685 [main] DEBUG Config - sendDir=/home/firmbk/batch/prog/java/HpnBbnkDemon/send, usedDir=/home/firmbk/batch/prog/java/HpnBbnkDemon/send/usedfile, recvDir=/home/firmbk/batch/prog/java/HpnBbnkDemon/recv, recvDataTp=ZZZ, fromDate=20230608, toDate=20230615, reqTp=E, monitTerm=10, delnYn=true, zipYn=false, netBps=2M, fileNameTp=DFLT, runMode=T, customIpYn=N
+10:20:29.686 [main] DEBUG HpnBbnkDemon - [setSndFile] ABRQ20230615_A0020181R00.001
+10:20:29.687 [main] DEBUG HpnBbnkDemon - [setSndFile] ABRQ20230615_A0030181R00.001
+10:20:29.687 [main] DEBUG HpnBbnk - [sendDataMulti](START) DtoFileList{sendDt='20230615', infoCd='R00', sendCd='A002', recvCd='0181', seqNo='001', filePath='/home/firmbk/batch/prog/java/HpnBbnkDemon/send/ABRQ20230615_A0020181R00.001', retCd='false'}, fNmTp=DFLT, runMode=T
+10:20:29.687 [main] DEBUG HpnBbnk - [sendDataMulti](START) DtoFileList{sendDt='20230615', infoCd='R00', sendCd='A003', recvCd='0181', seqNo='001', filePath='/home/firmbk/batch/prog/java/HpnBbnkDemon/send/ABRQ20230615_A0030181R00.001', retCd='false'}, fNmTp=DFLT, runMode=T
+10:20:29.687 [main] DEBUG UpdnLib - [sndDataMulti] ipAddr=129.200.9.18, port=50001, sendCd=A002, fileListCnt=2, zipYn=false, encTp=NONE, maxBps=2M, fNmTp=DFLT
+10:20:30.340 [main] DEBUG UpdnLib - [sndDataMulti](1/2) DtoFileList{sendDt='20230615', infoCd='R00', sendCd='A002', recvCd='0181', seqNo='001', filePath='/home/firmbk/batch/prog/java/HpnBbnkDemon/send/ABRQ20230615_A0020181R00.001', retCd='false'}
+10:20:30.545 [main] DEBUG UpdnLib - [upLoadProcess] sendFile=[/home/firmbk/batch/prog/java/HpnBbnkDemon/send/ABRQ20230615_A0020181R00.001]
+10:20:30.546 [main] DEBUG Util - [controlSpeed] MAX_BPS=[2M]
+10:20:30.758 [main] DEBUG UpdnLib - [chkMissData] blockNo=1, seqNo=2, missCnt=0
+10:20:30.944 [main] DEBUG UpdnLib - [sndDataMulti](2/2) DtoFileList{sendDt='20230615', infoCd='R00', sendCd='A003', recvCd='0181', seqNo='001', filePath='/home/firmbk/batch/prog/java/HpnBbnkDemon/send/ABRQ20230615_A0030181R00.001', retCd='false'}
+10:20:31.141 [main] DEBUG UpdnLib - [upLoadProcess] sendFile=[/home/firmbk/batch/prog/java/HpnBbnkDemon/send/ABRQ20230615_A0030181R00.001]
+10:20:31.142 [main] DEBUG Util - [controlSpeed] MAX_BPS=[2M]
+10:20:31.344 [main] DEBUG UpdnLib - [chkMissData] blockNo=1, seqNo=2, missCnt=0
+10:20:31.549 [main] DEBUG HpnBbnk - [sendDataMulti](RESULT) DtoFileList{sendDt='20230615', infoCd='R00', sendCd='A002', recvCd='0181', seqNo='001', filePath='/home/firmbk/batch/prog/java/HpnBbnkDemon/send/ABRQ20230615_A0020181R00.001', retCd='true'}
+10:20:31.550 [main] DEBUG HpnBbnk - [sendDataMulti](RESULT) DtoFileList{sendDt='20230615', infoCd='R00', sendCd='A003', recvCd='0181', seqNo='001', filePath='/home/firmbk/batch/prog/java/HpnBbnkDemon/send/ABRQ20230615_A0030181R00.001', retCd='true'}
+10:20:31.550 [main] DEBUG HpnBbnkDemon - [resultTreat] /home/firmbk/batch/prog/java/HpnBbnkDemon/send/ABRP20230615_A0020181R00.001.OK
+10:20:31.551 [main] DEBUG HpnBbnkDemon - [moveDataFile] => /home/firmbk/batch/prog/java/HpnBbnkDemon/send/usedfile/ABRQ20230615_A0020181R00.001.102031
+10:20:31.583 [main] DEBUG HpnBbnkDemon - [resultTreat] /home/firmbk/batch/prog/java/HpnBbnkDemon/send/ABRP20230615_A0030181R00.001.OK
+10:20:31.583 [main] DEBUG HpnBbnkDemon - [moveDataFile] => /home/firmbk/batch/prog/java/HpnBbnkDemon/send/usedfile/ABRQ20230615_A0030181R00.001.102031
+10:20:31.584 [main] DEBUG HpnBbnkDemon - [chkRcvData] work 4 hyphenId:A002
+10:20:31.584 [main] DEBUG HpnBbnk - [recvDataMulti](START) sendCd=A002, recvCd=9999, infoCd=ZZZ, fromDt=20230608, toDt=20230615, findRng=E, sFNmTp=DFLT, recvDir=/home/firmbk/batch/prog/java/HpnBbnkDemon/recv, runMode=T
+10:20:31.584 [main] DEBUG UpdnLib - [rcvDataMulti] ipAddr=129.200.9.18, port=50001, sendCd=A002, recvCd=9999, infoCd=ZZZ, fromDt=230608, toDt=230615, fRng=MSG_TP_REQ_YET, fNmTp=DEFAULT, recvDir=/home/firmbk/batch/prog/java/HpnBbnkDemon/recv, zipYn=false, encTp=NONE
+10:20:32.343 [main] DEBUG UpdnLib - [chkRplyMsg] NO_DATA
+10:20:32.557 [main] DEBUG HpnBbnk - [recvDataMulti](NO_DATA) sendCd=A002, recvCd=9999, infoCd=ZZZ, fromDt=230608, toDt=230615, findRng=E, runMode=T
+10:20:32.558 [main] DEBUG HpnBbnkDemon - [chkRcvData](A002) NO_DATA
+10:20:32.558 [main] DEBUG HpnBbnkDemon - [chkRcvData] work 4 hyphenId:A003
+10:20:32.558 [main] DEBUG HpnBbnk - [recvDataMulti](START) sendCd=A003, recvCd=9999, infoCd=ZZZ, fromDt=20230608, toDt=20230615, findRng=E, sFNmTp=DFLT, recvDir=/home/firmbk/batch/prog/java/HpnBbnkDemon/recv, runMode=T
+10:20:32.558 [main] DEBUG UpdnLib - [rcvDataMulti] ipAddr=129.200.9.18, port=50001, sendCd=A003, recvCd=9999, infoCd=ZZZ, fromDt=230608, toDt=230615, fRng=MSG_TP_REQ_YET, fNmTp=DEFAULT, recvDir=/home/firmbk/batch/prog/java/HpnBbnkDemon/recv, zipYn=false, encTp=NONE
+10:20:33.344 [main] DEBUG UpdnLib - [chkRplyMsg] NO_DATA
+10:20:33.556 [main] DEBUG HpnBbnk - [recvDataMulti](NO_DATA) sendCd=A003, recvCd=9999, infoCd=ZZZ, fromDt=230608, toDt=230615, findRng=E, runMode=T
+10:20:33.557 [main] DEBUG HpnBbnkDemon - [chkRcvData](A003) NO_DATA
+10:20:33.557 [main] DEBUG HpnBbnkDemon - WAIT...
 
 

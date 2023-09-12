@@ -1,7 +1,7 @@
 #!/usr/bin/ksh
 
 ##KSNET CODE(HYPHEN에서 발급받은 ID)
-KSNET_CD=A001
+KSNET_CD=A002
 ##설치경로
 INSTALL_HOME=/home/hyphen/HpnBbnkDemon
 PROC_NAME=HpnBbnkDemon_$HYPHEN_ID
