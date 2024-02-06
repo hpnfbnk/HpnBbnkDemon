@@ -33,8 +33,8 @@ public class Config {
     private static String fileNameTp = "DFLT";
     private static String runMode = "T";
     private static String customIpYn = "N";
-    private static String hpnSvrIpProd = "210.181.28.143";
-    private static String hpnSvrIpTest = "210.181.28.96";
+    private static String hpnSvrIpProd = "121.138.30.10";
+    private static String hpnSvrIpTest = "121.138.30.31";
     private static int hpnSvrPort = 29994;
     private static String hpnSvrIpPrf = "121.138.30.10";
     private static int hpnSvrPortPrf = 29995;
