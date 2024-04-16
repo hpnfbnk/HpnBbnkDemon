@@ -44,6 +44,7 @@ public class Config {
     private static String jdbcDriver = "";
     private static String jdbcUrl = "";
     private static String[] hyphenPwd = null;
+    private static String histDbYn = "N";
 
     public Config(){}
     public static void setConfig() {
@@ -92,6 +93,7 @@ public class Config {
         jdbcDriver      = get("jdbcDriver");
         jdbcUrl         = get("jdbcUrl");
         hyphenPwd       = get("hyphenPwd").split(",");
+        histDbYn        = get("histDbYn");
 
         for (String hpnId : hyphenId)   log.debug("hyphenId="+hpnId);
         log.debug("sendDir="+sendDir+", usedDir="+usedDir+", recvDir="+recvDir+", recvDataTp="+recvDataTp+
@@ -104,6 +106,8 @@ public class Config {
             log.debug("sendOkDir="+sendOkDir+", sendFailDir="+sendFailDir);
         if(cocaDbYn.equals("Y"))
             log.debug("cocaDbYn="+cocaDbYn+", jdbcDriver="+jdbcDriver+", jdbcUrl="+jdbcUrl);
+        if(histDbYn.equals("Y"))
+            log.debug("histDbYn="+histDbYn+", jdbcDriver="+jdbcDriver+", jdbcUrl="+jdbcUrl);
     }
 
     public static String spanDate(String yyyymmdd, int span){
@@ -119,91 +123,68 @@ public class Config {
     public static String get(String keyName){
         return properties.getProperty(keyName);
     }
-
     public static String[] getHyphenId() {
         return hyphenId;
     }
-
     public static String getSendDir() {
         return sendDir;
     }
-
     public static String getUsedDir() {
         return usedDir;
     }
-
     public static String getSendOkDir() {
         return sendOkDir;
     }
-
     public static String getSendFailDir() {
         return sendFailDir;
     }
-
     public static String getRecvDir() {
         return recvDir;
     }
-
     public static String getRecvDataTp() {
         return recvDataTp;
     }
-
     public static String getFromDate() { return fromDate; }
-
     public static String getToDate() {
         return toDate;
     }
-
     public static String getReqTp() {
         return reqTp;
     }
-
     public static String getRecvCd() {
         return recvCd;
     }
-
     public static int getMonitTerm() {
         return monitTerm;
     }
-
     public static boolean isDelnYn() {
         return delnYn;
     }
-
     public static boolean isZipYn() { return zipYn; }
-
     public static String getNetBps() {
         return netBps;
     }
-
     public static String getFileNameTp() {
         return fileNameTp;
     }
-
     public static String getRunMode() {
         return runMode;
     }
-
     public static String getCustomIpYn() {
         return customIpYn;
     }
-
     public static String getHpnSvrIpProd() {
         return hpnSvrIpProd;
     }
-
     public static String getHpnSvrIpTest() {
         return hpnSvrIpTest;
     }
-
     public static int getHpnSvrPort() {
         return hpnSvrPort;
     }
-
     public static String getHpnSvrIpPrf() {
         return hpnSvrIpPrf;
     }
-
     public static int getHpnSvrPortPrf() {
         return hpnSvrPortPrf;
     }
@@ -212,8 +193,8 @@ public class Config {
     public static String getJdbcPwd() {return jdbcPwd;}
     public static String getJdbcDriver() {return jdbcDriver;}
     public static String getJdbcUrl() {return jdbcUrl;}
-
     public static String[] getHyphenPwd() {
         return hyphenPwd;
     }
+    public static String getHistDbYn() {return histDbYn;}
 }

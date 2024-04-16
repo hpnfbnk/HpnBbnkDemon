@@ -1,6 +1,7 @@
 package com.hyphen.fbnk.bbnkdemon;
 
 import com.hyphen.fbnk.bbnk.HpnBbnk;
+import com.hyphen.fbnk.bbnk.ProcBbdata;
 import com.hyphen.fbnk.bbnk.Util;
 import com.hyphen.fbnk.bbnk.dto.DtoFileList;
 import com.hyphen.fbnk.bbnk.msg.FnmTpKEduFine;
@@ -86,6 +87,9 @@ public class HpnBbnkDemon {
                 log.debug("[chkRcvData]("+hpnId+") NO_DATA");
             else
                 for (DtoFileList rcvDataList : rcvDataLists) log.debug("[chkRcvData]("+hpnId+") : "+rcvDataList);
+            //송수신내역 DB기록
+            if(Config.getHistDbYn().equals("Y") && !rcvDataLists.isEmpty())
+                new ProcBbdata().srHst2DB(rcvDataLists, "R", Config.getJdbcDriver(), Config.getJdbcUrl(), Config.getJdbcUser(), Config.getJdbcPwd());
         }
     }
 
@@ -99,6 +103,9 @@ public class HpnBbnkDemon {
         List<DtoFileList> resultLists = hpnBbnk.sendDataMulti(Config.getHyphenId()[0], sndDataLists, Config.getFileNameTp(), Config.getRunMode());
         //결과처리
         resultTreat(resultLists);
+        //송수신내역 DB기록
+        if(Config.getHistDbYn().equals("Y") && !resultLists.isEmpty())
+            new ProcBbdata().srHst2DB(resultLists, "S", Config.getJdbcDriver(), Config.getJdbcUrl(), Config.getJdbcUser(), Config.getJdbcPwd());
     }
 
     public void resultTreat(List<DtoFileList> resultLists){

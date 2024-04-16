@@ -267,3 +267,21 @@ CREATE TABLE COCA_LIMI (
   CardIni varchar(2) DEFAULT NULL,
   insert_time varchar(30) DEFAULT NULL
 )
+
+/*배치파일 송수신 히스토리*/
+CREATE TABLE HYPHEN_BBNK_HST (
+  SEND_DATE char(8) NOT NULL,  /*송수신일자*/
+  SEND_TIME char(6) NOT NULL,  /*송수신시간*/
+  BT_INFO_CODE char(3) NOT NULL,   /*파일종류*/
+  SEND_CODE char(4) NOT NULL,   /*송신자코드*/
+  RECV_CODE char(4) NOT NULL,   /*수신자코드*/
+  SEQ_NUMB char(3) NOT NULL,   /*순번*/
+  FILE_NAME varchar(40) DEFAULT NULL,  /*파일명*/
+  SR_TP char(1) DEFAULT NULL,  /*사용자입장 송수신구분 S:송신, R:수신*/
+  SUCCESS_FLAG char(1)  DEFAULT NULL, /*송수신 성공여부 Y:성공, N:실패*/
+  ADD_INFO1 varchar(20)   /*추가정보1*/
+  ADD_INFO2 varchar(20)   /*추가정보2*/
+  ADD_INFO3 varchar(40)   /*추가정보3*/
+  ADD_INFO4 decimal(16,0) DEFAULT 0, /*추가정보4*/
+  ADD_INFO5 decimal(20,0) DEFAULT 0, /*추가정보5*/
+)
