@@ -148,7 +148,7 @@ K-에듀파인용 파일명타입 규칙에 따릅니다.
 * 법인카드사용내역파일이 수신되면 그내역이 각업무별 table에 insert될것입니다. 
 
 배치파일송수신내역을 준비된 TABLE에 INSERT시킬수도 있습니다.
-* 첨부된 [TableScheme.sql](https://hpnfbnk.github.io/HpnBbnkDemon/HpnBbnkDemon/TableScheme.sql) 을 참조해 HYPHEN_BBNK_HST TABLE들을 만들어 놓습니다.
+* 첨부된 [TableScheme.sql](https://hpnfbnk.github.io/HpnBbnkDemon/HpnBbnkDemon/TableScheme.sql) 을 참조해 HYPHEN_BBNK_HST TABLE을 만들어 놓습니다.
 * hpnbbnk.properties 의 histDbYn값을 Y로 하고 사용하실 DB환경에 따라 jdbc관련값(jdbcUser, jdbcPwd, jdbcDriver, jdbcUrl)들을 설정합니다.
 * 사용하실 DB환경에 알맞은 JDBC 라이브러리(mysql-connector-java-5.1.6-bin.jar, ojdbc14.jar 등..)를 classpath에 포함시킵니다.
 * 배치파일이 송수신되면 그내역이 table에 insert될것입니다.
