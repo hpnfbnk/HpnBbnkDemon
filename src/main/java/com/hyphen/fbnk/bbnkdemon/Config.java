@@ -92,7 +92,8 @@ public class Config {
         jdbcPwd         = get("jdbcPwd");
         jdbcDriver      = get("jdbcDriver");
         jdbcUrl         = get("jdbcUrl");
-        hyphenPwd       = get("hyphenPwd").split(",");
+        try { hyphenPwd = get("hyphenPwd").split(",");}
+        catch (Exception e){ hyphenPwd = new String[]{""};}
         histDbYn        = get("histDbYn");
 
         for (String hpnId : hyphenId)   log.debug("hyphenId="+hpnId);
