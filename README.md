@@ -12,15 +12,6 @@ JAVA 1.7 이상을 요구합니다.
 ## 설치
 [HpnBbnkDemon-1.4.0.zip](https://hpnfbnk.github.io/HpnBbnkDemon/HpnBbnkDemon-1.4.0.zip) 을 다운받아 압축해제하면 됩니다.
 
-## HYPHEN 서버 주소
-인터넷존 - 운영 : ip 121.138.30.10 / port 29994
-
-인터넷존 - 개발 : ip 121.138.30.31 / port 29994
-
-전용선존 - 운영 : ip 129.200.9.11 / port 50001
-
-전용선존 - 개발 : ip 129.200.9.18 / port 50001
-
 ## 환경설정
 ### Logging (logback.xml)
 log기록을 위해 logback.xml 의 log파일경로 부분을 적절히 지정합니다.
