@@ -195,6 +195,8 @@ public class HpnBbnkDemon {
         } catch (IndexOutOfBoundsException e){
             e.printStackTrace();
             log.error(e.toString());
+            /*2025-06-30 추가*/
+            log.error("[setSndFile] abnormal file name ["+fname+"]");
             return;
         }
         //과거의 메세지파일 삭제
