@@ -45,6 +45,7 @@ public class Config {
     private static String jdbcUrl = "";
     private static String[] hyphenPwd = null;
     private static String histDbYn = "N";
+    private static String cocaDbTblNm = "";
 
     public Config(){}
     public static void setConfig() {
@@ -93,7 +94,10 @@ public class Config {
         jdbcDriver      = get("jdbcDriver");
         jdbcUrl         = get("jdbcUrl");
         try { hyphenPwd = get("hyphenPwd").split(",");}
-        catch (Exception e){ hyphenPwd = new String[]{""};}
+        catch (Exception e){hyphenPwd = new String[]{""};}
+        try {cocaDbTblNm = get("cocaDbTblNm");}
+        catch (Exception e){cocaDbTblNm = "";}
+        if(cocaDbTblNm==null)   cocaDbTblNm="";
         histDbYn        = get("histDbYn");
 
         for (String hpnId : hyphenId)   log.debug("hyphenId="+hpnId);
@@ -107,6 +111,8 @@ public class Config {
             log.debug("sendOkDir="+sendOkDir+", sendFailDir="+sendFailDir);
         if(cocaDbYn.equals("Y"))
             log.debug("cocaDbYn="+cocaDbYn+", jdbcDriver="+jdbcDriver+", jdbcUrl="+jdbcUrl);
+        if(cocaDbYn.equals("DZN"))
+            log.debug("cocaDbYn="+cocaDbYn+", cocaDbTblNm="+cocaDbTblNm+", jdbcDriver="+jdbcDriver+", jdbcUrl="+jdbcUrl);
         if(histDbYn.equals("Y"))
             log.debug("histDbYn="+histDbYn+", jdbcDriver="+jdbcDriver+", jdbcUrl="+jdbcUrl);
     }
@@ -194,8 +200,7 @@ public class Config {
     public static String getJdbcPwd() {return jdbcPwd;}
     public static String getJdbcDriver() {return jdbcDriver;}
     public static String getJdbcUrl() {return jdbcUrl;}
-    public static String[] getHyphenPwd() {
-        return hyphenPwd;
-    }
+    public static String[] getHyphenPwd() {return hyphenPwd;}
+    public static String getCocaDbTblNm() {return cocaDbTblNm;}
     public static String getHistDbYn() {return histDbYn;}
 }

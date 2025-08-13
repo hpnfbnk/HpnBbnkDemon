@@ -79,6 +79,10 @@ public class HpnBbnkDemon {
                 rcvDataLists = hpnBbnk.recvDataMulti2DB(hpnId, Config.getRecvCd(), Config.getRecvDataTp(), Config.getFromDate(), Config.getToDate(),
                         Config.getReqTp(), Config.getFileNameTp(), Config.getRecvDir(), Config.getRunMode(), Config.getJdbcDriver(), Config.getJdbcUrl(),
                         Config.getJdbcUser(), Config.getJdbcPwd(), hpnPwd);
+            else if(Config.getCocaDbYn().equals("DZN"))
+                rcvDataLists = hpnBbnk.recvDataMulti2DB(hpnId, Config.getRecvCd(), Config.getRecvDataTp(), Config.getFromDate(), Config.getToDate(),
+                        Config.getReqTp(), Config.getFileNameTp(), Config.getRecvDir(), Config.getRunMode(), Config.getJdbcDriver(), Config.getJdbcUrl(),
+                        Config.getJdbcUser(), Config.getJdbcPwd(), hpnPwd, Config.getCocaDbYn(), Config.getCocaDbTblNm(), "", "");
             else
                 rcvDataLists = hpnBbnk.recvDataMulti(hpnId, Config.getRecvCd(), Config.getRecvDataTp(), Config.getFromDate(), Config.getToDate(),
                     Config.getReqTp(), Config.getFileNameTp(), Config.getRecvDir(), Config.getRunMode(), hpnPwd);
