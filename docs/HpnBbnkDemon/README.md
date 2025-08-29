@@ -10,16 +10,7 @@
 JAVA 1.7 이상을 요구합니다.
 
 ## 설치
-[HpnBbnkDemon-1.4.0.zip](https://hpnfbnk.github.io/HpnBbnkDemon/HpnBbnkDemon-1.4.0.zip) 을 다운받아 압축해제하면 됩니다.
-
-## HYPHEN 서버 주소
-인터넷존 - 운영 : ip 121.138.30.10 / port 29994
-
-인터넷존 - 개발 : ip 121.138.30.31 / port 29994
-
-전용선존 - 운영 : ip 129.200.9.11 / port 50001
-
-전용선존 - 개발 : ip 129.200.9.18 / port 50001
+[HpnBbnkDemon-1.5.1.zip](https://hpnfbnk.github.io/HpnBbnkDemon/HpnBbnkDemon-1.5.1.zip) 을 다운받아 압축해제하면 됩니다.
 
 ## 환경설정
 ### Logging (logback.xml)
@@ -122,8 +113,8 @@ hpnbbnk.properties 내의 fileNameTp 값이 기본(DFLT)인 경우
 [문자셋구분(1)][업무종류 구분(3)][송신일자(8)]_[송신자코드(4)][수신자코드(4)][파일종류구분(3)].[순번].[결과코드]
 * 업무종류 구분 : 송신처리결과파일은 송신파일과 동일한 파일명에 "파일종류 구분자"만 **BRP**로 바뀝니다.(송신처리결과파일은 다음번 송신감시업무 주기 때 삭제됩니다.)
 * 결과코드 : 해당송신파일의 송신작업결과를 나타냅니다.(OK:성공, FAIL:실패)
-* 예) ABRQ20171011_A0010004200.001.OK : 10월11일에 A001이라는 업체가 국민은행(0004)으로 보내는 출금요청(200) 파일 송신성공(OK)
-* 예) ABRQ20171011_A0010004200.002.FAIL : 10월11일에 A001이라는 업체가 국민은행(0004)으로 보내는 출금요청(200) 파일 송신실패(FAIL)
+* 예) ABRR20171011_A0010004200.001.OK : 10월11일에 A001이라는 업체가 국민은행(0004)으로 보내는 출금요청(200) 파일 송신성공(OK)
+* 예) ABRR20171011_A0010004200.002.FAIL : 10월11일에 A001이라는 업체가 국민은행(0004)으로 보내는 출금요청(200) 파일 송신실패(FAIL)
 #### 송신완료파일 처리규칙  
 송신에 성공한 파일은 지정된 송신완료파일 보관경로(usedDir)에 송신성공시간을 파일명뒤에 붙여 보관됩니다.
 * 예) ABRQ20220602_A0010081200.001.105832
@@ -146,9 +137,10 @@ K-에듀파인용 파일명타입 규칙에 따릅니다.
 * hpnbbnk.properties 의 cocaDbYn값을 Y로 하고 사용하실 DB환경에 따라 jdbc관련값(jdbcUser, jdbcPwd, jdbcDriver, jdbcUrl)들을 설정합니다.
 * 사용하실 DB환경에 알맞은 JDBC 라이브러리(mysql-connector-java-5.1.6-bin.jar, ojdbc14.jar 등..)를 classpath에 포함시킵니다.
 * 법인카드사용내역파일이 수신되면 그내역이 각업무별 table에 insert될것입니다. 
+* cocaDbYn값을 DZN으로 하면 더존TypeDB([더존법카_Mapping_정의서.xlsx](https://hpnfbnk.github.io/HpnBbnkDemon/더존법카_Mapping_정의서.xlsx))에 입력시킬수도 있습니다.
 
 배치파일송수신내역을 준비된 TABLE에 INSERT시킬수도 있습니다.
-* 첨부된 [TableScheme.sql](https://hpnfbnk.github.io/HpnBbnkDemon/HpnBbnkDemon/TableScheme.sql) 을 참조해 HYPHEN_BBNK_HST TABLE들을 만들어 놓습니다.
+* 첨부된 [TableScheme.sql](https://hpnfbnk.github.io/HpnBbnkDemon/HpnBbnkDemon/TableScheme.sql) 을 참조해 HYPHEN_BBNK_HST TABLE을 만들어 놓습니다.
 * hpnbbnk.properties 의 histDbYn값을 Y로 하고 사용하실 DB환경에 따라 jdbc관련값(jdbcUser, jdbcPwd, jdbcDriver, jdbcUrl)들을 설정합니다.
 * 사용하실 DB환경에 알맞은 JDBC 라이브러리(mysql-connector-java-5.1.6-bin.jar, ojdbc14.jar 등..)를 classpath에 포함시킵니다.
 * 배치파일이 송수신되면 그내역이 table에 insert될것입니다.

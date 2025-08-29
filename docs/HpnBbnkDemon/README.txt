@@ -1,20 +1,20 @@
 # HYPHEN BatchFirmBanking Demon Module
-í•˜ì´í”ˆ-ë°°ì¹˜íŽŒë±…í‚¹ì„œë¹„ìŠ¤ìš© ì—°ë™Demonëª¨ë“ˆìž…ë‹ˆë‹¤.
+ÇÏÀÌÇÂ-¹èÄ¡Æß¹ðÅ·¼­ºñ½º¿ë ¿¬µ¿Demon¸ðµâÀÔ´Ï´Ù.
 
-## ê°œìš”
-ì£¼ê¸°ì ìœ¼ë¡œ ì§€ì •ëœ ì†¡ì‹ íŒŒì¼ë³´ê´€ê²½ë¡œì˜ ì§€ì •ëœ íŒŒì¼ëª…ìœ¼ë¡œ ëœ ì†¡ì‹ ëŒ€ìƒíŒŒì¼ì„ ì½ì–´ HYPHENìœ¼ë¡œ ì†¡ì‹ í•©ë‹ˆë‹¤.
+## °³¿ä
+ÁÖ±âÀûÀ¸·Î ÁöÁ¤µÈ ¼Û½ÅÆÄÀÏº¸°ü°æ·ÎÀÇ ÁöÁ¤µÈ ÆÄÀÏ¸íÀ¸·Î µÈ ¼Û½Å´ë»óÆÄÀÏÀ» ÀÐ¾î HYPHENÀ¸·Î ¼Û½ÅÇÕ´Ï´Ù.
 
-ì£¼ê¸°ì ìœ¼ë¡œ HYPHENì— ìˆ˜ì‹ ìš”ì²­ì„ í•´ ìˆ˜ì‹ ëŒ€ìƒíŒŒì¼ì„ ì§€ì •ëœ ìˆ˜ì‹ íŒŒì¼ë³´ê´€ê²½ë¡œì— ì§€ì •ëœ íŒŒì¼ëª…ìœ¼ë¡œ ìˆ˜ì‹ í•©ë‹ˆë‹¤.
+ÁÖ±âÀûÀ¸·Î HYPHEN¿¡ ¼ö½Å¿äÃ»À» ÇØ ¼ö½Å´ë»óÆÄÀÏÀ» ÁöÁ¤µÈ ¼ö½ÅÆÄÀÏº¸°ü°æ·Î¿¡ ÁöÁ¤µÈ ÆÄÀÏ¸íÀ¸·Î ¼ö½ÅÇÕ´Ï´Ù. 
 
-## ìš”êµ¬ì‚¬í•­
-JAVA 1.7 ì´ìƒì„ ìš”êµ¬í•©ë‹ˆë‹¤.
+## ¿ä±¸»çÇ×
+JAVA 1.7 ÀÌ»óÀ» ¿ä±¸ÇÕ´Ï´Ù.
 
-## ì„¤ì¹˜
-[HpnBbnkDemon-1.1.0.tar.gz](https://hpnfbnk.github.io/HpnBbnkDemon/HpnBbnkDemon-1.1.0.tar.gz) ì„ ë‹¤ìš´ë°›ì•„ ì••ì¶•í•´ì œí•˜ë©´ ë©ë‹ˆë‹¤.
+## ¼³Ä¡
+[HpnBbnkDemon-1.5.1.zip](https://hpnfbnk.github.io/HpnBbnkDemon/HpnBbnkDemon-1.5.1.zip) À» ´Ù¿î¹Þ¾Æ ¾ÐÃàÇØÁ¦ÇÏ¸é µË´Ï´Ù.
 
-## í™˜ê²½ì„¤ì •
+## È¯°æ¼³Á¤
 ### Logging (logback.xml)
-logê¸°ë¡ì„ ìœ„í•´ logback.xml ì˜ logíŒŒì¼ê²½ë¡œ ë¶€ë¶„ì„ ì ì ˆížˆ ì§€ì •í•©ë‹ˆë‹¤.
+log±â·ÏÀ» À§ÇØ logback.xml ÀÇ logÆÄÀÏ°æ·Î ºÎºÐÀ» ÀûÀýÈ÷ ÁöÁ¤ÇÕ´Ï´Ù.
 ```xml
 <appender name="file" class="ch.qos.logback.core.rolling.RollingFileAppender">
   <file>./log/HpnBbnkDemon.log</file>
@@ -24,121 +24,129 @@ logê¸°ë¡ì„ ìœ„í•´ logback.xml ì˜ logíŒŒì¼ê²½ë¡œ ë¶€ë¶„ì„ ì ì ˆížˆ ì§€ì •í•
 <root level="DEBUG">
     ...
 ```
-[debug] level ì‹œ : ì£¼ìš” ì„¸ë¶€ë™ìž‘ë‹¨ê³„ì—ì„œ logging
+[debug] level ½Ã : ÁÖ¿ä ¼¼ºÎµ¿ÀÛ´Ü°è¿¡¼­ logging
 
-[trace] level ì‹œ : ì‹¤ì œë¡œ Hyphen serverì™€ ì£¼ê³ ë°›ëŠ” ì „ë¬¸ê¹Œì§€ ëª¨ë‘ logging
+[trace] level ½Ã : ½ÇÁ¦·Î Hyphen server¿Í ÁÖ°í¹Þ´Â Àü¹®±îÁö ¸ðµÎ logging
 
-### í™˜ê²½ë³€ìˆ˜ (hpnbbnk.properties)
-í™˜ê²½ë³€ìˆ˜ ì„¤ì •ì„ ìœ„í•´ hpnbbnk.properties ì„ ì ì ˆížˆ ì„¤ì •í•©ë‹ˆë‹¤.
+### È¯°æº¯¼ö (hpnbbnk.properties)
+È¯°æº¯¼ö ¼³Á¤À» À§ÇØ hpnbbnk.properties À» ÀûÀýÈ÷ ¼³Á¤ÇÕ´Ï´Ù.
 ```properties
-#HYPHENì—ì„œ ë°œê¸‰ë°›ì€ ID (ì½¤ë§ˆë¡œ êµ¬ë¶„ì‹œ ë³µìˆ˜ID ì‚¬ìš©ê°€ëŠ¥. ì˜ˆ:A001,A002)
+#HYPHEN¿¡¼­ ¹ß±Þ¹ÞÀº ID (ÄÞ¸¶·Î ±¸ºÐ½Ã º¹¼öID »ç¿ë°¡´É. ¿¹:A001,A002)
 hyphenId=A001
-#ì†¡ì‹ íŒŒì¼ ë³´ê´€ê²½ë¡œ
+#¼Û½ÅÆÄÀÏ º¸°ü°æ·Î
 sendDir=/home/anno/HpnBbnkDemon/send
-#ì†¡ì‹ ì™„ë£ŒíŒŒì¼ ë³´ê´€ê²½ë¡œ
+#¼Û½Å¿Ï·áÆÄÀÏ º¸°ü°æ·Î
 usedDir=/home/anno/HpnBbnkDemon/send/usedfile
 ...
 ```
-* logback.xml ê³¼ hpnbbnk.properties ëŠ” HpnBbnkDemon*.jar ì™€ ê°™ì€ ë””ë ‰í† ë¦¬ì— ìžˆì–´ì•¼í•©ë‹ˆë‹¤.
+* logback.xml °ú hpnbbnk.properties ´Â HpnBbnkDemon*.jar ¿Í °°Àº µð·ºÅä¸®¿¡ ÀÖ¾î¾ßÇÕ´Ï´Ù.
 
-## ì‚¬ìš©ë²•
-### Unix, Linux ê³„ì—´
-#### Demon ì‹œìž‘ (d_start.sh)
-d_start.sh ì‹œìž‘ìŠ¤í¬ë¦½íŠ¸ì˜ ë‚´ìš©ì„ ì ì ˆížˆ íŽ¸ì§‘í•œí›„ ì‹¤í–‰ì‹œí‚µë‹ˆë‹¤.
+## »ç¿ë¹ý
+### Unix, Linux °è¿­
+#### Demon ½ÃÀÛ (d_start.sh)
+d_start.sh ½ÃÀÛ½ºÅ©¸³Æ®ÀÇ ³»¿ëÀ» ÀûÀýÈ÷ ÆíÁýÇÑÈÄ ½ÇÇà½ÃÅµ´Ï´Ù.
 ```shell
-##HYPHEN_ID(HYPHENì—ì„œ ë°œê¸‰ë°›ì€ ID)
+##HYPHEN_ID(HYPHEN¿¡¼­ ¹ß±Þ¹ÞÀº ID)
 HYPHEN_ID=A001
-##javaì„¤ì¹˜ê²½ë¡œ(java7 ì´ìƒ í•„ìš”)
+##java¼³Ä¡°æ·Î(java7 ÀÌ»ó ÇÊ¿ä)
 JAVA_HOME=/usr/java7_64
-##HYPHENëª¨ë“ˆ ì„¤ì¹˜ê²½ë¡œ
+##HYPHEN¸ðµâ ¼³Ä¡°æ·Î
 INSTALL_HOME=/home/anno/HpnBbnkDemon
 ...
 ```
-#### Demon ì¢…ë£Œ(d_stop.sh)
-d_stop.sh ì¢…ë£ŒìŠ¤í¬ë¦½íŠ¸ì˜ ë‚´ìš©ì„ ì ì ˆížˆ íŽ¸ì§‘í•œí›„ ì‹¤í–‰ì‹œí‚µë‹ˆë‹¤.
+#### Demon Á¾·á(d_stop.sh)
+d_stop.sh Á¾·á½ºÅ©¸³Æ®ÀÇ ³»¿ëÀ» ÀûÀýÈ÷ ÆíÁýÇÑÈÄ ½ÇÇà½ÃÅµ´Ï´Ù.
 ```shell
-##HYPHEN_ID(HYPHENì—ì„œ ë°œê¸‰ë°›ì€ ID)
+##HYPHEN_ID(HYPHEN¿¡¼­ ¹ß±Þ¹ÞÀº ID)
 HYPHEN_ID=A001
-##HYPHENëª¨ë“ˆ ì„¤ì¹˜ê²½ë¡œ
+##HYPHEN¸ðµâ ¼³Ä¡°æ·Î
 INSTALL_HOME=/home/anno/HpnBbnkDemon
 ...
 ```
-### Windows ê³„ì—´
-#### Service ë“±ë¡ (winReg.bat)
-winReg.bat ì„œë¹„ìŠ¤ë“±ë¡ ìŠ¤í¬ë¦½íŠ¸ë¥¼ ì ì ˆížˆ íŽ¸ì§‘í•œí›„ **ê´€ë¦¬ìžê¶Œí•œìœ¼ë¡œ** ì‹¤í–‰ì‹œí‚µë‹ˆë‹¤.
+### Windows °è¿­
+#### Service µî·Ï (winReg.bat)
+winReg.bat ¼­ºñ½ºµî·Ï ½ºÅ©¸³Æ®¸¦ ÀûÀýÈ÷ ÆíÁýÇÑÈÄ **°ü¸®ÀÚ±ÇÇÑÀ¸·Î** ½ÇÇà½ÃÅµ´Ï´Ù.
 ```shell
 @set HYPHEN_ID=A001
 @set INSTALL_HOME=C:\HpnBbnkDemon
 @set JRE_HOME=C:\Java\jdk1.8.0_261\jre
-@rem OS bitì— ë”°ë¼ JavaService_64bit ë˜ëŠ” JavaService_32bit ì‚¬ìš©
+@rem OS bit¿¡ µû¶ó JavaService_64bit ¶Ç´Â JavaService_32bit »ç¿ë
 @set JAVASERVICE=%INSTALL_HOME%\javaService\JavaService_64bit.exe
 ...
 ```
-#### Service ì‹¤í–‰ (winStart.bat)
-winStart.bat ì„œë¹„ìŠ¤ì‹¤í–‰ ìŠ¤í¬ë¦½íŠ¸ë¥¼ ì ì ˆížˆ íŽ¸ì§‘í•œí›„ **ê´€ë¦¬ìžê¶Œí•œìœ¼ë¡œ** ì‹¤í–‰ì‹œí‚µë‹ˆë‹¤.
+#### Service ½ÇÇà (winStart.bat)
+winStart.bat ¼­ºñ½º½ÇÇà ½ºÅ©¸³Æ®¸¦ ÀûÀýÈ÷ ÆíÁýÇÑÈÄ **°ü¸®ÀÚ±ÇÇÑÀ¸·Î** ½ÇÇà½ÃÅµ´Ï´Ù.
 ```shell
 @set HYPHEN_ID=A001
 ...
 ```
-#### Service ì¤‘ì§€ (winStop.bat)
-winStop.bat ì„œë¹„ìŠ¤ì¤‘ì§€ ìŠ¤í¬ë¦½íŠ¸ë¥¼ ì ì ˆížˆ íŽ¸ì§‘í•œí›„ ê´€ë¦¬ìžê¶Œí•œìœ¼ë¡œ ì‹¤í–‰ì‹œí‚µë‹ˆë‹¤.
+#### Service ÁßÁö (winStop.bat)
+winStop.bat ¼­ºñ½ºÁßÁö ½ºÅ©¸³Æ®¸¦ ÀûÀýÈ÷ ÆíÁýÇÑÈÄ °ü¸®ÀÚ±ÇÇÑÀ¸·Î ½ÇÇà½ÃÅµ´Ï´Ù.
 ```shell
 @set HYPHEN_ID=A001
 ...
 ```
-#### Service ì œê±° (winUnreg.bat)
+#### Service Á¦°Å (winUnreg.bat)
 ```shell
 @set HYPHEN_ID=A001
 @set INSTALL_HOME=C:\HpnBbnkDemon
-@rem OS bitì— ë”°ë¼ JavaService_64bit ë˜ëŠ” JavaService_32bit ì‚¬ìš©
+@rem OS bit¿¡ µû¶ó JavaService_64bit ¶Ç´Â JavaService_32bit »ç¿ë
 @set JAVASERVICE=%INSTALL_HOME%\javaService\JavaService_64bit.exe
 ...
 ```
 
-## íŒŒì¼ëª… ë° íŒŒì¼ì²˜ë¦¬ ê·œì¹™
-### íŒŒì¼ëª…íƒ€ìž…:ê¸°ë³¸ (fileNameTp=DFLT)
-hpnbbnk.properties ë‚´ì˜ fileNameTp ê°’ì´ ê¸°ë³¸(DFLT)ì¸ ê²½ìš°
-#### ì†¡ì‹ íŒŒì¼ëª… ê·œì¹™
-[ë¬¸ìžì…‹êµ¬ë¶„(1)][ì—…ë¬´ì¢…ë¥˜ êµ¬ë¶„(3)][ì†¡ì‹ ì¼ìž(8)]_[ì†¡ì‹ ìžì½”ë“œ(4)][ìˆ˜ì‹ ìžì½”ë“œ(4)][íŒŒì¼ì¢…ë¥˜êµ¬ë¶„(3)].[ìˆœë²ˆ]
-* ë¬¸ìžì¸ì½”ë”©íƒ€ìž… : A=ascii, E=ebcdic
-* ì—…ë¬´ì¢…ë¥˜ êµ¬ë¶„ : HYPHENìœ¼ë¡œ ì†¡ì‹ í• íŒŒì¼ì€ íŒŒì¼ëª…ì— **BRQ**ë¼ëŠ” êµ¬ë¶„ìžë¥¼ ê°€ì§€ê³  ìžˆì–´  ì•¼í•©ë‹ˆë‹¤.
-  (BRQë¼ëŠ” êµ¬ë¶„ìžê°€ ì—†ëŠ”ê²ƒì€ ì†¡ì‹ ëŒ€ìƒíŒŒì¼ì´ ì•„ë‹ˆë¼ê³  íŒë‹¨í•´ ì†¡ì‹ ì—…ë¬´ì—ì„œ ì œì™¸ë©ë‹ˆë‹¤.)
-* ì†¡ì‹ ì¼ìž : ì†¡ì‹ ì¼ìžê°€ ë‹¹ì¼ì¸ê²ƒë§Œ ì†¡ì‹ ëŒ€ìƒíŒŒì¼ì´ë¼ê³  ì·¨ê¸‰í•©ë‹ˆë‹¤.
-* ì†¡ì‹ ìžì½”ë“œ : íŒŒì¼ì„ ë³´ë‚´ëŠ”ì¸¡ì˜ HYPHEN_ID (A001, 1234 ë“±...)+69+
-* ìˆ˜ì‹ ìžì½”ë“œ : íŒŒì¼ì„ ë°›ì„ê¸°ê´€ì˜ HYPHEN_ID(0081:í•˜ë‚˜ì€í–‰, 0084:ìš°ë¦¬ì€í–‰, 0240:ì‚¼ì„±ì¦ê¶Œ, 0997:HYPHENë°°ì¹˜ëŒ€í–‰ì„œë²„, 0998:HYPHENí†µí•©ì²˜ë¦¬ì„œë²„ ë“±..)
-* íŒŒì¼ì¢…ë¥˜êµ¬ë¶„ : ì†¡ì‹ íŒŒì¼ì˜ ì¢…ë¥˜(200:ì§‘ê¸ˆ, 300:ì§€ê¸‰, R00:ê³„ì¢Œë“±ë¡, Y00:ì¦ë¹™ìžë£Œ,I02:ì§‘ê¸ˆ-í†µí•©, I03:ì§€ê¸‰-í†µí•©, I0R:ê³„ì¢Œë“±ë¡-í†µí•©, IY0:ì¦ë¹™ìžë£Œ-í†µí•©,A02:ì§‘ê¸ˆ-ëŒ€í–‰, A0R:ê³„ì¢Œë“±ë¡-ëŒ€í–‰, AY0:ì¦ë¹™ìžë£Œ-ëŒ€í–‰,Y01:ê³„ì¢Œë³€ê²½, Y02:ê³„ì¢Œë³€ê²½ê²°ê³¼, Y03:í•´ì§€í†µë³´, Y05:ì¦ë¹™ìžë£Œì‚¬í›„ì ê²€,Y06:ì¦ë¹™ìžë£Œì‚¬í›„ì ê²€ì •ë³´, C01:ë²•ì¸ì¹´ë“œìŠ¹ì¸ë‚´ì—­ ë“±..)
-* ìˆœë²ˆ : ë™ì¼í•œ ìˆ˜ì‹ ìžì—ê²Œ ë™ì¼í•œì¢…ë¥˜ì˜ íŒŒì¼ì„ ì—¬ëŸ¬ê°œë³´ë‚¼ë•Œ ìˆœë²ˆìœ¼ë¡œ íŒŒì¼êµ¬ë¶„.
-* ì˜ˆ) ABRQ20170623_A0010004200.001 => 6ì›”23ì¼ì— A001ì´ë¼ëŠ” ì—…ì²´ê°€ êµ­ë¯¼ì€í–‰(0004)ìœ¼ë¡œ ë³´ë‚´ëŠ” ì¶œê¸ˆìš”ì²­(200) íŒŒì¼
-#### ì†¡ì‹ ì²˜ë¦¬ê²°ê³¼íŒŒì¼ ê·œì¹™
-[ë¬¸ìžì…‹êµ¬ë¶„(1)][ì—…ë¬´ì¢…ë¥˜ êµ¬ë¶„(3)][ì†¡ì‹ ì¼ìž(8)]_[ì†¡ì‹ ìžì½”ë“œ(4)][ìˆ˜ì‹ ìžì½”ë“œ(4)][íŒŒì¼ì¢…ë¥˜êµ¬ë¶„(3)].[ìˆœë²ˆ].[ê²°ê³¼ì½”ë“œ]
-* ì—…ë¬´ì¢…ë¥˜ êµ¬ë¶„ : ì†¡ì‹ ì²˜ë¦¬ê²°ê³¼íŒŒì¼ì€ ì†¡ì‹ íŒŒì¼ê³¼ ë™ì¼í•œ íŒŒì¼ëª…ì— "íŒŒì¼ì¢…ë¥˜ êµ¬ë¶„ìž"ë§Œ **BRP**ë¡œ ë°”ë€ë‹ˆë‹¤.(ì†¡ì‹ ì²˜ë¦¬ê²°ê³¼íŒŒì¼ì€ ë‹¤ìŒë²ˆ ì†¡ì‹ ê°ì‹œì—…ë¬´ ì£¼ê¸° ë•Œ ì‚­ì œë©ë‹ˆë‹¤.)
-* ê²°ê³¼ì½”ë“œ : í•´ë‹¹ì†¡ì‹ íŒŒì¼ì˜ ì†¡ì‹ ìž‘ì—…ê²°ê³¼ë¥¼ ë‚˜íƒ€ëƒ…ë‹ˆë‹¤.(OK:ì„±ê³µ, FAIL:ì‹¤íŒ¨)
-* ì˜ˆ) ABRQ20171011_A0010004200.001.OK : 10ì›”11ì¼ì— A001ì´ë¼ëŠ” ì—…ì²´ê°€ êµ­ë¯¼ì€í–‰(0004)ìœ¼ë¡œ ë³´ë‚´ëŠ” ì¶œê¸ˆìš”ì²­(200) íŒŒì¼ ì†¡ì‹ ì„±ê³µ(OK)
-* ì˜ˆ) ABRQ20171011_A0010004200.002.FAIL : 10ì›”11ì¼ì— A001ì´ë¼ëŠ” ì—…ì²´ê°€ êµ­ë¯¼ì€í–‰(0004)ìœ¼ë¡œ ë³´ë‚´ëŠ” ì¶œê¸ˆìš”ì²­(200) íŒŒì¼ ì†¡ì‹ ì‹¤íŒ¨(FAIL)
-#### ì†¡ì‹ ì™„ë£ŒíŒŒì¼ ì²˜ë¦¬ê·œì¹™
-ì†¡ì‹ ì— ì„±ê³µí•œ íŒŒì¼ì€ ì§€ì •ëœ ì†¡ì‹ ì™„ë£ŒíŒŒì¼ ë³´ê´€ê²½ë¡œ(usedDir)ì— ì†¡ì‹ ì„±ê³µì‹œê°„ì„ íŒŒì¼ëª…ë’¤ì— ë¶™ì—¬ ë³´ê´€ë©ë‹ˆë‹¤.
-* ì˜ˆ) ABRQ20220602_A0010081200.001.105832
-#### ìˆ˜ì‹ íŒŒì¼ëª… ê·œì¹™
-[ë¬¸ìžì…‹êµ¬ë¶„(1)][ì—…ë¬´ì¢…ë¥˜ êµ¬ë¶„(3)][ìˆ˜ì‹ ì¼ìž(8)]_[ì†¡ì‹ ìžì½”ë“œ(4)][ìˆ˜ì‹ ìžì½”ë“œ(4)][íŒŒì¼ì¢…ë¥˜êµ¬ë¶„(3)].[ìˆœë²ˆ(3)]
-* ë¬¸ìžì¸ì½”ë”©íƒ€ìž… : A=ascii, E=ebcdic
-* ì—…ë¬´ì¢…ë¥˜ êµ¬ë¶„ : HYPHENì—ì„œ ìˆ˜ì‹ ëœíŒŒì¼ì€ **BRR**ì´ë¼ëŠ” êµ¬ë¶„ìžë¥¼ ê°€ì§€ê³ ìžˆìŠµë‹ˆë‹¤.
-* ìˆ˜ì‹ ì¼ìž : HYPHENìœ¼ë¡œë¶€í„° ìˆ˜ì‹ ëœ ì¼ìžìž…ë‹ˆë‹¤.
-* ì†¡ì‹ ìžì½”ë“œ : íŒŒì¼ì„ ë³´ë‚¸ ê¸°ê´€ì˜ HYPHEN_ID ìž…ë‹ˆë‹¤. (0081:í•˜ë‚˜ì€í–‰, 0084:ìš°ë¦¬ì€í–‰, 1126:ì‚¼ì„±ì¦ê¶Œ ë“±..).
-* ìˆ˜ì‹ ìžì½”ë“œ : íŒŒì¼ì„ ë°›ì„ ì—…ì²´ì˜ HYPHEN_ID(A000, 1234 ë“±...) ìž…ë‹ˆë‹¤.
-* íŒŒì¼ì¢…ë¥˜êµ¬ë¶„ : ìˆ˜ì‹ íŒŒì¼ì˜ ì¢…ë¥˜(R00:ê³„ì¢Œë“±ë¡, 200:ì§‘ê¸‰ì´ì²´ìš”ì²­, 300:ì§€ê¸‰ì´ì²´ìš”ì²­ ë“±..).
-* ìˆœë²ˆ : ìˆ˜ì‹ íŒŒì¼ëª…ì´ ë™ì¼í• ì‹œ ìˆœë²ˆìœ¼ë¡œ êµ¬ë¶„.
-* ì˜ˆ) ABRR20171011_0004A001200.001 => 10ì›”11ì¼ì— êµ­ë¯¼ì€í–‰(0004)ìœ¼ë¡œ ë¶€í„° A001ì—ê²Œ ì˜¨ ì¶œê¸ˆê²°ê³¼(200) íŒŒì¼
-### íŒŒì¼ëª…íƒ€ìž…:K-ì—ë“€íŒŒì¸ìš© (fileNameTp=KEDU)
-K-ì—ë“€íŒŒì¸ìš© íŒŒì¼ëª…íƒ€ìž… ê·œì¹™ì— ë”°ë¦…ë‹ˆë‹¤.
+## ÆÄÀÏ¸í ¹× ÆÄÀÏÃ³¸® ±ÔÄ¢
+### ÆÄÀÏ¸íÅ¸ÀÔ:±âº» (fileNameTp=DFLT)
+hpnbbnk.properties ³»ÀÇ fileNameTp °ªÀÌ ±âº»(DFLT)ÀÎ °æ¿ì
+#### ¼Û½ÅÆÄÀÏ¸í ±ÔÄ¢
+[¹®ÀÚ¼Â±¸ºÐ(1)][¾÷¹«Á¾·ù ±¸ºÐ(3)][¼Û½ÅÀÏÀÚ(8)]_[¼Û½ÅÀÚÄÚµå(4)][¼ö½ÅÀÚÄÚµå(4)][ÆÄÀÏÁ¾·ù±¸ºÐ(3)].[¼ø¹ø]
+* ¹®ÀÚÀÎÄÚµùÅ¸ÀÔ : A=ascii, E=ebcdic
+* ¾÷¹«Á¾·ù ±¸ºÐ : HYPHENÀ¸·Î ¼Û½ÅÇÒÆÄÀÏÀº ÆÄÀÏ¸í¿¡ **BRQ**¶ó´Â ±¸ºÐÀÚ¸¦ °¡Áö°í ÀÖ¾î  ¾ßÇÕ´Ï´Ù.
+  (BRQ¶ó´Â ±¸ºÐÀÚ°¡ ¾ø´Â°ÍÀº ¼Û½Å´ë»óÆÄÀÏÀÌ ¾Æ´Ï¶ó°í ÆÇ´ÜÇØ ¼Û½Å¾÷¹«¿¡¼­ Á¦¿ÜµË´Ï´Ù.)
+* ¼Û½ÅÀÏÀÚ : ¼Û½ÅÀÏÀÚ°¡ ´çÀÏÀÎ°Í¸¸ ¼Û½Å´ë»óÆÄÀÏÀÌ¶ó°í Ãë±ÞÇÕ´Ï´Ù.
+* ¼Û½ÅÀÚÄÚµå : ÆÄÀÏÀ» º¸³»´ÂÃøÀÇ HYPHEN_ID (A001, 1234 µî...)
+* ¼ö½ÅÀÚÄÚµå : ÆÄÀÏÀ» ¹ÞÀ»±â°üÀÇ HYPHEN_ID(0081:ÇÏ³ªÀºÇà, 0084:¿ì¸®ÀºÇà, 0240:»ï¼ºÁõ±Ç, 0997:HYPHEN¹èÄ¡´ëÇà¼­¹ö, 0998:HYPHENÅëÇÕÃ³¸®¼­¹ö µî..)
+* ÆÄÀÏÁ¾·ù±¸ºÐ : ¼Û½ÅÆÄÀÏÀÇ Á¾·ù(200:Áý±Ý, 300:Áö±Þ, R00:°èÁÂµî·Ï, Y00:ÁõºùÀÚ·á,I02:Áý±Ý-ÅëÇÕ, I03:Áö±Þ-ÅëÇÕ, I0R:°èÁÂµî·Ï-ÅëÇÕ, IY0:ÁõºùÀÚ·á-ÅëÇÕ,A02:Áý±Ý-´ëÇà, A0R:°èÁÂµî·Ï-´ëÇà, AY0:ÁõºùÀÚ·á-´ëÇà,Y01:°èÁÂº¯°æ, Y02:°èÁÂº¯°æ°á°ú, Y03:ÇØÁöÅëº¸, Y05:ÁõºùÀÚ·á»çÈÄÁ¡°Ë,Y06:ÁõºùÀÚ·á»çÈÄÁ¡°ËÁ¤º¸, C01:¹ýÀÎÄ«µå½ÂÀÎ³»¿ª µî..)
+* ¼ø¹ø : µ¿ÀÏÇÑ ¼ö½ÅÀÚ¿¡°Ô µ¿ÀÏÇÑÁ¾·ùÀÇ ÆÄÀÏÀ» ¿©·¯°³º¸³¾¶§ ¼ø¹øÀ¸·Î ÆÄÀÏ±¸ºÐ.
+* ¿¹) ABRQ20170623_A0010004200.001 => 6¿ù23ÀÏ¿¡ A001ÀÌ¶ó´Â ¾÷Ã¼°¡ ±¹¹ÎÀºÇà(0004)À¸·Î º¸³»´Â Ãâ±Ý¿äÃ»(200) ÆÄÀÏ
+#### ¼Û½ÅÃ³¸®°á°úÆÄÀÏ ±ÔÄ¢ 
+[¹®ÀÚ¼Â±¸ºÐ(1)][¾÷¹«Á¾·ù ±¸ºÐ(3)][¼Û½ÅÀÏÀÚ(8)]_[¼Û½ÅÀÚÄÚµå(4)][¼ö½ÅÀÚÄÚµå(4)][ÆÄÀÏÁ¾·ù±¸ºÐ(3)].[¼ø¹ø].[°á°úÄÚµå]
+* ¾÷¹«Á¾·ù ±¸ºÐ : ¼Û½ÅÃ³¸®°á°úÆÄÀÏÀº ¼Û½ÅÆÄÀÏ°ú µ¿ÀÏÇÑ ÆÄÀÏ¸í¿¡ "ÆÄÀÏÁ¾·ù ±¸ºÐÀÚ"¸¸ **BRP**·Î ¹Ù²ò´Ï´Ù.(¼Û½ÅÃ³¸®°á°úÆÄÀÏÀº ´ÙÀ½¹ø ¼Û½Å°¨½Ã¾÷¹« ÁÖ±â ¶§ »èÁ¦µË´Ï´Ù.)
+* °á°úÄÚµå : ÇØ´ç¼Û½ÅÆÄÀÏÀÇ ¼Û½ÅÀÛ¾÷°á°ú¸¦ ³ªÅ¸³À´Ï´Ù.(OK:¼º°ø, FAIL:½ÇÆÐ)
+* ¿¹) ABRR20171011_A0010004200.001.OK : 10¿ù11ÀÏ¿¡ A001ÀÌ¶ó´Â ¾÷Ã¼°¡ ±¹¹ÎÀºÇà(0004)À¸·Î º¸³»´Â Ãâ±Ý¿äÃ»(200) ÆÄÀÏ ¼Û½Å¼º°ø(OK)
+* ¿¹) ABRR20171011_A0010004200.002.FAIL : 10¿ù11ÀÏ¿¡ A001ÀÌ¶ó´Â ¾÷Ã¼°¡ ±¹¹ÎÀºÇà(0004)À¸·Î º¸³»´Â Ãâ±Ý¿äÃ»(200) ÆÄÀÏ ¼Û½Å½ÇÆÐ(FAIL)
+#### ¼Û½Å¿Ï·áÆÄÀÏ Ã³¸®±ÔÄ¢  
+¼Û½Å¿¡ ¼º°øÇÑ ÆÄÀÏÀº ÁöÁ¤µÈ ¼Û½Å¿Ï·áÆÄÀÏ º¸°ü°æ·Î(usedDir)¿¡ ¼Û½Å¼º°ø½Ã°£À» ÆÄÀÏ¸íµÚ¿¡ ºÙ¿© º¸°üµË´Ï´Ù.
+* ¿¹) ABRQ20220602_A0010081200.001.105832
+#### ¼ö½ÅÆÄÀÏ¸í ±ÔÄ¢
+[¹®ÀÚ¼Â±¸ºÐ(1)][¾÷¹«Á¾·ù ±¸ºÐ(3)][¼ö½ÅÀÏÀÚ(8)]_[¼Û½ÅÀÚÄÚµå(4)][¼ö½ÅÀÚÄÚµå(4)][ÆÄÀÏÁ¾·ù±¸ºÐ(3)].[¼ø¹ø(3)]
+* ¹®ÀÚÀÎÄÚµùÅ¸ÀÔ : A=ascii, E=ebcdic
+* ¾÷¹«Á¾·ù ±¸ºÐ : HYPHEN¿¡¼­ ¼ö½ÅµÈÆÄÀÏÀº **BRR**ÀÌ¶ó´Â ±¸ºÐÀÚ¸¦ °¡Áö°íÀÖ½À´Ï´Ù.
+* ¼ö½ÅÀÏÀÚ : HYPHENÀ¸·ÎºÎÅÍ ¼ö½ÅµÈ ÀÏÀÚÀÔ´Ï´Ù.
+* ¼Û½ÅÀÚÄÚµå : ÆÄÀÏÀ» º¸³½ ±â°üÀÇ HYPHEN_ID ÀÔ´Ï´Ù. (0081:ÇÏ³ªÀºÇà, 0084:¿ì¸®ÀºÇà, 1126:»ï¼ºÁõ±Ç µî..).
+* ¼ö½ÅÀÚÄÚµå : ÆÄÀÏÀ» ¹ÞÀ» ¾÷Ã¼ÀÇ HYPHEN_ID(A000, 1234 µî...) ÀÔ´Ï´Ù.
+* ÆÄÀÏÁ¾·ù±¸ºÐ : ¼ö½ÅÆÄÀÏÀÇ Á¾·ù(R00:°èÁÂµî·Ï, 200:Áý±ÞÀÌÃ¼¿äÃ», 300:Áö±ÞÀÌÃ¼¿äÃ» µî..).
+* ¼ø¹ø : ¼ö½ÅÆÄÀÏ¸íÀÌ µ¿ÀÏÇÒ½Ã ¼ø¹øÀ¸·Î ±¸ºÐ.
+* ¿¹) ABRR20171011_0004A001200.001 => 10¿ù11ÀÏ¿¡ ±¹¹ÎÀºÇà(0004)À¸·Î ºÎÅÍ A001¿¡°Ô ¿Â Ãâ±Ý°á°ú(200) ÆÄÀÏ
+### ÆÄÀÏ¸íÅ¸ÀÔ:K-¿¡µàÆÄÀÎ¿ë (fileNameTp=KEDU)
+K-¿¡µàÆÄÀÎ¿ë ÆÄÀÏ¸íÅ¸ÀÔ ±ÔÄ¢¿¡ µû¸¨´Ï´Ù.
 
-## DB ì—°ê³„
-ë²•ì¸ì¹´ë“œì‚¬ìš©ë‚´ì—­(C01~C06)ì˜ ê²½ìš° ì¤€ë¹„ëœ TABLEì— INSERTì‹œí‚¬ìˆ˜ë„ ìžˆìŠµë‹ˆë‹¤.
-* ì²¨ë¶€ëœ [TableScheme.sql](https://hpnfbnk.github.io/HpnBbnkDemon/HpnBbnkDemon/TableScheme.sql) ì„ ì°¸ì¡°í•´ ê°ì—…ë¬´ë³„ TABLEë“¤ì„ ë§Œë“¤ì–´ ë†“ìŠµë‹ˆë‹¤.
-* hpnbbnk.properties ì˜ cocaDbYnê°’ì„ Yë¡œ í•˜ê³  ì‚¬ìš©í•˜ì‹¤ DBí™˜ê²½ì— ë”°ë¼ jdbcê´€ë ¨ê°’(jdbcUser, jdbcPwd, jdbcDriver, jdbcUrl)ë“¤ì„ ì„¤ì •í•©ë‹ˆë‹¤.
-* ì‚¬ìš©í•˜ì‹¤ DBí™˜ê²½ì— ì•Œë§žì€ JDBC ë¼ì´ë¸ŒëŸ¬ë¦¬(mysql-connector-java-5.1.6-bin.jar, ojdbc14.jar ë“±..)ë¥¼ classpathì— í¬í•¨ì‹œí‚µë‹ˆë‹¤.
-* ë²•ì¸ì¹´ë“œì‚¬ìš©ë‚´ì—­íŒŒì¼ì´ ìˆ˜ì‹ ë˜ë©´ ê·¸ë‚´ì—­ì´ ê°ì—…ë¬´ë³„ tableì— insertë ê²ƒìž…ë‹ˆë‹¤.
-* Sample JDBC library :
-  [INFORMIXìš©](https://hpnfbnk.github.io/HpnBbnkDemon/ifxjdbc.jar),
-  [MYSQLìš©](https://hpnfbnk.github.io/HpnBbnkDemon/mysql-connector-java-5.1.6-bin.jar),
-  [ORACLEìš©](https://hpnfbnk.github.io/HpnBbnkDemon/ojdbc14.jar),
-  [MSSQLìš©](https://hpnfbnk.github.io/HpnBbnkDemon/sqljdbc.jar)
+## DB ¿¬°è
+¹ýÀÎÄ«µå»ç¿ë³»¿ª(C01~C06)ÀÇ °æ¿ì ÁØºñµÈ TABLE¿¡ INSERT½ÃÅ³¼öµµ ÀÖ½À´Ï´Ù.
+* Ã·ºÎµÈ [TableScheme.sql](https://hpnfbnk.github.io/HpnBbnkDemon/HpnBbnkDemon/TableScheme.sql) À» ÂüÁ¶ÇØ °¢¾÷¹«º° TABLEµéÀ» ¸¸µé¾î ³õ½À´Ï´Ù.
+* hpnbbnk.properties ÀÇ cocaDbYn°ªÀ» Y·Î ÇÏ°í »ç¿ëÇÏ½Ç DBÈ¯°æ¿¡ µû¶ó jdbc°ü·Ã°ª(jdbcUser, jdbcPwd, jdbcDriver, jdbcUrl)µéÀ» ¼³Á¤ÇÕ´Ï´Ù.
+* »ç¿ëÇÏ½Ç DBÈ¯°æ¿¡ ¾Ë¸ÂÀº JDBC ¶óÀÌºê·¯¸®(mysql-connector-java-5.1.6-bin.jar, ojdbc14.jar µî..)¸¦ classpath¿¡ Æ÷ÇÔ½ÃÅµ´Ï´Ù.
+* ¹ýÀÎÄ«µå»ç¿ë³»¿ªÆÄÀÏÀÌ ¼ö½ÅµÇ¸é ±×³»¿ªÀÌ °¢¾÷¹«º° table¿¡ insertµÉ°ÍÀÔ´Ï´Ù. 
+* cocaDbYn°ªÀ» DZNÀ¸·Î ÇÏ¸é ´õÁ¸TypeDB([´õÁ¸¹ýÄ«_Mapping_Á¤ÀÇ¼­.xlsx](https://hpnfbnk.github.io/HpnBbnkDemon/´õÁ¸¹ýÄ«_Mapping_Á¤ÀÇ¼­.xlsx))¿¡ ÀÔ·Â½ÃÅ³¼öµµ ÀÖ½À´Ï´Ù.
+
+¹èÄ¡ÆÄÀÏ¼Û¼ö½Å³»¿ªÀ» ÁØºñµÈ TABLE¿¡ INSERT½ÃÅ³¼öµµ ÀÖ½À´Ï´Ù.
+* Ã·ºÎµÈ [TableScheme.sql](https://hpnfbnk.github.io/HpnBbnkDemon/HpnBbnkDemon/TableScheme.sql) À» ÂüÁ¶ÇØ HYPHEN_BBNK_HST TABLEÀ» ¸¸µé¾î ³õ½À´Ï´Ù.
+* hpnbbnk.properties ÀÇ histDbYn°ªÀ» Y·Î ÇÏ°í »ç¿ëÇÏ½Ç DBÈ¯°æ¿¡ µû¶ó jdbc°ü·Ã°ª(jdbcUser, jdbcPwd, jdbcDriver, jdbcUrl)µéÀ» ¼³Á¤ÇÕ´Ï´Ù.
+* »ç¿ëÇÏ½Ç DBÈ¯°æ¿¡ ¾Ë¸ÂÀº JDBC ¶óÀÌºê·¯¸®(mysql-connector-java-5.1.6-bin.jar, ojdbc14.jar µî..)¸¦ classpath¿¡ Æ÷ÇÔ½ÃÅµ´Ï´Ù.
+* ¹èÄ¡ÆÄÀÏÀÌ ¼Û¼ö½ÅµÇ¸é ±×³»¿ªÀÌ table¿¡ insertµÉ°ÍÀÔ´Ï´Ù.
+
+Sample JDBC library : 
+  [INFORMIX¿ë](https://hpnfbnk.github.io/HpnBbnkDemon/ifxjdbc.jar),
+  [MYSQL¿ë](https://hpnfbnk.github.io/HpnBbnkDemon/mysql-connector-java-5.1.6-bin.jar),
+  [ORACLE¿ë](https://hpnfbnk.github.io/HpnBbnkDemon/ojdbc14.jar),
+  [MSSQL¿ë](https://hpnfbnk.github.io/HpnBbnkDemon/sqljdbc.jar)
