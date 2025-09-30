@@ -1,4 +1,4 @@
-/*ë²•ì¸ì¹´ë“œ-ìŠ¹ì¸ë‚´ì—­(C01)*/
+/*¹ýÀÎÄ«µå-½ÂÀÎ³»¿ª(C01)*/
 CREATE TABLE COCA_APPR (
   DATA_CODE char(1) NOT NULL,
   COMPANY_ID varchar(21) NOT NULL,
@@ -52,7 +52,7 @@ CREATE TABLE COCA_APPR (
   insert_time varchar(30) DEFAULT NULL
 )
 
-/*ë²•ì¸ì¹´ë“œ-ë§¤ìž…(C02)*/
+/*¹ýÀÎÄ«µå-¸ÅÀÔ(C02)*/
 CREATE TABLE COCA_ACQU (
   DATA_CODE char(1) NOT NULL,
   COMPANY_ID varchar(20) NOT NULL,
@@ -107,7 +107,7 @@ CREATE TABLE COCA_ACQU (
   insert_time varchar(30) DEFAULT NULL
 )
 
-/*ë²•ì¸ì¹´ë“œ-ì²­êµ¬(C03)*/
+/*¹ýÀÎÄ«µå-Ã»±¸(C03)*/
 CREATE TABLE COCA_BILL (
   DATA_CODE char(1) NOT NULL,
   COMPANY_ID varchar(20) NOT NULL,
@@ -154,7 +154,7 @@ CREATE TABLE COCA_BILL (
   insert_time varchar(30) DEFAULT NULL
 )
 
-/*ë²•ì¸ì¹´ë“œ-ì¹´ë“œê¸°ë³¸ì •ë³´(C04)*/
+/*¹ýÀÎÄ«µå-Ä«µå±âº»Á¤º¸(C04)*/
 CREATE TABLE COCA_INFO (
   DATA_CODE char(1) NOT NULL,
   COMPANY_ID varchar(20) NOT NULL,
@@ -204,7 +204,7 @@ CREATE TABLE COCA_INFO (
   insert_time varchar(30) DEFAULT NULL
 )
 
-/*ë²•ì¸ì¹´ë“œ-ê²°ìž¬ì •ë³´(C05)*/
+/*¹ýÀÎÄ«µå-°áÀçÁ¤º¸(C05)*/
 CREATE TABLE COCA_SETT (
   DATA_CODE char(1) NOT NULL,
   COMPANY_ID varchar(20) NOT NULL,
@@ -238,7 +238,7 @@ CREATE TABLE COCA_SETT (
   insert_time varchar(30) DEFAULT NULL
 )
 
-/*ë²•ì¸ì¹´ë“œ-ì¹´ë“œí•œë„ì •ë³´(C06)*/
+/*¹ýÀÎÄ«µå-Ä«µåÇÑµµÁ¤º¸(C06)*/
 CREATE TABLE COCA_LIMI (
   DATA_CODE char(1) NOT NULL,
   COMPANY_ID varchar(20) NOT NULL,
@@ -268,20 +268,45 @@ CREATE TABLE COCA_LIMI (
   insert_time varchar(30) DEFAULT NULL
 )
 
-/*ë°°ì¹˜íŒŒì¼ ì†¡ìˆ˜ì‹  ížˆìŠ¤í† ë¦¬*/
+/*¹ýÀÎÄ«µå-ÇÏÀÌÆÐ½º(C07)*/
+CREATE TABLE COCA_HPSS (
+  DATA_CODE char(1) NOT NULL,
+  COMPANY_ID varchar(20) NOT NULL,
+  SEND_DATE varchar(10) NOT NULL,
+  SEQ_NO varchar(8) NOT NULL,
+  READ_FLAG varchar(1) DEFAULT NULL,
+  class varchar(1) DEFAULT NULL,
+  HighPassSerial varchar(16) DEFAULT NULL,
+  cardno varchar(16) DEFAULT NULL,
+  tg_ent_datetime varchar(19) DEFAULT NULL,
+  tg_ext_datetime varchar(19) DEFAULT NULL,
+  tg_ent_name varchar(50) DEFAULT NULL,
+  tg_ext_name varchar(50) DEFAULT NULL,
+  corp_name_of_expr varchar(60) DEFAULT NULL,
+  org_tg_fee decimal(18,0) DEFAULT NULL,
+  disc_tg_fee decimal(18,0) DEFAULT NULL,
+  post_date varchar(10) DEFAULT NULL,
+  merchno varchar(9) DEFAULT NULL,
+  merbusino varchar(10) DEFAULT NULL,
+  reserve varchar(74) DEFAULT NULL,
+  crdsaInit varchar(2) DEFAULT NULL,
+  insert_time varchar(30) DEFAULT NULL
+)
+
+/*¹èÄ¡ÆÄÀÏ ¼Û¼ö½Å È÷½ºÅä¸®*/
 CREATE TABLE HYPHEN_BBNK_HST (
-  SEND_DATE char(8) NOT NULL,  /*ì†¡ìˆ˜ì‹ ì¼ìž*/
-  SEND_TIME char(6) NOT NULL,  /*ì†¡ìˆ˜ì‹ ì‹œê°„*/
-  BT_INFO_CODE char(3) NOT NULL,   /*íŒŒì¼ì¢…ë¥˜*/
-  SEND_CODE char(4) NOT NULL,   /*ì†¡ì‹ ìžì½”ë“œ*/
-  RECV_CODE char(4) NOT NULL,   /*ìˆ˜ì‹ ìžì½”ë“œ*/
-  SEQ_NUMB char(3) NOT NULL,   /*ìˆœë²ˆ*/
-  FILE_NAME varchar(40) DEFAULT NULL,  /*íŒŒì¼ëª…*/
-  SR_TP char(1) DEFAULT NULL,  /*ì‚¬ìš©ìžìž…ìž¥ ì†¡ìˆ˜ì‹ êµ¬ë¶„ S:ì†¡ì‹ , R:ìˆ˜ì‹ */
-  SUCCESS_FLAG char(1)  DEFAULT NULL, /*ì†¡ìˆ˜ì‹  ì„±ê³µì—¬ë¶€ Y:ì„±ê³µ, N:ì‹¤íŒ¨*/
-  ADD_INFO1 varchar(20)   /*ì¶”ê°€ì •ë³´1*/
-  ADD_INFO2 varchar(20)   /*ì¶”ê°€ì •ë³´2*/
-  ADD_INFO3 varchar(40)   /*ì¶”ê°€ì •ë³´3*/
-  ADD_INFO4 decimal(16,0) DEFAULT 0, /*ì¶”ê°€ì •ë³´4*/
-  ADD_INFO5 decimal(20,0) DEFAULT 0, /*ì¶”ê°€ì •ë³´5*/
+  SEND_DATE char(8) NOT NULL,  /*¼Û¼ö½ÅÀÏÀÚ*/
+  SEND_TIME char(6) NOT NULL,  /*¼Û¼ö½Å½Ã°£*/
+  BT_INFO_CODE char(3) NOT NULL,   /*ÆÄÀÏÁ¾·ù*/
+  SEND_CODE char(4) NOT NULL,   /*¼Û½ÅÀÚÄÚµå*/
+  RECV_CODE char(4) NOT NULL,   /*¼ö½ÅÀÚÄÚµå*/
+  SEQ_NUMB char(3) NOT NULL,   /*¼ø¹ø*/
+  FILE_NAME varchar(40) DEFAULT NULL,  /*ÆÄÀÏ¸í*/
+  SR_TP char(1) DEFAULT NULL,  /*»ç¿ëÀÚÀÔÀå ¼Û¼ö½Å±¸ºÐ S:¼Û½Å, R:¼ö½Å*/
+  SUCCESS_FLAG char(1)  DEFAULT NULL, /*¼Û¼ö½Å ¼º°ø¿©ºÎ Y:¼º°ø, N:½ÇÆÐ*/
+  ADD_INFO1 varchar(20)   /*Ãß°¡Á¤º¸1*/
+  ADD_INFO2 varchar(20)   /*Ãß°¡Á¤º¸2*/
+  ADD_INFO3 varchar(40)   /*Ãß°¡Á¤º¸3*/
+  ADD_INFO4 decimal(16,0) DEFAULT 0, /*Ãß°¡Á¤º¸4*/
+  ADD_INFO5 decimal(20,0) DEFAULT 0, /*Ãß°¡Á¤º¸5*/
 )

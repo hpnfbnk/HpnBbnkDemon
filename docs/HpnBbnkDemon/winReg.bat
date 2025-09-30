@@ -5,10 +5,10 @@
 @set JAVASERVICE=%INSTALL_HOME%\javaService\JavaService_64bit.exe
 
 @set SVC_NAME=HpnBbnkDemon_%HYPHEN_ID%
-@set CLASSPATH=%INSTALL_HOME%;%INSTALL_HOME%\HpnBbnkDemon-1.5.2-jar-with-dependencies.jar
+@set CLASSPATH=%INSTALL_HOME%;%INSTALL_HOME%\HpnBbnkDemon-1.6.0-jar-with-dependencies.jar
 @rem DB연계사용시 아래 start classpath 사용
 @rem @set JDBC_PATH=%INSTALL_HOME%\mysql-connector-java-5.1.6-bin.jar
-@rem @set CLASSPATH=%INSTALL_HOME%;%INSTALL_HOME%\HpnBbnkDemon-1.5.2-jar-with-dependencies.jar;%JDBC_PATH%
+@rem @set CLASSPATH=%INSTALL_HOME%;%INSTALL_HOME%\HpnBbnkDemon-1.6.0-jar-with-dependencies.jar;%JDBC_PATH%
 
 %JAVASERVICE% -install %SVC_NAME% "%JRE_HOME%"\bin\server\jvm.dll -Djava.class.path=%CLASSPATH% -start com.hyphen.fbnk.bbnkdemon.HpnBbnkDemon -out %INSTALL_HOME%\log\out.log -err %INSTALL_HOME%\log\err.log
 @pause
