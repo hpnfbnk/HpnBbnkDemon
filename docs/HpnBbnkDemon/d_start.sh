@@ -9,10 +9,10 @@ INSTALL_HOME=/home/hyphen/HpnBbnkDemon
 ##Process 이름
 PROC_NAME=HpnBbnkDemon_$HYPHEN_ID
 #######Daemon Process start 
-nohup $JAVA_HOME/bin/java -D$PROC_NAME -jar $INSTALL_HOME/HpnBbnkDemon-1.6.0-jar-with-dependencies.jar 1>/dev/null 2>$INSTALL_HOME/log/err.log &
+nohup $JAVA_HOME/bin/java -D$PROC_NAME -jar $INSTALL_HOME/HpnBbnkDemon-1.6.1-jar-with-dependencies.jar 1>/dev/null 2>$INSTALL_HOME/log/err.log &
 
 ##DB연계사용시 아래 start script 사용
 #JDBC_PATH=$INSTALL_HOME/ojdbc14.jar
-#nohup $JAVA_HOME/bin/java -D$PROC_NAME -cp $INSTALL_HOME/HpnBbnkDemon-1.6.0-jar-with-dependencies.jar:$JDBC_PATH com.hyphen.fbnk.bbnkdemon.HpnBbnkDemon 1>/dev/null 2>$INSTALL_HOME/log/err.log &
+#nohup $JAVA_HOME/bin/java -D$PROC_NAME -cp $INSTALL_HOME/HpnBbnkDemon-1.6.1-jar-with-dependencies.jar:$JDBC_PATH com.hyphen.fbnk.bbnkdemon.HpnBbnkDemon 1>/dev/null 2>$INSTALL_HOME/log/err.log &
 
 
