@@ -10,8 +10,8 @@
 JAVA 1.7 이상을 요구합니다.
 
 ## 설치
-[HpnBbnkDemon-1.6.1.zip](https://hpnfbnk.github.io/HpnBbnkDemon/HpnBbnkDemon-1.6.1.zip) 또는 
-[HpnBbnkDemon-1.6.1.tar.gz](https://hpnfbnk.github.io/HpnBbnkDemon/HpnBbnkDemon-1.6.1.tar.gz) 을 다운받아 압축해제하면 됩니다.
+[HpnBbnkDemon-1.6.2.zip](https://hpnfbnk.github.io/HpnBbnkDemon/HpnBbnkDemon-1.6.2.zip) 또는 
+[HpnBbnkDemon-1.6.2.tar.gz](https://hpnfbnk.github.io/HpnBbnkDemon/HpnBbnkDemon-1.6.2.tar.gz) 을 다운받아 압축해제하면 됩니다.
 
 ## 환경설정
 ### Logging (logback.xml)
